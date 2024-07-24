@@ -1,0 +1,14 @@
+
+for converting files using the program "converter.exe":
+
+	1.  keep file on floppy,
+
+	2.  remove file extension,
+
+	3.  keep converter setting "on top",
+
+	4.  set converter to target format,
+
+	5.  drag file onto converter, and
+
+	6.  suffix file extension.
