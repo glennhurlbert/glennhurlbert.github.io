@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Book List</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">MAT 300 Book List</a><p>
+
+<table>
+
+<tr>
+<td align="right" width="50"></td>
+<td><a class="menu" href="http://www.amazon.com/Mathematics-Short-Introduction-Timothy-Gowers/dp/0192853619/ref=pd_bbs_sr_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187373477&sr=1-1" target="_blank">
+Mathematics,
+</a>
+<a class="normal">
+Gowers
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069111966X/ref=pd_bbs_sr_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187376711&sr=1-1" target="_blank">
+How to Solve it,
+</a>
+<a class="normal">
+Polya
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amazon.com/Flatland-Romance-Dimensions-Thrift-Editions/dp/048627263X/ref=pd_bbs_sr_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187376857&sr=1-1" target="_blank">
+Flatland,
+</a>
+<a class="normal">
+Abbott
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amazon.com/Surreal-Numbers-Donald-E-Knuth/dp/0201038129/ref=sr_1_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187376941&sr=1-1" target="_blank">
+Surreal Numbers,
+</a>
+<a class="normal">
+Knuth
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amazon.com/Fermats-Enigma-Greatest-Mathematical-Problem/dp/0385493622/ref=pd_bbs_sr_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187377642&sr=1-1" target="_blank">
+Fermat's Enigma,
+</a>
+<a class="normal">
+Singh
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amazon.com/Beauty-Doing-Mathematics-Public-Dialogues/dp/0387961496/ref=sr_1_1/104-6934374-0407956?ie=UTF8&s=books&qid=1187378072&sr=1-1" target="_blank">
+The Beauty of Doing Mathematics,
+</a>
+<a class="normal">
+Lang
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

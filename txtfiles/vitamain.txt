@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>G. Hurlbert Vita</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+<frameset rows="30,*" frameborder="no" framespacing="0">
+
+  <frameset>
+
+    <frame name="vitatitle" target="_blank" scrolling="no" noresize src="vitahead.html" marginwidth="15" marginheight="10">
+
+  </frameset>
+
+  <frameset cols="17%, 83%">
+
+    <frame name="vitamenu" target="vitamain" src="vitamenu.html" marginwidth="15" marginheight="15" scrolling="auto">
+
+    <frame name="vitamain" src="vitaeduc.html" marginwidth="15" marginheight="15" scrolling="auto" noresize>
+
+  </frameset>
+
+</frameset>
+
+</html>
+

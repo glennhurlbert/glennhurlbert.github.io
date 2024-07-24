@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Tucson AMUC</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">AMUC II at UA</a>
+
+<blockquote>
+<a class="normal">
+The second AMUC, Nov 04, at the University of Arizona --
+these are from the post-conference party.
+</a>
+</blockquote>
+
+<table align="center">
+
+<tr>
+<td align="center"><img src="pics/amuc03.jpg" height=250></td>
+<td align="center"><img src="pics/amuc05.jpg" height=250></td>
+<td align="center"><img src="pics/amuc12.jpg" height=250></td>
+</tr>
+
+<tr>
+<td align="center"><a class="normalb">Juggling</a></td>
+<td align="center"><a class="normalb">Drumming</a></td>
+<td align="center"><a class="normalb">Family</a></td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

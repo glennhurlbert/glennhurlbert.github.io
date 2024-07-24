@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Faculty Achievement Award</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">Faculty Achievement Award</a>
+
+<blockquote>
+<a class="normal">
+These were the inaugural awards.  Mine was for Student Mentoring.
+</a>
+</blockquote>
+
+<table align="center">
+
+<tr>
+<td align="center"><img src="pics/FacAchv1.jpg" height=150></td>
+<td align="center"><img src="pics/FacAchv2.jpg" height=150></td>
+<td align="center"><img src="pics/FacAchv3.jpg" height=150></td>
+</tr>
+
+<tr>
+<td align="center"><a class="normalb">Betty Capaldi & Michael Crow</a></td>
+<td align="center"><a class="normalb">Sid Bacon & Michael Crow</a></td>
+<td align="center"><a class="normalb">Michael broke into song</a></td>
+</tr>
+
+<tr>
+<td align="center"><img src="pics/FacAchv4.jpg" height=150></td>
+<td align="center"><img src="pics/FacAchv5.jpg" height=150></td>
+<td align="center"><img src="pics/FacAchv7.jpg" height=150></td>
+</tr>
+
+<tr>
+<td align="center"><a class="normalb">Sid Bacon & Quentin Wheeler</a></td>
+<td align="center"><a class="normalb">My wife and kids</a></td>
+<td align="center"><a class="normalb">Wife, kids & Mark Manfredo</a></td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

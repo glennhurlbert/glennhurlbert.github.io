@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Promo Menu</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<blockquote>
+<table>
+
+<tr>
+<td align="right">
+<a class="normalbl" href="promoart.html" target="promomain">
+  Articles
+</a></td>
+</tr>
+
+<tr>
+<td align="right">
+<a class="normalbl" href="promopic.html" target="promomain">
+  Pictures
+</a></td>
+</tr>
+
+<tr>
+<td align="right">
+<a class="normalbl" href="promovid.html" target="promomain">
+  Video
+</a></td>
+</tr>
+
+</table>
+</blockquote>
+
+</body>
+</html>
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert PhD Students</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">PhD Students</a><p>
+
+<table>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Ben Hester</b> (current) -- working on graph pebbling.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Vikram Kamat</b> (current) -- wrote a
+</a>
+<a class="menu" href="papers/TNBLP.pdf" target="_blank">paper</a>
+<a class="normal">
+with me on lattice path bijections; now working on extremal set theory.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Airat Bekmetjev</b> (2002, <i>The threshold phenomenon in random pebbling
+configurations</i>) -- wrote one
+</a>
+<a class="menu" href="papers/TFMAGP.pdf" target="_blank">paper</a>
+<a class="normal">
+on the existence of pebbling threshold functions with Brightwell,
+Czygrinow, and me, and another
+</a>
+<a class="menu" href="papers/PTSC.pdf" target="_blank">paper</a>
+<a class="normal">
+on the pebbling threshold of square cliques with me;
+currently a
+</a>
+<a class="menu" href="http://www.math.hope.edu/bekmetjev/" target="_blank">professor</a>
+<a class="normal">
+at Hope College.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Committee member for</b>
+Louis Debiasio (current, Math),
+Matt Smith (current, Math),
+Chris Severs (current, Math),
+Adam Bland (current, Math),
+Karin Saoub (current, Math),
+David Smith (current, Math),
+Ashwini Kelkar (current, Math),
+Hiroko Hashitomi (current, Math),
+Phong Chau (current, Math),
+Apple Bloom (current, Math Ed),
+Denise Nunley (current, Math Ed),
+Stacey Bowling (current, Math Ed),
+Katarina Panagiotau (current, Math Ed),
+Ted Coe (2007, Math Ed),
+Jessica Knapp (2005, Math Ed),
+Daqing Yang (2004, Math),
+Shelley Smith (2004, Math)
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

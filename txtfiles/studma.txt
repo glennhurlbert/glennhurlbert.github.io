@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert MA Students</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">MA Students</a><p>
+
+<table>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Vikram Kamat</b> (2007)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Ben Hester</b> (2007)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Thomas Clarke</b> (1996, <i>Pebbling on graphs</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Attila Biber</b> (1994, <i>Results on the Hamiltonian problem</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Janice Goff</b> (1994, MNS)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Nicholas Sekreta</b> (1993, <i>deBruijn sequences</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal">
+<b>Committee member for</b>
+Sarah Neerings (2007, Math Ed),
+Jamie Vergari (2007, Math Ed),
+Adam Bland (2007, Math),
+Helene Nehrebecki (2006, Math),
+Weiching Xuan (2006, Math),
+Sriram Penumatcha (2006, Math),
+Karin Saoub (2006, Math),
+Rekha Narasimhan (2002, Math)
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

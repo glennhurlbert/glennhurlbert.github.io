@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Video</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Video</a><p>
+
+<table>
+
+<tr>
+<a class="menu" href="http://www.asu.edu/news/stories/200704/20070409_lastlecture.htm" target="_blank">
+  Last Lecture Series
+</a>
+<a class="normal">
+Nominated and chosen by students, university-wide; the premise is, if you knew this
+would be the last lecture you'd ever give, what would you say?  My lecture was titled,
+<a class="menu" href="HurlLastLectPost.pdf" target="_blank">
+Is 42 really the answer?
+</a>
+<a class="normal">
+I hope to make the video of it available on-line soon.
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Students</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">Students</a><p>
+
+<table>
+
+<tr>
+<td align="right" valign="top" width="70">
+<a class="normalb">
+PhD &nbsp;
+</a></td>
+<td><a class="normal">
+<b>Ben Hester</b> (current) -- working on graph pebbling.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Vikram Kamat</b> (current) -- wrote a 
+</a>
+<a class="menu" href="papers/TNBLP.pdf" target="_blank">paper</a>
+<a class="normal">
+with me on lattice path bijections; now working on extremal set theory.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Airat Bekmetjev</b> (2002, <i>The threshold phenomenon in random pebbling
+configurations</i>) -- wrote one
+</a>
+<a class="menu" href="papers/TFMAGP.pdf" target="_blank">paper</a>
+<a class="normal">
+on the existence of pebbling threshold functions with Brightwell,
+Czygrinow, and me, and another
+</a>
+<a class="menu" href="papers/PTSC.pdf" target="_blank">paper</a>
+<a class="normal">
+on the pebbling threshold of square cliques with me;
+currently a
+</a>
+<a class="menu" href="http://www.math.hope.edu/bekmetjev/" target="_blank">professor</a>
+<a class="normal">
+at Hope College.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Committee member for</b> 
+Louis Debiasio (current, Math),
+Matt Smith (current, Math),
+Chris Severs (current, Math),
+Adam Bland (current, Math),
+Karin Saoub (current, Math),
+David Smith (current, Math),
+Ashwini Kelkar (current, Math),
+Hiroko Hashitomi (current, Math),
+Phong Chau (current, Math),
+Apple Bloom (current, Math Ed),
+Denise Nunley (current, Math Ed),
+Stacey Bowling (current, Math Ed),
+Katarina Panagiotau (current, Math Ed),
+Ted Coe (2007, Math Ed),
+Jessica Knapp (2005, Math Ed),
+Daqing Yang (2004, Math),
+Shelley Smith (2004, Math)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">MA &nbsp;</a></td>
+<td><a class="normal">
+<b>Vikram Kamat</b> (2007)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Ben Hester</b> (2007)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Thomas Clarke</b> (1996, <i>Pebbling on graphs</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Attila Biber</b> (1994, <i>Results on the Hamiltonian problem</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Janice Goff</b> (1994, MNS)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Nicholas Sekreta</b> (1993, <i>deBruijn sequences</i>)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Committee member for</b> 
+Adam Bland (2007, Math),
+Helene Nehrebecki (2006, Math),
+Weiching Xuan (2006, Math),
+Sriram Penumatcha (2006, Math),
+Karin Saoub (2006, Math),
+Rekha Narasimhan (2002, Math)
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">BS &nbsp;</a></td>
+<td><a class="normal">
+<b>David Hayden</b> (current) -- working on cryptographic applications
+to
+</a>
+<a class="menu" href="http://en.wikipedia.org/wiki/Captcha" target="_blank">
+CAPCHA.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Camila Bushell</b> (2006) -- worked on Graham's scan for finding the convex hull
+of a set of points in the plane.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Shawn Elledge</b> (2004) -- Jack Hawes Scholar; wrote a
+</a>
+<a class="menu" href="papers/AGPZSSAG.pdf" target="_blank">paper</a>
+<a class="normal">
+with me on an application of graph pebbling to zero-sum sequences in abelian groups;
+won 2004 MAA Best Student Paper prize; currently a graduate student at ASU.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Ben Munyan</b> (2004) -- wrote a
+</a>
+<a class="menu" href="papers/CPH.pdf" target="_blank">paper</a>
+<a class="normal">
+with me on the cover pebbling number of hypercubes; currently a senior at ASU.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Betsy Crull, Tammy Cundiff, Paul Feltman, and Laura Pudwell</b> (2003) -- 
+all from Valparaiso University; wrote a 
+</a>
+<a class="menu" href="papers/CPNG.pdf" target="_blank">
+  paper
+</a>
+<a class="normal">
+  with Zsuzsanna Szaniszlo, Zsolt Tuza, and myself on the cover pebbling
+number of graphs.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Kevin Bayne</b> (2002)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Collin Raymond</b> (2001) -- worked with me on graph coloring; won Department
+award for best undergraduate research; won a Goldwater Scholarship in 2002; USA
+Today Top 20 Undergraduate Student in 2003; went to graduate school at the
+London School of Economics on a Marshall Scholarship.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Gavin Hensing</b> (1999)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Brian Jew</b> (1997)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Manish Rao</b> (1995) -- worked on spanning trees in the cube.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Andrew Arocho</b> (1995) -- worked on spanning trees in the cube.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="normal">
+<b>Josh Moya</b> (1993)
+</a>
+</td>
+</tr>
+
+
+</table>
+
+</body>
+</html>
+

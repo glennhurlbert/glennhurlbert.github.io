@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Home Header</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+<body bgcolor="#aaaaee">
+
+<table width="100%">
+<tr>
+
+<td align="left">
+<a class="htitle" href="home.html" target="main">G. Hurlbert</a><br>
+<a class="menu" href="http://math.asu.edu/" target="_blank">
+  Associate Professor, Mathematics</a><br>
+<a class="menu" href="http://honors.asu.edu/" target="_blank">Barrett Honors College Visiting Fellow</a>
+</td>
+
+<td align="right">
+<table>
+<td>
+<a href="http://mingus.la.asu.edu/~hurlbert/pebbling/pebb.html" target="_blank">
+<img border="1" src="pebblinglogo.jpg" height=40 width=180></a>
+</td>
+<td>
+<a href="LinOpt.html" target="below">
+<img border="1" src="linoptlogo.jpg" height=40 width=80></a>
+</a>
+</td>
+<td>
+<a href="http://mingus.la.asu.edu/~hurlbert/websim/sim.html" target="_blank">
+<img border="1" src="websimlogo.jpg" height=40 width=80></a>
+</td>
+<td>
+<a href="http://www.sunmarc.org" target="_blank">
+<img border="1" src="sunmarc.jpg" height=40 width=80></a>
+</td>
+<td>
+<a href="http://cresmet.asu.edu/proj_res/scism" target="_blank">
+<img border="1" src="scismlogo.jpg" height=40 width=80></a>
+</td>
+</table>
+</td>
+
+</table>
+
+</body></html>

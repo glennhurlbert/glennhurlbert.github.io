@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert MAT 300</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">MAT 300 Mathematical Structures</a><p>
+
+<table>
+
+<tr>
+<td align="right" width="100"><a class="normalb">Days &nbsp;</a></td>
+<td><a class="normal">Mon, Wed, Fri</a></td>
+</tr>
+
+<tr>
+<td align="right"><a class="normalb">Time &nbsp;</a></td>
+<td><a class="normal">1:40 - 2:30</a></td>
+</tr> 
+
+<tr>
+<td align="right"><a class="normalb">Room &nbsp;</a></td>
+<td><a class="menu" href="http://www.asu.edu/map/pdf/asu_tempe_map2007.pdf"
+  target="_blank">
+  PSA 111</a></td>
+</tr>
+
+<tr>
+<td align="right"><a class="normalb">Text &nbsp;</a></td>
+<td><a class="menu" href="http://www.keycollege.com/catalog/titles/extending_the_frontiers_of_math.html" target="_blank">
+  Extending the Frontiers of Mathematics</a></td>
+</tr>
+
+<tr>
+<td align="right"><a class="normalb">SLN &nbsp;</a></td>
+<td><a class="normal">80183</a></td>
+</tr>
+
+<tr>
+<td align="right"><a class="normalb">Prof &nbsp;</a></td>
+<td><a class="menu" href="homemain.html">
+  G. Hurlbert</a></td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normald">
+  Course Links &nbsp;
+</a>
+</td>
+<td valign="top">
+<a class="menu" href="M300F07Syll.pdf" target="_blank">
+  Syllabus
+</a>
+<a class="normal">
+  and
+</a>
+<a class="menu" href="300notes.html" target="below">
+  Notes
+</a>
+<a class="normal">
+  (check these each day)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="books.html" target="below">
+  Other books
+</a>
+<a class="normal">
+  (interesting reading)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="https://webstore.maplesoft.com/" target="_blank">
+  Maple
+</a>
+<a class="normal">
+  student version (for $65 instead of $100: use code ASU0708)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://www.doc2pdf.net/index.php" target="_blank">
+  doc2pdf
+</a>
+<a class="menu" href="http://www.doc2pdf.net/converter" target="_blank">
+  converter
+</a>
+<a class="normal">
+  (free
+</a>
+<a class="menu" href="http://www.download.com/3000-10743_4-10660924.html" target="_blank">
+  download
+</a>
+<a class="normal">
+  )
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/support/doc/latex/" target="_blank">
+  LaTeX
+</a>
+<a class="normal">
+  help and
+</a>
+<a class="menu" href="http://math.asu.edu/support/doc/wintex.html" target="_blank">
+  installation
+</a>
+<a class="normal">
+  (
+</a>
+<a class="menu" href="http://www.winedt.com/" target="_blank">
+  WinEdt
+</a>
+<a class="normal">
+  and
+</a>
+<a class="menu" href="http://www.miktex.org/" target="_blank">
+  MiKTeX
+</a>
+<a class="normal">
+  downloads for PCs,
+</a>
+<a class="menu" href="http://www.uoregon.edu/~koch/texshop/" target="_blank">
+  TeXShop
+</a>
+<a class="normal">
+  for Macs)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu"
+  href="http://www.abor.asu.edu/1%5Fthe%5Fregents/policymanual/chap5/5-308.pdf"
+  target="_blank">
+  Code of Conduct
+</a>
+<a class="normal">
+  (esp. E10, F1, G)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>&nbsp</td>
+<td>&nbsp</td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normald">
+  Other Links &nbsp;
+</a>
+</td>
+<td valign="top">
+<a class="menu" href="http://asu.edu/clubs/mathclub/" target="_blank">
+  Math Club
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/undergrd/index.html" target="_blank">
+  Undergraduate Pages
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/support/index.html"
+  target="_blank">
+  Math Dept Computer help
+</a>
+<a class="normal">
+  (for
+</a>
+<a class="menu" href="http://math.asu.edu/support/doc/ssh/ssh-howto.html"
+  target="_blank">
+  SSH,
+</a>
+<a class="normal">
+  etc.)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://www.amuc.org" target="_blank">
+  Arizona Mathematics Undergraduate Conference</a>
+<a class="normal">
+&nbsp (AMUC -- see logo above)
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a class="menu" href="http://cresmet.asu.edu/proj_res/scism" target="_blank">
+  Summer Certification Institute in Secondary Mathematics</a>
+<a class="normal">
+&nbsp (SCISM -- see logo above)
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

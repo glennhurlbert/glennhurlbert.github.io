@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>G. Hurlbert Home</title>
+</head>
+
+<frameset rows="16%, 84%" frameborder="no" framespacing="0">
+
+   <frame name="header" target="below" src="homehead.html" marginwidth="15" marginheight="6" scrolling="auto">
+   <frame name="below" src="homemain.html" marginwidth="15" marginheight="6" scrolling="auto" noresize>
+
+<noframes>
+  <body>
+  <p>This page uses frames, but your browser doesn't support them.</p>
+  </body>
+</noframes>
+
+</frameset>
+
+</html>
+

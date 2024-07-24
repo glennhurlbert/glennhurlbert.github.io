@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert 300 Notes</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">MAT 300 Notes</a><p>
+
+<table>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  12/12
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Here are the <b>Final Exam</b>
+</a>
+<a class="menu" href="300fkey.pdf" target="_blank">
+  solutions.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  11/26
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Look at the
+</a>
+<a class="menu" href="300hints.html" target="below">
+  revised hints
+</a>
+<a class="normal">
+for the challenge problems.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  11/02
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Here are the <b>Exam 2</b>
+</a>
+<a class="menu" href="300t2key.pdf" target="_blank">
+  solutions
+</a>
+<a class="normal">
+  (and two
+</a>
+<a class="menu" href="300t2alt.pdf" target="_blank">
+  alternate solutions
+</a>
+<a class="normal">
+  for each of <b>Problems 1 and 4</b>).
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  10/19
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Here are some
+</a>
+<a class="menu" href="300hints.html" target="below">
+  hints
+</a>
+<a class="normal">
+for the challenge problems.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  10/17
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  <b>Exam 2</b> will be on <b>Monday, Oct 29</b>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  9/26
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Here are the <b>Exam 1</b>
+</a>
+<a class="menu" href="300t1key.pdf" target="_blank">
+  solutions.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  9/17
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Remember to write <b>grade this</b> at the beginning of a revised problem you have revised
+so that I will know not to skip over it.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  9/14
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  <b>Exam 1</b> will be on <b>Monday, Sep 24</b>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  9/05
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Let's change the order, sorry.  It is easier to grade and quicker to access in class
+if <b>new</b> comes first, then <b>revised</b>, then <b>approved</b>.<br>
+  Please write <b>grade this</b> at the beginning of a revised problem you have revised
+so that I will know not to skip over it.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  8/29
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Remember to include <i>every</i> problem we work on in each of your course books;
+<b>approved</b> section first, then <b>revised</b>, then <b>new</b>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  8/27
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Label a problem <b>mmdd.i</b> (e.g. 0827.2) if it is the <i>i&nbsp<sup>th</sup></i>
+problem due on the date mmdd.<br>
+  Let's call the first challenge problem <b>Two-Color</b>.
+Has anyone tried counting anything in this problem?<br>
+  Here is a 
+</a>
+<a class="menu" href="300template.tex" target="_blank">
+  LaTeX template
+</a>
+<a class="normal">
+  you may use, and here is what it
+</a>
+<a class="menu" href="300template.pdf" target="_blank">
+  looks like
+</a>
+<a class="normal">
+  as a pdf.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  8/24
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Use <b>dmmddlastname.pdf</b> (e.g. d0824hurlbert.pdf) for your 
+daily homework and <b>cmmddlastname.pdf</b> (e.g. c0824hurlbert.pdf) 
+for your challenge problem homework.<br>
+  My <b>office hours</b> are Thursdays 1-3pm in my office in
+Irish Hall 117 (and by appointment in either office also).
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  8/22
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Send your assignments to me in an email with subject line <b>mmdd</b>,
+where mm is the two-digit month number and dd is the two-digit day
+for the date the assignment is due (the upcoming class day; e.g. 0824).<br>
+  Give your pdf file the name <b>mmddlastname.pdf</b>, where mmdd is as
+above and lastname has something to do with you.<br>
+  My <b>office hours</b> likely will be on Thursdays in my office in
+Irish Hall 117.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="80">
+<a class="normald">
+  8/20
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+  Your <b>Course Book</b> should have 3 sections: Approved, Revised, and New.<br>
+  <b>Exam 1</b> will probably be in the latter half of September.<br>
+  <b>Exam 2</b> will probably be in the week before or after Halloween.<br>
+  The <b>Final Exam</b> is on Wed. Dec. 12 at 2:40-4:30.
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

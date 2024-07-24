@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Publications</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">Publications</a><p>
+
+<table>
+
+<tr>
+<td align="right" valign="top" width="70">
+<a class="normalb">Books &nbsp;</a>
+</td>
+<td align="right" valign="top" width="45">
+<a class="normald">3 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+Proceedings of the Workshop on Generalizations of de Bruijn Cycles and Gray Codes.
+Held at the Banff International Research Station, Banff, December 4--9, 2004.
+Edited by G. Hurlbert, B. Jackson, and B. Stevens,
+<i>in preparation</i>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">2 &nbsp;</a>
+</td>
+<td valign="top">
+<a class="menu" href="LinOpt.html" target="below">
+  Linear Optimization: the Simplex Workbook
+</a>
+<a class="normal">
+, Springer Verlag,
+<i>in preparation</i>.
+</a>
+</td> 
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">1 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+Universal cycles: on beyond De Bruijn,
+<i>Ph.D. Thesis</i>, Rutgers University (1990).
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+</tr>
+
+<tr>
+<td align="right" valign="top">
+<a class="normalb">Papers &nbsp;</a>
+</td>
+<td align="right" valign="top">
+<a class="normald">42 &nbsp;</a>
+</td>
+<td valign="top">
+<a class="normal">
+Pebbling graphs by their blocks (with D. Curtis, T. Hines and T. Moyer),
+<i>in preparation</i>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">41 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+Near-universal cycles for subsets exist (with D. Curtis, T. Hines and T. Moyer),
+<i>in preparation</i>.
+</a>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">40 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+A linear optimization proof of the KKM lemma,
+<i>in preparation</i>.
+</a>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">39 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+On counting simplices of a polytope containing a given point,
+<i>in preparation</i>.
+</a>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">38 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+A short proof of the Birkhoff-von Neumann theorem,
+<i>in preparation</i>.
+</a>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">37 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+The equivalence of the auxiliary and shortcut methods for the
+Simplex algorithm,
+<i>in preparation</i>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">36 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/UCM.pdf" target="_blank">
+On universal cycles for multisets
+</a>
+<a class="normal">
+(with T. Johnson and J. Zahl), <i>submitted</i>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">35 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/TNBLP.pdf" target="_blank">
+Two new bijections on lattice paths
+</a>
+<a class="normal">
+(with V. Kamat), <i>J. Combin. Math. Combin. Comput.</i>, to appear.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">34 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PTPPTS.pdf" target="_blank">
+On the pebbling threshold of paths and the pebbling threshold spectrum
+</a>
+<a class="normal">
+(with A. Czygrinow), <i>Discrete Math.</i>, to appear.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">33 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PTSC.pdf" target="_blank">
+The pebbling threshold of the square of cliques
+</a>
+<a class="normal">
+(with A. Bekmetjev), <i>Discrete Math.</i>, to appear.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">32 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/EST.pdf" target="_blank">
+On encodings of spanning trees
+</a>
+<a class="normal">,
+<i>Discrete Appl. Math.</i>, <b>155</b> (2007), 2594--2600.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">31 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/CPH.pdf" target="_blank">
+Cover pebbling hypercubes
+</a>
+<a class="normal">
+(with B. Munyan), <i>Bull. Inst. Combin. Appl.</i>, <b>47</b> (2006), 71--76.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">30 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/GPGT.pdf" target="_blank">
+Girth, pebbling, and grid thresholds
+</a>
+<a class="normal">
+(with A. Czygrinow), <i>SIAM J. Discrete Math.</i>, <b>20</b> no. 1 (2006), 1--10.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">29 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/RPGP.pdf" target="_blank">
+Recent progress in graph pebbling
+</a>
+<a class="normal">,
+<i>Graph Theory Notes of New York</i>, <b>XLIX</b> (2005), 25--37.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">28 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/NOGBPT.pdf" target="_blank">
+On the number of ones in general binary Pascal triangles
+</a>
+<a class="normal">
+(with H. Harborth), <i> J. Combin. Math. Combin. Comput.</i>, <b>54</b> (2005), 99--110.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">27 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/AGPZSSAG.pdf" target="_blank">
+An application of graph pebbling to zero-sum sequences in abelian groups
+</a>
+<a class="normal">
+(with S. Elledge), <i>Integers: Elec. J. Number Th.</i>, <b>5(1)</b> (2005), #A17.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">26 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/CPNG.pdf" target="_blank">
+The cover pebbling number of graphs
+</a>
+<a class="normal">
+(with B. Crull, T. Cundiff, P. Feltman, L. Pudwell, Z. Szaniszlo, Z. Tuza),
+<i>Discrete Math.</i> <b>296</b> (2005), 15--23.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">25 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PQ.pdf" target="_blank">
+Pythagorean quadrilaterals
+</a>
+<a class="normal">
+(with R. Hochberg),
+<i>Applications of Fibonacci numbers, </i> <b>Vol. 9</b>
+(Flagstaff, AZ, 2002), 109--119,
+Kluwer Acad. Publ., Dordrecht, 2004.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">24 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PDG.pdf" target="_blank">
+Pebbling in dense graphs
+</a>
+<a class="normal">
+(with A. Czygrinow), <i>Austral. J. Combin.</i> <b>29</b> (2003), 201--208.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">23 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/TFMAGP.pdf" target="_blank">
+Thresholds for families of multisets, with an application to graph pebbling
+</a>
+<a class="normal">
+(with A. Bekmetjev, G. Brightwell and A. Czygrinow),
+<i>Discrete Math.</i> <b>269</b> (2003), no. 1-3, 21--34.
+</a>
+<a class="normalp">
+[This paper is included in the special volume
+</a>
+<a class="menu" href="http://www1.elsevier.com/homepage/sac/disc/edchoice/disc_dam2003.html#disc" target="_blank">
+  Discrete Mathematics, Editor's Choice, Edition 2003,
+</a>
+<a class="normalp">
+distinguished by the editors as among the 12 best of the 210
+papers published that year.]
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">22 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PTFGS.pdf" target="_blank">
+On pebbling threshold functions for graph sequences
+</a>
+<a class="normal">
+(with A. Czygrinow, N. Eaton, and P. M. Kayll),
+<i>Discrete Math.</i> <b>247</b> (2002), no.1-3, 93--105.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">21 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/NGP.pdf" target="_blank">
+A note on graph pebbling
+</a>
+<a class="normal">
+(with A. Czygrinow, H. Kierstead, and W. T. Trotter),
+<i>Graphs and Combinatorics</i> <b>18</b> (2002), 219--225.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">20 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PTS.pdf" target="_blank">
+On the pebbling threshold spectrum
+</a>
+<a class="normal">,
+<i>Electron. Notes Discrete Math.</i>, <b>10</b>, Elsevier, Amsterdam, 2001.
+<i>Comb01---Euroconference on Combinatorics, Graph Theory and
+Applications</i>, 5 pp. (electronic).
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">19 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/STBD.pdf" target="_blank">
+Spanning trees of bounded degree
+</a>
+<a class="normal">
+(with A. Czygrinow, G. Fan, H. Kierstead, and W. T. Trotter),
+<i>Elec. J. Comb.</i> <b>8</b> (2001), no.1, Research Paper 33, 12 pages.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">18 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/GPTFSP.pdf" target="_blank">
+On graph pebbling, threshold functions, and supernormal posets
+</a>
+<a class="normal">
+(with N. Eaton), <i>unpublished</i>.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">17 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/SGP.pdf" target="_blank">
+A survey of graph pebbling
+</a>
+<a class="normal">,
+<i>Congressus Numerantium</i> <b>139</b> (1999), 41--64.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">16 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/TPT.pdf" target="_blank">
+Two pebbling theorems
+</a>
+<a class="normal">,
+<i>Congressus Numerantium</i> <b>135</b> (1998), 55--63.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">15 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/HDPF.pdf" target="_blank">
+On higher dimensional perfect factors
+</a>
+<a class="normal">
+(with G. Isaak), <i>Ars Combinatoria</i> <b>45</b> (1997), 229--239.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">14 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/PDTGPP.pdf" target="_blank">
+Pebbling in diameter two graphs and products of paths
+</a>
+<a class="normal">
+(with T. Clarke and R. Hochberg),
+<i>J. Graph Th.</i> <b>25</b> (1997), no.2, 119--128.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">13 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/EDBTTTW.pdf" target="_blank">
+On the existence of De Bruijn tori with <i>2 x 2</i> windows
+</a>
+<a class="normal">
+(with C. Mitchell and K. Paterson),
+<i>J. Comb. Th. (A)</i> <b>76</b> (1996), no.2, 213--230.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">12 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/ECUCP.pdf" target="_blank">
+Equivalence class universal cycles for permutations
+</a>
+<a class="normal">
+(with G. Isaak), <i>Discrete Math.</i> <b>149</b> (1996), no.1-3, 123--129.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">11 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/NCDBT.pdf" target="_blank">
+New constructions for De Bruijn tori
+</a>
+<a class="normal">
+(with G. Isaak), <i>Designs, Codes and Cryptography</i> <b>6</b> (1995), no.1, 47--56.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">10 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/MU.pdf" target="_blank">
+Multicover ucycles
+</a>
+<a class="normal">,
+<i>Discrete Math.</i> <b>137</b> (1995), no.1-3, 241--249.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">9 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/MTDBT.pdf" target="_blank">
+A meshing technique for De Bruijn tori
+</a>
+<a class="normal">
+(with G. Isaak), <i>Contemporary Math.</i> <b>178</b> (1994), 153--160.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">8 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/DILBL.pdf" target="_blank">
+The dimension of interior levels of the boolean lattice
+</a>
+<a class="normal">
+(with A. Kostochka and L. Talysheva),
+<i>Order</i> <b>11</b> (1994), no.1, 29--40.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">7 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/UCKSNS.pdf" target="_blank">
+On universal cycles for <i>k</i>-subsets of an <i>n</i>-set
+</a>
+<a class="normal">,
+<i>SIAM J. Discrete Math.</i> <b>7</b> (1994), no.4, 598--604.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">6 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/NRDC.pdf" target="_blank">
+New results on dimension in the cube
+</a>
+<a class="normal">,
+<i>unpublished</i> (1994).
+[7th SIAM Conference on Discrete Mathematics, Albuquerque, NM.]
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">5 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/ALP.pdf" target="_blank">
+The antipodal layers problem
+</a>
+<a class="normal">,
+<i>Discrete Math.</i> <b>128</b> (1994), no.1-3, 237--245.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">4 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/STCG.pdf" target="_blank">
+On spanning trees of certain graphs
+</a>
+<a class="normal">,
+<i>unpublished</i> (1993).
+[Colloquium, University of California, Santa Barbara, CA.]
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">3 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/DBTP.pdf" target="_blank">
+On the De Bruijn torus problem
+</a>
+<a class="normal">
+(with G. Isaak), <i>J. Comb. Th. (A)</i> <b>64</b> (1993), no.1, 50--62.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">2 &nbsp;</a>
+</td>
+<td>
+<a class="menu" href="papers/DIC.pdf" target="_blank">
+On dimension in the cube
+</a>
+<a class="normal">,
+<i>unpublished</i> (1992).
+[872nd Meeting of the AMS, Special Session on Posets, Tuscaloosa, AL.]
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+</td>
+<td align="right" valign="top">
+<a class="normald">1 &nbsp;</a>
+</td>
+<td>
+<a class="normal">
+A short proof that <i>N<sup>3</sup></i> is not a circle containment order,
+<i>Order</i> <b>5</b> (1988), no.3, 235--237.
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

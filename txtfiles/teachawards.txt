@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Awards</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Awards</a><p>
+
+<table>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://math.asu.edu/news.html" target="_blank">
+  MAA Distinguished Teaching Award
+</a>
+<a class="normal">
+  from the
+</a>
+<a class="menu" href="http://oak.ucc.nau.edu/hagood/MAASW/Awards.html" target="_blank">
+  Southwestern Section of the MAA &nbsp
+</a>
+<a class="normal">
+  Chosen by faculty colleagues in Arizona, New Mexico, and Texas; nominates one for the
+<a class="menu" href="http://www.maa.org/awards/teachingawards.htm" target="_blank">
+  Deborah and Franklin Tepper Haimo Award for Distinguished College or University Teaching of Mathematics.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://www.asufoundation.org/news/stories/0427-facultyawards.asp" target="_blank">
+  Faculty Achievement Award &nbsp
+</a>
+<a class="normal">
+  Chosen by ASU's Office of the Executive Vice President and Provost of the University
+  for Excellence in Student Mentoring.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://math.asu.edu/undergrd/scholarships/wexler.html" target="_blank">
+  Charles Wexler Award &nbsp
+</a>
+<a class="normal">
+Nominated 4 times by Department faculty colleagues.
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

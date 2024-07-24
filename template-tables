@@ -1,0 +1,349 @@
+<template name=gila_template>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+<!-- Navigational metadata for large websites (an accessibility feature): -->
+<!-- FIXME and add this -->
+
+
+<link rel="stylesheet" type="text/css" href="http://math.asu.edu/css/asumath-screen.css" media="screen" title="ASU Math (screen)" />
+<link rel="stylesheet" type="text/css" href="http://math.asu.edu/css/asumath-print.css" media="print" />
+${oldbrowserJS.txt}
+
+
+<!-- Page Title -->
+<title>$[this.title]</title>
+</head>
+
+<body>
+<!-- javascript to assist with menus -->
+${menuJS.txt}
+
+<!-- For non-visual user agents: -->
+<div id="top"><a href="#main-copyy" class="doNotDisplay">Skip to main content.</a></div>
+
+<{!-- Choose a header --}>
+
+<{!-- ${standardDepartmentHeader.txt} --}>
+${standardDepartmentHeader1.txt}
+
+<!-- Navigation -->
+
+<{!-- Choose between menus and the link bar --}>
+${menubar.txt} 
+<{!-- ${linkbar.txt} --}>
+
+<table 
+  style="border-collapse: collapse; border-style: none; margin: 0; padding: 0; border: 0;" 
+  width="100%" cellpadding="0" cellspacing="0"
+  summary="This table is only used for layout.  The left column is navigation, and the right column is the main content" >
+<tr><td class="lleftSideBar">
+<!-- Side Menu -->
+${sidenav.txt}
+</td>
+<td id="main-copyy">
+<!-- Content -->
+<{!-- Extra comments are so that we can extract content from a .html file
+editted directly by users. --}>
+
+<!-- START:UserSpecificContent -->
+${${WebMake.OutName}.txt}
+<!-- END:UserSpecificContent -->
+</td>
+</tr>
+</table>
+
+
+<div id="footer">
+${bottom.txt}
+</div>
+</body>
+</html>
+</template>
+
+
+<content name=oldbrowserJS.txt>
+<script type="text/javascript">
+
+isold = function() {
+  browser_version= parseFloat(navigator.appVersion);
+  browser_type = navigator.appName;
+  browser_code = navigator.appCodeName;
+  agent = navigator.userAgent;
+
+  if (browser_type == "Microsoft Internet Explorer" && (browser_version < 5)
+      && agent.match("Opera 7.1")) {
+    return true;
+  }
+  if (browser_type == "Netscape" && (browser_version < 5) && (browser_version > 4.6)) {
+    return true;
+  }
+  return false;
+}
+
+if(isold()) {
+  document.write("<link REL='stylesheet' HREF='http://ashoka.asu.edu/~www/css/old-browsers.css' TYPE='text/css'>");
+}
+</script>
+</content>
+
+
+<content name=menuJS.txt>
+<script type="text/javascript">
+  sfHover = function() {
+        var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+        for (var i=0; i<sfEls.length; i++) {
+                sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                }
+                sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                }
+        }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+</script>
+</content>
+
+
+
+
+
+
+
+<content name=modtime.txt>
+<{perlout
+   use Date::Format;
+   $_= expand('${WebMake.OutName}.txt');
+   my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,
+       $atime,$mtime,$ctime,$blksize,$blocks) = stat($_);
+   print time2str('%B %e, %Y', $mtime);
+}>
+</content>
+
+<content name=linkbar.txt>
+<{perlout
+  use lib ".";
+  use MathMenus;
+  my @menulist = @MathMenus::menus;
+  print '<!-- ##### Main Menu Bar ##### -->
+    <div class="wrapHeader">
+     <div class="subHeader">
+        <span class="doNotDisplay">Navigation: </span>';
+  my $subitem = shift(@menulist);
+  print qq!\n<a href="$subitem->[1][0]">$subitem->[0]</a>!;
+  for my $subitem (@menulist) {
+    print qq! | <a href="$subitem->[1][0]">$subitem->[0]</a>!;
+  }
+  print "\n</div>\n</div>\n";
+}>
+</content>
+
+<content name=menubar.txt>
+<{perlout
+  use lib ".";
+  use MathMenus;
+  my @menulist = @MathMenus::menus;
+  print '<!-- ##### Main Menu Bar ##### -->
+    <div class="wrapHeader">
+     <div class="subHeader">
+        <span class="doNotDisplay">Navigation: </span>
+        <ul id="nav">'."\n";
+  my $first = ' id="firstmenu"';
+  for my $subitem (@menulist) {
+    print '<li'. $first. '><a href="'. $subitem->[1][0].'">'.$subitem->[0].'</a>
+  <ul>';
+    $first = '';
+    my @subitem1 = @{$subitem};
+    shift @subitem1;
+    shift @subitem1;
+    my $topone = ' id="topone"';
+    for my $subsub (@subitem1) {
+      print '<li' . $topone .'><a href="'.$subsub->[0].'">'.$subsub->[1]."</a></li>\n";
+      $topone = '';
+    }
+    print "</ul>\n";
+  }
+  print ' </li>
+    </ul>
+</div>
+</div>
+<div class="cleardiv"></div>
+';
+}>
+</content>
+
+<content name=standardDepartmentHeader1.txt>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr><td>
+<a href="http://www.asu.edu"><img src="http://clas.asu.edu/images/ASUlogo-sm.gif" title="Arizona State University" alt="Arizona State University" width="189" height="30" style="border-width: 0px; margin: 8px;"></a>
+</td>
+<td align="right">
+<a href="http://clas.asu.edu/"><img src="http://clas.asu.edu/images/CLAS-wdmk.gif" title="College of Liberal Arts and Sciences" alt="College of Liberal Arts and Sciences" width="359" height="19" style="border-width: 0px; margin: 8px;"></a>
+</td></tr>
+</table>
+<div class="clasheader">
+ <div style="float: left">
+<a href="http://math.asu.edu/"><img style="border: 0; margin-left: 2px;" src="http://math.asu.edu/images/math_name.gif" alt="Department of Mathematics and Statistics"></a>
+ </div>
+</div>
+<div class="cleardiv"></div>
+</content>
+
+
+
+<content name=standardDepartmentHeader.txt>
+<center>
+<table width="99%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="border-collapse: collapse" bordercolor="#111111">
+<tr>
+<td>
+<a href="http://www.asu.edu">
+<img src="http://clas.asu.edu/images/ASUlogo-sm.gif" title="Arizona State University" alt="Arizona State University" width="189" height="30" style="border-width: 0px; margin: 8px;"></a>
+</td>
+<td align="right">
+<a href="http://clas.asu.edu/">
+<img src="http://clas.asu.edu/images/CLAS-wdmk.gif" title="College of Liberal Arts and Sciences" alt="College of Liberal Arts and Sciences" width="359" height="19" style="border-width: 0px; margin: 8px;"></a>
+</td>
+</tr>
+</table>
+</center>
+<div style="text-align:left">
+<a href="http://math.asu.edu/"><img border="0" src="http://math.asu.edu/images/math_name.gif"></a>
+</div>
+</content>
+
+<content name=DepartmentHeader.txt>
+<center>
+<table width="99%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="border-collapse: collapse" bordercolor="#111111">
+<tr>
+<td>
+<a href="http://www.asu.edu">
+<img src="http://clas.asu.edu/images/ASUlogo-sm.gif" title="Arizona State University" alt="Arizona State University" width="189" height="30" style="border-width: 0px; margin: 8px;"></a>
+</td>
+<td align="right">
+<a href="http://clas.asu.edu/">
+<img src="http://clas.asu.edu/images/CLAS-wdmk.gif" title="College of Liberal Arts and Sciences" alt="College of Liberal Arts and Sciences" width="359" height="19" style="border-width: 0px; margin: 8px;"></a>
+</td>
+</tr>
+</table>
+</center>
+<div id="header">
+  <h1 class="headerTitle"><a href="http://math.asu.edu">Department of 
+    <span>Mathematics and Statistics</span></a></h1>
+</div>
+</content>
+
+
+<content name=sidenav.txt>
+<{perlout
+  use lib ".";
+  use MathMenus;
+  my $thisfile = expand('${WebMake.OutName}');
+  $thisfile .= '.html';
+  my @menulist = @MathMenus::menus;
+  my $type = expand('$[${WebMake.OutName}.txt.sidetype]');
+  my $subtype = expand('$[${WebMake.OutName}.txt.subsidetype]');
+  my $menuref;
+  # We determine the side menu by case insensitive match against meta-value sidetype
+  while( $menuref = shift @menulist) {
+    last if ($menuref->[0] =~ /$type/i);
+  }
+  my @menus = @{$menuref};
+  print '<p class="sideBarTitle">' . $menus[0] . '</p>
+        <ul>';
+  shift @menus;
+  for my $entry (@menus) {
+    # the [2] entry is a tooltip, if it is there
+    my $tooltip =  '';
+    $tooltip = ' title="' . $entry->[2] . '"' if($entry->[2]);
+    my $showsubmenus = 0;
+    if($entry->[0] =~ /$thisfile$/) {
+      print qq!<li><span class="thisPage"><a href="$entry->[0]"$tooltip>$entry->[1]</a></span>\n!;
+      $showsubmenus = 1;
+    } else {
+      print qq!<li><a href="$entry->[0]"$tooltip>$entry->[1]</a>\n!;
+    }
+    # Now the sub-menu if present
+    my $submen = $entry->[3];
+    # We also show submenus if we are in a sub-item
+    if(defined $subtype and $subtype) {
+      if($entry->[1] =~ /$subtype/i) {
+        $showsubmenus = 1;
+      }
+    }
+    if($submen and $showsubmenus) {
+      print "<ul>\n";
+      for my $mysub (@{$submen}) {
+        if(defined $subtype and $subtype and $mysub->[0] =~ /$thisfile$/) {
+          print qq!<li><span class="thisPage"><a href="$mysub->[0]">$mysub->[1]</a></span></li>\n!;
+        } else {
+          print qq!<li><a href="$mysub->[0]">$mysub->[1]</a></li>\n!;
+        }
+      }
+      print "</ul>\n";
+    }
+  }
+  print "</ul>\n";
+  print '<div class="sidesearch">';
+  print '<p class="sideBarTitle">Search</p>';
+  print expand('${searchbox.txt}');
+  print '</div>';
+}>
+</content>
+
+<content name=searchbox.txt>
+<div style="margin-left: 3px; margin-top: 2px" >
+<form name="seek" method="get" action="http://www.google.com/u/arizonastate">
+  <input type="hidden" name="domains" value="math.asu.edu;asu.edu;fym.asu.edu">
+  <label for="site">Enter&nbsp;Keywords</label><br />
+  <INPUT TYPE="text" name="q" size="14" maxlength="255" value=""><br />
+  <label for="site">Search&nbsp;Domain&nbsp;</label><br />
+
+  <select name="sitesearch" id="site">
+    <option value="math.asu.edu" selected>This server</option>
+    <option value="asu.edu">ASU</option>
+    <option>edu</option>
+    <option value="">Internet</option>
+  </select>
+  <br />
+  <INPUT name="sa" id="Go" tabindex="2" TYPE="submit" VALUE="Search">
+</form>
+</div>
+</content>
+
+
+
+<content name=bottom.txt>
+<center>
+<table width="99%"  border="0" cellspacing="0" cellpadding="0"  style="border-collapse: collapse"> 
+<tr> 
+<td width="35%" align="left" valign="top" height="1" style="font-size: 120%;"> 
+<p style="margin-top: 0px; margin-bottom: 0px;">Physical Sciences, A-Wing<p style="margin-top: 0px; margin-bottom: 0px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">
+<a target=_blank href="http://math.asu.edu/dept_overview/corres.html"><b>Contact us</b></a>
+<p style="margin-top: 0px; margin-bottom: 0px;">
+<a href="mailto:renate@asu.edu">Webmaster</a>
+</td> 
+<td width="25%" align="left" valign="top" height="1">
+<p>&nbsp;</p></td>
+<td width="50%" align="right" valign="top" height="1"> 
+<p style="margin-top: 0px; margin-bottom: 0px;">Apply to ASU: <a target=_blank href="http://www.asu.edu/admissions/applyingtoasu/">undergraduate</a> | 
+ <a target=_blank href="http://www.asu.edu/gradapp">graduate</a></p> 
+<p style="margin-top: 0px; margin-bottom: 0px;"><a target=_blank href="http://www.asu.edu/catalog/"> 
+Course catalogs</a><a target=_blank href="http://www.asu.edu/accessibility/"></a></p> 
+<p style="margin-top: 0px; margin-bottom: 1px;"><a target=_blank href="http://www.asu.edu/accessibil
+ity/">Accessibility</a> | 
+<a target=_blank href="http://www.asu.edu/privacy/"> 
+Privacy</a>| <a target=_blank href="http://www.asu.edu/copyright"> 
+Copyright</a></p> 
+<p style="margin-top: 0px; margin-bottom: 0px;">Last Modified: ${modtime.txt}</p>
+</td> 
+</tr> 
+</table>
+</center>
+</content>
+

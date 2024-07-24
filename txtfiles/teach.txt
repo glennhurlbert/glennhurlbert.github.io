@@ -1,0 +1,361 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Teaching</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<a class="phead">Teaching</a><p>
+
+<table>
+
+<tr>
+<td align="right" valign="top" width="100">
+<a class="normalb">
+Philosophy &nbsp;
+</a></td>
+<td>
+<a class="normal">
+You won't learn much by watching me.
+Roll up your sleeves and get your hands dirty.
+It's what you need to do in real life, so you may as well practice it here.
+I'll do my best to help you come up with your own ideas and see if they work.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">Courses &nbsp;</a></td>
+<td>
+<a class="menu" href="mat300.html" target="below">MAT 300 Mathematical Structures &nbsp</a>
+<a class="normal">
+(Fall 07) A first course in writing proofs.  For Barrett Honors College students only.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="mat494.html" target="below">MAT 494 Undergraduate Research &nbsp</a>
+<a class="normal">
+(Fall 07) Exploring new results in many areas.  For Barrett Honors College students only.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 170 PreCalculus &nbsp</b>
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 119 Finite Mathematics &nbsp</b>
+Business school students; basic counting, probability, linear optimization, finance.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 242 Linear Algebra &nbsp</b>
+Proof-less version of MAT 342 for some engineers.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 243 Discrete Mathematics &nbsp</b>
+Mostly for computer scientists.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 342 Linear Algebra &nbsp</b>
+Upper division math majors and engineers, mainly.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 415 Combinatorics &nbsp</b>
+Upper division math majors and beginning graduate students (qualifier course).
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 416 Graph Theory &nbsp</b>
+Upper division math majors and beginning graduate students (qualifier course).
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 419 Linear Optimization &nbsp</b>
+Upper division math majors, graduate students, computer scientists, economics majors;
+we use 
+</a>
+<a class="menu" href="LinOpt.html" target="below">my textbook</a>
+<a class="normal">
+(LinOpt logo above) and
+</a>
+<a class="menu" href="http://mingus.la.asu.edu/~hurlbert/websim/sim.html" target="_blank">
+  my web software</a>
+<a class="normal">
+(WebSim logo above).
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 447 Cryptography &nbsp</b>
+Upper division math majors, computer scientists, engineers; crosslisted for graduate students.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 598 Combinatorial Optimization &nbsp</b>
+Math graduate students, computer scientists.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 598 Random Graphs &nbsp</b>
+Math graduate students, computer scientists.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="normal">
+<b>MAT 598 Extremal Set Theory &nbsp</b>
+Math graduate students.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">Materials &nbsp;</a></td>
+<td>
+<a class="menu" href="LinOpt.html" target="below">Linear Optimization:
+The Simplex Workbook &nbsp</a>
+<a class="normal">
+(logo above) -- my textbook, being published for use 
+by Fall 2008.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://mingus.la.asu.edu/~hurlbert/websim/sim.html" target="_blank">WebSim</a>
+<a class="normal">
+  (logo above) -- my web tool for exploring and solving linear optimization (and
+  linear algebra) problems. &nbsp</td>
+</a>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">Awards &nbsp;</a></td>
+<td>
+<a class="menu" href="http://www.asu.edu/news/stories/200704/20070409_lastlecture.htm" target="_blank">
+  Last Lecture Series &nbsp
+</a>
+<a class="normal">
+Chosen by students, university-wide; the premise is, if you knew this 
+would be the last lecture you'd ever give, what would you say?  My lecture was titled, 
+<a class="menu" href="HurlLastLectPost.pdf" target="_blank">
+Is 42 really the answer?
+</a>
+<a class="normal">
+I hope to make the video of it available on-line soon.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/news.html" target="_blank">
+  MAA Distinguished Teaching Award
+</a>
+<a class="normal">
+  from the
+</a>
+<a class="menu" href="http://oak.ucc.nau.edu/hagood/MAASW/Awards.html" target="_blank">
+  Southwestern Section of the MAA &nbsp
+</a>
+<a class="normal">
+  Chosen by faculty colleagues in Arizona, New Mexico, and Texas; nominates one for the
+<a class="menu" href="http://www.maa.org/awards/teachingawards.htm" target="_blank">
+  Deborah and Franklin Tepper Haimo Award for Distinguished College or University Teaching of Mathematics.
+</a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://www.asufoundation.org/news/stories/0427-facultyawards.asp" target="_blank">
+  Faculty Achievement Award &nbsp
+</a>
+<a class="normal">
+  Chosen by ASU's Office of the Executive Vice President and Provost of the University
+  for Excellence in Student Mentoring.
+</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/undergrd/scholarships/wexler.html" target="_blank">
+  Charles Wexler Award &nbsp
+</a>
+<a class="normal">
+Nominated 4 times by Department faculty colleagues.
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">&nbsp</a></td>
+<td><a class="normal">&nbsp</a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top"><a class="normalb">Links &nbsp;</a></td>
+<td>
+<a class="menu" href="students.html" target="below">Students</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://asu.edu/clubs/mathclub/" target="_blank">Math Club</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://archives.math.utk.edu/projnext//" target="_blank">
+Project NExT</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://math.asu.edu/course-info.html" target="_blank">
+Department Courses</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://www.discovery.utexas.edu/rlm/links.html" target="_blank">
+Legacy of R.L. Moore</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://honors.asu.edu/" target="_blank">
+Barrett Honors College</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://www.educationaladvancementfoundation.org/" target="_blank">
+Educational Advancement Foundation</a> 
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://www.amuc.org/" target="_blank">
+Southwest Undergraduate Mathematics Research Conference</a>
+<a class="normal">(SUnMaRC -- formerly AMUC -- logo above)</a>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<a class="menu" href="http://cresmet.asu.edu/proj_res/scism/" target="_blank">
+Summer Certification Institute in Secondary Mathematics</a> 
+<a class="normal">(SCISM -- logo above)</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

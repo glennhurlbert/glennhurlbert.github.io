@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Math Student Links</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Student</a><p>
+
+<table>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://asu.edu/clubs/mathclub/" target="_blank">Math Club</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://www.sunmarc.org" target="_blank">
+  Southwest Undergraduate Mathematics Research Conference</a>
+<a class="normal">(SUnMaRC -- formerly AMUC -- see logo above)</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://cresmet.asu.edu/proj_res/scism/" target="_blank">
+  Summer Certification Institute in Secondary Mathematics</a>
+<a class="normal">(SCISM -- see logo above)</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://www.math.unl.edu/~ncuwm/10thAnnual/" target="_blank">
+  Nebraska Conference for Undergraduate Women in Mathematics</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://www.math.ohio-state.edu/conferences/ymc/2007/" target="_blank">
+  Young Mathematicians Conference</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://www.ams.org/employment/reu.html" target="_blank">
+  Research Experience for Undergraduates Summer Programs</a>
+<a class="normal">(REU)</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="menu" href="http://math.asu.edu/support/doc/latex/" target="_blank">
+  LaTeX Help</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

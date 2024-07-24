@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Articles</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Articles</a><p>
+
+<table>
+
+<tr>
+<td>
+<a class="menu" href="MAAFocusNov07.pdf" target="_blank">
+  Distinguished Teaching Award
+</a>
+<a class="normal">
+  from the Southwestern Section of the MAA
+  (MAA Focus, p5, Nov 07)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/stories/200704/20070409_lastlecture.htm" target="_blank">
+  Last Lecture Series
+</a>
+<a class="normal">
+  (ASU Insight, Apr 07)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asufoundation.org/news/stories/0427-facultyawards.asp" target="_blank">
+  Faculty Achievement Award
+</a>
+<a class="normal">
+  (ASU Foundation, Apr 07)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://math.asu.edu/news.html" target="_blank">
+  Distinguished Teaching Award
+</a>
+<a class="normal">
+  from the
+</a>
+<a class="menu" href="http://oak.ucc.nau.edu/hagood/MAASW/Awards.html" target="_blank">
+  Southwestern Section of the MAA
+</a>
+<a class="normal">
+  (Math Dept News, Apr 07)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/research/cresmet_nsf_092804.htm" target="_blank">
+  CRESMET $4.5 Million Grant
+</a>
+<a class="normal">
+  (ASU Insight, Sep 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="StatePress.htm" target="_blank">
+  First AMUC
+</a>
+<a class="normal">
+  (State Press, Mar 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="AZRepArch.htm" target="_blank">
+  Recruiting Majors
+</a>
+<a class="normal">
+  (Arizona Republic, Feb 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/campus/mathconf_030204.htm" target="_blank">
+  First AMUC
+</a>
+<a class="normal">
+  (ASU Insight, Feb 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/campus/usatoday_021303.htm" target="_blank">
+  Collin Raymond USA Today Top Undergraduate
+</a>
+<a class="normal">
+  (ASU Insight, Feb 03)
+</a>
+</td>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="AZRepArch.htm" target="_blank">
+  Recruiting Majors
+</a>
+<a class="normal">
+  (Arizona Republic, Feb 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/campus/mathconf_030204.htm" target="_blank">
+  First AMUC
+</a>
+<a class="normal">
+  (ASU Insight, Feb 04)
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a class="menu" href="http://www.asu.edu/news/campus/usatoday_021303.htm" target="_blank">
+  Collin Raymond USA Today Top Undergraduate
+</a>
+<a class="normal">
+  (ASU Insight, Feb 03)
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Resaerch Links</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body bgcolor="#ccccff"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<br>
+<a class="normald">Research Links</a><p>
+
+<table>
+
+<tr>
+<td><a class="menu" href="studmain.html" target="below">
+  Students
+</a>
+</td>
+</tr>
+
+<tr>
+<td><a class="menu" href="pubs.html" target="below">
+  Publications</a></td>
+</tr>
+
+<tr>
+<td><a class="menu" href="http://math.la.asu.edu/~andrzej/seminar.html" target="_blank">
+  Discrete Mathematics Seminar</a></td>
+</tr>
+
+<tr>
+<td><a class="menu" href="http://www.asu.edu/lib/resources/db/mathsci.htm" target="_blank">
+  MathSciNet</a>
+<a class="normal">(through ASU)</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert 300 Challenge Hints</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body bgcolor="#ccccff"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<a class="phead">MAT 300 Challenge Hints</a><p>
+
+<table>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  2-color
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+For each region, count the number of crossings in any escape route.
+Prove for each region that its number is always even or always odd.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Lockers
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+For each locker number, write all of its divisors.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Dominoes
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+How many black squares must be covered?
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Pure Jars
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+At the end of the process, how many red marbles are in the red jar?
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Odd Sequence
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+Try generalizing the gcd function -- is your function preserved throughout?
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Family Size
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+Prove the lemma $a^2+b^2\ge 2ab$ and then use it in an inductive argument.
+First see how the 2-family result can be used for the 3-family proof.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  L-tiles
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+Try the cases $n=2^k$ and use induction on $k$.
+Or, for the full solution, you might try induction by filling in outer layers.
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="140">
+<a class="normald">
+  Blue Marbles
+</a> &nbsp; </td>
+<td valign="top">
+<a class="normal">
+Try improving the best urn, then improve the worst urn.
+What effect does moving an equal number of marbles of each color 
+from the best to the worst urn have on the probability?
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

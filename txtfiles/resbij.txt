@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Bijections</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body bgcolor="#ccccff"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<br>
+<a class="normald">Bijections</a><p>
+
+<table>
+
+<tr>
+<td><a class="normal">
+</a>
+<a class="normal" valign="top">
+Cayley proved that there are $n^{n-2}$ labeled trees on
+$n$ vertices, which is the same as saying there are that many
+spanning trees of the labelled complete graph.
+Prufer gave a distinct name to each of them, exhausting all possible
+$n$-ary $(n-2)$-tuples as names, thus giving a bijective
+proof of Cayley's result.
+My recent
+</a>
+<a class="menu" href="papers/EST.pdf" target="_blank">paper</a>
+<a class="normal">
+gives a new bijection for the number of spanning trees of labeled
+complete $r$-partite graphs, and discusses a number of other graphs
+whose spanning trees I covet to biject (cubes, deBruijn graphs, and
+integral graphs such as the Petersen graph among them).
+I am also fond of lattice paths and I have written a
+</a>
+<a class="menu" href="papers/TNBLP.pdf" target="_blank">paper</a>
+<a class="normal">
+with one of my students on the subject while we are working on another.
+</a>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

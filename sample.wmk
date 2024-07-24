@@ -1,0 +1,20 @@
+<webmake>
+
+<include file="template-tables" />
+
+<metadefault name="secureroot" value="https://mingus.asu.edu" />
+<!--metadefault name="secureroot" value="http://ashoka.asu.edu/~www" /-->
+<metadefault name="root" value="http://mingus.asu.edu" />
+<!--metadefault name="root" value="http://ashoka.asu.edu/~www" /-->
+
+<contents src="." name=".../*.txt" namesubst="s/.txt//" listname="all_files" />
+<contents src="." name=".../*.txt" />
+
+<for name="page" values="${all_files}">
+   <out name="${page}" file="${page}.html" clean="pack addimgsizes cleanattrs fixcolors indent">
+      ${gila_template}
+   </out>
+</for>
+
+</webmake>
+

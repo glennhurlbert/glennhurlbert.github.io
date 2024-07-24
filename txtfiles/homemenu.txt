@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert Menu</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<base target="main">
+</head>
+<body bgcolor="#cccc99">
+
+<img src="pics/SiamUVic1.jpg" width=120>
+<p>
+
+<a class="menu" href="home.html">Home</a>
+<p>
+
+<a class="menu" href="vitamain.html" target="below">Curriculum&nbsp;Vita</a>
+<p>
+
+<a class="menu" href="resmain.html" target="below">Research</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="resmain.html" target="below">Descriptions</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="pubs.html" target="below">Publications</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="http://math.la.asu.edu/~andrzej/seminar.html" target="_blank">Disc&nbsp;Math&nbsp;Sem</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="http://mingus.la.asu.edu/~hurlbert/pebbling/pebb.html" target="_blank">Pebbling&nbsp;Page</a>
+<p>
+
+<a class="menu" href="teachmain.html" target="below">Teaching</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="teachmain.html" target="below">Overview</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="courses.html" target="below">Courses</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="studmain.html" target="below">Students</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="LinOpt.html" target="below">Lin&nbsp;Opt&nbsp;Text</a>
+<p>
+
+<a class="menu" href="othermain.html" target="below">Other</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="othermain.html" target="below">Math&nbsp;Links</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="promomain.html" target="below">Self&nbsp;Promo</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="http://www.sunmarc.org/" target="_blank">SUnMaRC</a>
+<br> &nbsp&nbsp&nbsp
+<a class="menu" href="fampics.html" target="below">Family</a>
+<p> 
+
+</body>
+
+</html>
