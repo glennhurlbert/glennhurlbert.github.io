@@ -1,0 +1,23 @@
+<webmake>
+
+<content name=page_template>
+ <html>
+
+  <head>
+   <title>
+     Graph Pebbling
+   </title>
+  </head
+
+  <body bgcolor=#ffffff>
+   <h1>Graph Pebbling</h1>
+   <hr />
+    holy cow, it works!
+   <hr />
+  </body>
+
+ </html>
+</content>
+
+
+</webmake>

@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling
+theory fractional pebble peble graham grahams graham's conjecture 2-pebbling two-pebbling
+optimal cartesian product q-pebbling Lemke greedy">
+<title>Class 0 page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="CaPr">
+<p>
+<blockquote>
+<a class="phead">Cartesian Product</a>
+
+<blockquote>
+For any two graphs
+<a class="mit">G<sub>1</sub></a>
+and
+<a class="mit">G<sub>2</sub></a>,
+we define the
+<a class="pdef">cartesian product</a>
+<a class="mit">G<sub>1</sub></a> x G<sub>2</sub></a>
+to be the graph with vertex set
+<a class="mit">V</a>(<a class="mit">G<sub>1</sub> x G<sub>2</sub></a>) = {(<a class="mit">v<sub>1</sub>,v<sub>2</sub></a>) | <a class="mit">v<sub>1</sub> in V</a>(<a class="mit">G<sub>1</sub></a>), <a class="mit">v<sub>2</sub> in V</a>(<a class="mit">G<sub>2</sub></a>)} and edge set
+<a class="mit">E</a>(<a class="mit">G<sub>1</sub> x G<sub>2</sub></a>) = {{(<a class="mit">v<sub>1</sub>,v<sub>2</sub></a>),(<a class="mit">w<sub>1</sub>,w<sub>2</sub></a>)} | (<a class="mit">v<sub>1</sub> = w<sub>1</sub></a> and 
+(<a class="mit">v<sub>2</sub>,w<sub>2</sub></a>) <a class="mit">in E</a>(<a class="mit">G<sub>2</sub></a>))
+or (<a class="mit">v<sub>2</sub> = w<sub>2</sub> </a>and (<a class="mit">v<sub>1</sub>,w<sub>1</sub></a>) <a class="mit">in E</a>(<a class="mit">G<sub>1</sub></a>))}.
+The cube
+<a class="mit">Q<sup>d</sup></a>
+can be built recursively from the cartesian product, and
+<a class="alink" href="authmain.html#FanChu">Chung's</a>
+result
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>
+that
+<a class="mit">pi</a>(<a class="mit">Q<sup>d</sup></a>) = 2<a class="mit"><sup>d</sup></a>
+(and more generally the
+<a class="tlink" href="gconmain.html#GrT">Grid Theorem</a>
+below) would follow easily from
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>, 
+which has generated a great deal of interest.
+
+<blockquote>
+<a name="GCon"></a>
+<a class="tnam">Graham's Conjecture.</a>&#160
+<a class="tres">pi(G<sub>1</sub> x G<sub>2</sub>) <= pi(G<sub>1</sub>)pi(G<sub>2</sub>)</a>.
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="PaRe">
+<blockquote>
+<a class="phead">Partial Results</a>
+
+<blockquote>
+It is worth mentioning that there are some results which verify 
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>. 
+Among these, the conjecture holds for a tree by a tree
+<a class="plink" href="biblmain.html#Moew_PG">[Moe]</a>,
+a cycle by a cycle
+<a class="plink" href="biblmain.html#Hers_GPC">[Her</a>,
+<a class="plink" href="biblmain.html#HerHig_PNC">HeHi</a>,
+<a class="plink" href="biblmain.html#PaSnVo_OPG">PSV]</a>,
+and a clique by a graph with the 
+<a class="tlink" href="gconmain.html#2PP">2-Pebbling Property</a>
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>.
+Recently,
+<a class="alink" href="authmain.html#RonFen">Feng</a> and
+<a class="alink" href="authmain.html#JuYoKim">Kim</a>
+verified the conjecture for complete bipartite graphs
+<a class="plink" href="biblmain.html#FenKim_GPC">[FeKi1]</a>
+and for wheels or fans
+<a class="plink" href="biblmain.html#FenKim_PNS">[FeKi2]</a>.
+It is also proven in
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>
+that the conjecture holds when each
+<a class="mit">G<sub>i</sub></a>
+is a path.
+Let
+<a class="mit">P<sub>n</sub></a>
+be a path with
+<a class="mit">n</a>
+vertices and for
+<b>d</b> = <<a class="mit">d<sub>1</sub>, .., d<sub>m</sub>></a>
+let
+<a class="mit">P<sub><b>d</b></sub></a>
+denote the graph
+<a class="mit">P<sub>d<sub>1</sub>+</a>1</sub> <a class="mit"> x .. x P<sub>d<sub>m</sub>+</a>1</sub>.
+
+<blockquote>
+<a name="GrT">
+<a class="tnam">Grid Theorem</a>&#160
+<a class="tres">For nonnegative integers d<sub>1</sub>, .., d<sub>m</sub>, pi(P<sub><b>d</b></sub>) = 2<sup>d<sub>1</sub>+..+d<sub>m</sub></sup>.</a>
+</blockquote>
+
+The conjecture was also verified recently
+<a class="plink" href="biblmain.html#CzyHur_GPG">[CzHu3]</a> 
+for graphs of high minimum degree, using the
+<a class="tlink" href="clasmain.html#DCT">Diameter-Connectivity Theorem</a>.
+
+<blockquote>
+<a name="MDPT">
+<a class="tnam">Min. Degree Product Theorem.</a>&#160
+<a class="tres">If G<sub>1</sub> and G<sub>2</sub> are connected graphs on n vertices that satisfy delta(G<sub>i</sub>) >= k and k >= 2<sup>12n/k+15</sup>, then pi(G<sub>1</sub> x G<sub>2</sub>) <= pi(G<sub>1</sub>)pi(G<sub>2</sub>).</a>
+</blockquote>
+
+In particular, there is a constant c so that if
+<a class="mit">k > cn/</a><a class="pfunc">log</a><a class="mit">n
+then
+<a class="mit">G<sub>1</sub> x G<sub>2</sub>
+is
+<a class="pdeflink" href=clas.html>Class 0</a>.
+<p>
+There is also a
+<a class="tlink" href="rpebmain.html#prod">probabilistic version</a>
+of
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>
+on the Random Pebbling page.
+</p>
+</blockquote>
+</blockquote>
+
+<a name="2PP">
+<blockquote>
+<a class="phead">2-Pebbling Property</a>
+
+<blockquote>
+<a name="support">
+A graph
+<a class="mit">G</a>
+is said to have the
+<a class="pdef">2-pebbling property</a>
+(<a class="pdef">2PP</a>) if two pebbles can be moved to any specified vertex when the 
+initial configuration C has size
+2<a class="mit">pi</a>(<a class="mit">G</a>)-<a class="mit">s</a>(<a class="mit">C</a>)+1,
+where
+<a class="mit">s</a>(<a class="mit">C</a>)
+is the size of the 
+<a title="the set of all vertices that have at least one pebble" class="pdefhov">support</a>
+<a class="mit">S</a>(<a class="mit">C</a>).
+This property is crucial in the proof of
+<a class="tlink" href="gconmain.html#GrT">Grid Theorem</a>.
+Graphs that are known to have 2PP include
+<a class="pdeflink" href="pnummain.html#tree">trees</a>,
+cliques and
+<a class="pdeflink" href="pnummain.html#cube">cubes</a>
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>,
+as well as diameter 2 graphs
+<a class="plink" href="biblmain.html#PaSnVo_OPG">[PSV]</a>.
+Also, 
+<a class="alink" authmain.html#FanChu">Chung</a>
+proved that if 
+<a class="mit">G</a>
+has 2PP
+and 
+<a class="mit">pi</a>(<a class="mit">G</a> x <a class="mit">K<sub>t</sub></a>)
+= <a class="mit">tpi</a>(<a class="mit">G</a>)
+then
+<a class="mit">G</a> x <a class="mit">K<sub>t</sub></a>
+has 2PP.
+<p>
+Originally, only the 
+<a class="pdeflink" href="pnummain.html#lemke">Lemke graph</a>
+was known not to have 2PP,
+although a family of related graphs were conjectured in
+<a class="plink" href="biblmain.html#FosSne_PPC">[FoSn]</a>
+not to have the property either.
+Although that conjecture is still unresolved,
+<a class="alink" href="authmain.html#SteWan">Wang</a>
+<a class="plink" href="biblmain.html#Wang_PGC">[Wan]</a>
+proved that 
+a slight modification of
+<a class="alink" href="authmain.html#HunSne">Snevily's</a>
+graphs yield an infinite family of 
+graphs, none of which have 2PP.
+Also found in
+<a class="plink" href="biblmain.html#FosSne_PPC">[FoSn]</a>
+is the following conjecture.
+</p>
+<blockquote>
+<a class="tnam">Bipartite Conjecture.</a> &#160
+<a class="tres">All bipartite graphs have 2PP.</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="QPeb">
+<blockquote>
+<a class="phead">q-Pebbling</a>
+
+<blockquote>
+<p>
+<a name="greedy">
+In order to describe the generalization employed by
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+to prove the
+Kleitman-Lemke theorem, we need to introduce generalized pebbling. A
+<a class="pdef">q-pebbling step</a> in
+<a class="mit">G</a>
+consists of removing
+<a class="mit">q</a>
+pebbles from a vertex
+<a class="mit">u</a>,
+and placing one pebble on a neighbor
+<a class="mit">v</a>
+of
+<a class="mit">u</a>.
+We say that a pebbling step from
+<a class="mit">u</a>
+to
+<a class="mit">v</a>
+is
+<a class="pdef">greedy</a>
+(<a class="pdef">semi-greedy</a>)
+if
+dist(<a class="mit">v,r</a>) < dist(<a class="mit">u,r</a>) (<=), where
+<a class="mit">r</a>
+is the root vertex, and that a graph
+<a class="mit">G</a>
+is (<i>semi</i>) greedy 
+if for any configuration of
+<a class="mit">pi</a>(<a class="mit">G</a>)
+pebbles on the vertices of
+<a class="mit">G</a>
+we can move a pebble to any specified root vertex
+<a class="mit">r</a>,
+in such a way that each pebbling step is (semi) greedy.
+<p>
+Let
+<a class="mit">P<sub><b>d</b></sub> = P<sub>d<sub>1</sub>+</a>1</sub> <a class="mit"> x .. x P<sub>d<sub>m</sub>+</a>1</sub>
+be a product of paths, where
+<b>d</b> = <<a class="mit">d<sub>1</sub>, ..,d<sub>m</sub></a>>, as above.
+Then each vertex
+<a class="mit">v in V(P<sub><b>d</b></sub></a>)
+can be represented by a vector
+<b>v</b> = <<a class="mit">v<sub>1</sub>, .., v<sub>m</sub>></a>,
+with
+<a class="mit">0 <= v<sub>i</sub> <= d<sub>i</sub></a>
+for each
+<a class="mit">i <= m</a>.
+Let
+<b>e</b><sub><a class="mit">i</sub></a> = <0, .., 1, .., 0>,
+be the
+<a class="mit">i<sup>th</sup></a> 
+standard basis vector.
+Denote the vector
+<0, .., 0> by <b>0</b>.
+Then two vertices
+<a class="mit">u</a>
+and
+<a class="mit">v</a>
+are adjacent in
+<a class="mit">P</a><sub><b>d</b></sub>
+if and only if 
+|<b>u</b>-<b>v</b>| = <b>e</b><sub><a class="mit">i</a></sub>
+for some integer
+1 <= <a class="mit">i</a> <= <a class="mit">m</a>.
+If
+<b>q</b> = (<a class="mit">q<sub>1</sub>, .., q<sub>m</sub></a>),
+then we may define
+<a class="pdef">q-pebbling</a> 
+in
+<a class="mit">P</a><sub><b>d</b></sub>
+to be such that each pebbling step from
+<b>u</b>
+to
+<b>v</b>
+is a
+<a class="mit">q<sub>i</sub></a>-pebbling step
+whenever.
+|<b>u</b>-<b>v</b>| = <b>e</b><sub><a class="mit">i</a></sub>.
+We denote the q-pebbling number of
+<a class="mit">P</a><sub><b>d</b></sub>
+by
+<a class="mit">pi<sub><b>q</b></sub></a>(<a class="mit">P<sub><b>d</b></sub></a>).
+<a class="alink" href="authmain.html#FanChu">Chungs's</a>
+proof of the
+<a class="tlink" href="gconmain.html#GrT">Grid Theorem</a>
+uses the following theorem
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>.
+For integers
+<a class="mit">q<sub>i</sub>,d<sub>i</sub> >= </a>1,
+1 <= <a class="mit">i <= m</a>,
+we use <b>q<sup>d</sup></b>
+as shorthand for the product
+<a class="mit">q<sub>1</sub><sup>d<sub>1</sub></sup> .. q<sub>m</sub><sup>d<sub>m</sub></sup></a>.
+
+<blockquote>
+<a class="tnam">Greedy Grid Theorem.</a>&#160
+<a class="tres">Suppose that <b>q<sup>d</sup></b> pebbles are assigned to the vertices of P<sub><b>d</b></sub>
+and that the root r = <b>0</b>.
+Then it is possible to move one pebble to r via greedy q-pebbling.</a>
+</blockquote>
+
+In addition, it was shown in
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>
+that
+<a class="mit">pi<sub><b>q</b></sub></a>(<a class="mit">P<sub><b>d</b></sub></a>) = <b>q<sup>d</sup></b>,
+and, moreover that
+<a class="mit">P</a><sub><b>d</b></sub>
+is greedy.  Also in
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>
+the following generalization of
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>
+to q-pebbling was made.
+
+<blockquote>
+<a class="tnam">q-Product Conjecture.</a>&#160
+<a class="tres">f<sub><b>q</b></sub>(G<sub>1</sub> x G<sub>2</sub>) <= f<sub>q<sub>1</sub></sub>(G<sub>1</sub>)f<sub>q<sub>2</sub></sub>(G<sub>2</sub>).</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

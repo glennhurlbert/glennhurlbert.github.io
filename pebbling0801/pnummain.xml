@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://www.w3.org/Math/XSL/mathml.xsl"?>
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">  
+
+<!--
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pref="http://www.w3.org/2002/Math/preference"
+      pref:renderer="css">
+-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</meta>
+<meta http-equiv="Content-Language" content="en-us">
+</meta>
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling
+theory fractional pebble peble graham grahams graham's conjecture 2-pebbling
+two-pebbling optimal solvability cycle cycles tree trees cube cubes Petersen
+petersen path paths clique cliques class 0">
+</meta>
+
+<title>Graph Pebbling Numbers Page</title>
+
+<link rel="stylesheet" href="simple.css" type="text/css">
+</link>
+<!--
+-->
+
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<!--
+<frameset rows="100,*">
+<frame src="pnumhead.html" name="second">
+<frame src="pnummain.html" name="first">
+</frameset>
+
+<a href="biblmain.html"
+onClick='parent.second.location.href="biblhead.html"'>
+Test1</a>
+
+<a href="biblhead.html"
+onClick="window.first.location='biblmain.html'" target="second">
+Test2</a>
+-->
+
+<p align="right">
+<a href="pebb.html" target="_top">
+<img border="1" src="hbut.jpg" width="100" height="50"></img></a>
+</p>
+
+<a name="peb"></a>
+<blockquote>
+<a class="phead">Pebbling Move</a>
+
+<blockquote>
+If it is possible, one can move two pebbles from a given vertex to one of its neighbors.
+However, only one pebble reaches the neighbor since the other is paid as a toll along the edge.
+
+<p>
+<center>
+<table border="0">
+ <tr>
+  <th>
+   <a class="pcap">before</a>
+  </th>
+  <th>
+   <a class="pcap">during</a>
+  </th>
+  <th>
+   <a class="pcap">after</a>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   <a href="PMove1.jpg">
+   <img width="150" border="1" src="PMove1.jpg"></img></a>
+  </th>
+  <th>
+   <a href="PMove2.jpg">
+   <img width="150" border="1" src="PMove2.jpg"></img></a>
+  </th>
+  <th>
+   <a href="PMove3.jpg">
+   <img width="150" border="1" src="PMove3.jpg"></img></a>
+  </th>
+ </tr>
+</table>
+</center>
+</p>
+
+</blockquote>
+</blockquote>
+
+<a name="con"></a>
+<blockquote>
+<a class="phead">Connie and Peter</a>
+
+<blockquote>
+<i>Peter the Pebbler</i> and <i>Connie the Configurer</i>
+play the following game on a graph 
+<i>G</i>.
+
+<p>
+Peter buys 
+<i>t</i> 
+very expensive pebbles and gives them to Connie .
+Of course, Peter doesn't want to spend too much money if he can avoid it.
+</p>
+
+<p>
+<a name="root"></a>
+Connie distributes a 
+<a name="configuration"></a>
+<a class="pdefhov" title="a function that indicates the number of pebbles per vertex">
+configuration</a>
+<i>C</i> 
+of pebbles onto the vertices of
+<i>G</i>
+and chooses a 
+<a title="the pebbling target" class="pdef">root</a>
+vertex 
+<i>r</i>.
+Peter will win the game if he can place a pebble on 
+<i>r</i>
+after a sequence of pebbling moves; otherwise, Connie wins the game.
+</p>
+
+</blockquote>
+</blockquote>
+
+<a name="sol"></a>
+<a name="solvable"></a>
+<blockquote>
+<a class="phead">Solvability</a>
+
+<blockquote>
+In the case that Peter wins we say that 
+<b>C</b>
+is 
+<a title="or r-reachable" class="pdefhov"><i>r</i>-solvable</a>
+(otherwise 
+<a title="Peter can't pebble to r" class="pdefhov"><i>r</i>-unsolvable</a>).
+If 
+<i>C</i>
+is
+<i>r</i>-solvable for every 
+<i>r</i>
+then 
+<i>C</i>
+is called
+<a title="Peter can pebble to any root" class="pdefhov">solvable</a>.
+
+<p>
+<center>
+<table border="0">
+ <tr>
+  <th>
+   <a class="pcap">solvable</a>
+  </th>
+  <th>
+   <a class="pcap">unsolvable</a>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   <a class="basic" href="Solv.jpg">
+   <img height="130" border="1" src="Solv.jpg"></img></a>
+  </th>
+  <th>
+   <a class="basic" href="Unsolv.jpg">
+   <img height="130" border="1" src="Unsolv.jpg"></img></a>
+  </th>
+ </tr>
+</table>
+</center>
+</p>
+
+</blockquote>
+</blockquote>
+
+<a name="pig"></a>
+<blockquote>
+<a class="phead">
+<font face="symbol">p</font>(G)
+</a>
+
+<blockquote>
+<a name="pebnum"></a>
+The 
+<a class="pdef">pebbling number</a>
+of 
+<i>G</i>
+is denoted
+<font face="symbol">p</font>(G)
+and equals the fewest number of pebbles Peter must buy in order 
+to guarantee victory.
+<p>
+That is, if Peter buys 
+<font face="symbol">p</font>(G)
+pebbles then every possible configuration of Connie's is solvable, 
+while if Peter buys
+<font face="symbol">p</font>(G)-1
+pebbles then Connie can find a configuration that is
+<i>r</i>-unsolvable for some 
+<i>r</i>.
+</p>
+
+</blockquote>
+</blockquote>
+
+<a name="fac"></a>
+<blockquote>
+<a class="phead">First Facts</a>
+
+<blockquote>
+<a class="psub">Breadth Lower Bound.</a>
+<a class="tres">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+ <mrow>
+  <mrow>
+   <mi>pi</mi>
+   <mo>(</mo>
+   <mi>G</mi>
+   <mo>)</mo>
+  </mrow>
+  <mo>&#8805;</mo>
+  <mrow>
+   <mi>N</mi>
+   <mo>(</mo>
+   <mi>G</mi>
+   <mo>)</mo>
+  </mrow>
+ </mrow>
+</math>
+</a>,
+where <i>N(G)</i> denotes the number of vertices of <i>G</i>.
+<blockquote>
+Otherwise, Connie will place at most one pebble on every vertex except the root.
+<p>
+<a name="class0"></a>
+Graphs whose pebbling number equals
+<i>N(G)</i>
+are said to be of
+<a class="pdeflink" href="clas.html">Class 0</a>.
+</p>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="diameter"></a>
+<a class="psub">Depth Lower Bound.</a>
+<a class="tres">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+ <mrow>
+  <mrow>
+   <mi>pi</mi>
+   <mo>&#8290;</mo>
+   <mi>G</mi>
+  </mrow>
+  <mo>&#8805;</mo>
+  <msup>
+   <mn>2</mn>
+   <mi>diam(G)</mi>
+  </msup>
+ </mrow>
+</math>
+</a>,
+where <i>diam(G)</i> denotes the
+<a title="the maximum distance between two vertices of G" class="pdefhov">diameter</a>
+of G.
+<blockquote>
+Otherwise, Connie will place all the pebbles on a vertex at distance <i>diam(G)</i>
+from the root.
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a class="psub">Pigeonhole Upper Bound.</a>
+<a class="tres">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+ <mrow>
+  <mrow>
+   <mi>pi</mi>
+   <mo>&#8290;</mo>
+   <mi>G</mi>
+  </mrow>
+  <mo>&#8805;</mo>
+  <mrow>
+   <mi>(N(G)-1)(</mi>
+   <msup>
+    <mn>2</mn>
+    <mi>diam(G)</mi>
+   </msup>
+   <mi>1)+1</mi>
+  </mrow>
+ </mrow>
+</math>
+</a>
+<blockquote>
+Otherwise, Connie cannot avoid placing at least
+<i>2<sup>diam(G)</sup></i>
+pebbles on some vertex, from which any root can be solved.
+</blockquote>
+</blockquote>
+
+</blockquote>
+
+<a name="res"></a>
+<blockquote>
+<a class="phead">First Results</a>
+
+<blockquote>
+<a class="psub">Cliques.</a>
+<a class="tres">
+<font face="symbol">p</font>(K<sub>n</sub>)=n
+</a>,
+where <i>K<sub>n</sub></i> denotes the
+<a name="complete" title="every pair of vertices is adjacent"
+href="complete.jpg" class="pdeflink">complete</a>
+graph on n vertices.
+<blockquote>
+This follows from the breadth and pigeonhole facts above.
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a class="psub">Paths.</a>
+<a class="tres">
+<font face="symbol">p</font>(P<sub>n</sub>)=2<sup>n-1</sup>
+</a>,
+where <i>P<sub>n</sub></i> denotes the
+<a name="path" title="a sequence of vertices, each adjacent to its successor" class="pdefhov">path</a>
+on <i>n</i> vertices.
+<blockquote>
+This follows from the depth fact above and induction.
+</blockquote>
+</blockquote>
+
+<a name="petersen"></a>
+<blockquote>
+<a class="psub">Petersen.</a>
+<a class="tres">
+<font face="symbol">p</font>(P)=10</a>,
+where <i>P</i> denotes the
+<a title="the graph in the solvable example above" href="peter.jpg" class="pdeflink">Petersen</a>
+graph.
+<blockquote>
+Give it a try!
+</blockquote>
+</blockquote>
+
+</blockquote>
+
+<a name="rea"></a>
+<blockquote>
+<a class="phead">Real Results</a>
+
+<blockquote>
+<a name="cycle"></a>
+<a class="psub">Cycles</a>
+<blockquote>
+Let <i>C<sub>n</sub></i> denote the
+<a title="the path Pn with the extra edge vnv1." class="pdefhov">cycle</a>
+on n vertices.
+Then
+<a class="alink" href="authmain.html#LioPac">Pachter</a>,
+<a class="alink" href="authmain.html#HunSne">Snevily</a>,
+and <a class="alink" href="authmain.html#BilVox">Voxman </a>
+proved the following theorem in
+<a class="plink" href="biblmain.html#PaSnVo_OPG">[PSV]</a>.
+<blockquote>
+<a class="tres">
+For k>=1, f(C<sub>2k</sub>)=2k and f(C<sub>2k+1</sub>)=2[]+1.
+</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="tree" class="psub">Trees</a>
+<blockquote>
+First we define a max path part'n Q of a
+<a title="a connected graph with no cycles" class="pdefhov">tree</a>
+T.
+Consider a partition Q=(Q_1,...,Q_m) of the edges of T
+into paths Q_1,..,Q_m, written so that q_i \geq q_{i+1},
+where q_i = |Q_i|.
+Any choice of root vertex r in T induces an orientation
+of the edges of T and thus also on each path Q_i.
+The orientation on Q_i determines a root r_i of Q_i
+which may or may not be an endpoint of Q_i.
+If r_i is an endpoint of Q_i then we say that Q_i is
+<i>well r-directed</i>.
+We call Q an <i>r-path partition</i>
+of T if each path Q_i os well r-directed,
+and a <i>path partition</i> if it is an r-path partition for some r.
+The path partition Q <i>majorizes</i> another, Q',
+if its sequence of path lengths majorizes that of the other,
+that is, if q_j>q_j', where j=min{i:q_i \neq q_i'}.
+A path (resp. r-path) partition of T is
+<i>maximim</i> (resp. <i>r-maximum</i>)
+if no other path (resp r-path) partition majorizes it.
+
+<p>
+Let (q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>m</sub>) be the nonincreasing
+sequence of path lengths of a maximum partition
+Q=(Q<sub>1</sub>, ..., Q<sub>m</sub>) of a tree T.  
+Then 
+<a class="alink" href="authmain.html#DavMoe">Moews</a>
+proved the following theorem in
+<a class="plink" href="biblmain.html#Moew_PG">[Moe]</a>.
+<blockquote>
+<a class="tres">For Q as above, we have f(T)=(\sum{i=2}^m 2^{qi})-m+1.</a>
+</blockquote>
+</p>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="cube" class="psub">Cubes</a>
+<blockquote>
+Let Q<sup>d</sup> be the d-dimensional
+<a title="has all binary d-tuples as vertices and edges between that differ in exactly one coordinate." href="cube.jpg" class="pdeflink">cube</a>.
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+invented the
+<a class="tlink" href="gconmain.html#2PP">2-Pebbling Property</a>
+in order to prove the following theorem in
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>.
+<blockquote>
+<a class="tres">
+<font face="symbol">p</font>(Q<sup>d</sup>)=2<sup>d</sup>.  
+</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a class="psub">Upper Bounds</a>
+<blockquote>
+Regarding upper bounds, it follows immediately from the Pigeonhole principle 
+that a graph G on n vertices with diameter d has pebbling number 
+\pi(G)\le (n-1)(2^d-1)+1.
+It would be interesting to find better general bounds on \pi(G), especially
+not involving n.
+The independence number seems not to be useful.
+For example, there is no function g such that every graph G of independence
+number \a and diameter d has pebbling number \pi(G)\le g(\a )2^d.
+Indeed, we define a family of graphs G<sub>m</sub> which satisfy diam(G)=d and
+\a (G)=2^{d-2}+1, but which have pebbling number \pi(G_m)\rar\infty
+as m\rar\infty.
+Define G_m=Q^{d-1}\cup K_m\cup E, where x\in V(Q^n) and the edge set
+E=\{xv\ |\ v\in V(K_m)\}.
+Since x is a cut vertex we know by the above comment that
+\pi(G_m)>2^{d-1}+m.
+However, the domination number (minimum size of a dominating set)
+can be useful.
+<a class="alink" href="authmain.html#MelCha">Chan</a> and
+<a class="alink" href="authmain.html#AnaGod">Godbole</a>
+<a class="plink" href="biblmain.html#ChaGod_IPB">[ChGo]</a>
+made the following improvements on the general
+upper bound.
+
+<blockquote>
+<a class="tnam">CG Theorem.</a>
+<a class="tres">
+Let dom(G) denote the domination number of G.  Then
+<p>
+1.  pi(G) \leq (n-d)(2^d-1)+1 <br></br>
+2.  pi(G) \leq (n+[]-1)2^{d-1}-n+2, and <br></br>
+3.  pi(G) \leq 2^{d-1}(n+2dom(G))-dom(G)+1.
+</p>
+</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="pra"></a>
+<blockquote>
+<a class="phead">Practice</a>
+</blockquote>
+
+</body>
+
+</html>

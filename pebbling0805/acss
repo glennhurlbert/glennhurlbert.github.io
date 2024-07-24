@@ -1,0 +1,27 @@
+From Andrzej.Czygrinow@asu.edu Tue Dec 20 13:03:23 2005
+Date: Tue, 20 Dec 2005 13:01:40 -0700
+From: Andrzej Czygrinow <Andrzej.Czygrinow@asu.edu>
+To: Glenn Hurlbert <hurlbert@mingus.la.asu.edu>
+Subject: CSS
+
+CSS that I am using.
+Andrzej
+
+    [ Part 2: "Attached Text" ]
+
+A.main:link {text-decoration: none; color :black; font-weight: bold;} 
+A.main:vlink {text-decoration: none; color :#ffb110; font-weight: bold;} 
+A.main:visited {text-decoration: none;color :black; font-weight: bold;} 
+A.main:hover {color: #990033; letter-spacing: 0; text-decoration:underline; background-color blue} 
+A.diff:link {text-decoration: none; color :#666666; font-weight: normal;} 
+A.diff:vlink {text-decoration: none; color :#cccccc; font-weight: normal;} 
+A.diff:visited {text-decoration: none;color :#999999; font-weight: normal;} 
+A.diff:hover {color: #ff0000; letter-spacing: 0; text-decoration:underline;} 
+TD.main {background: #ffffff; color: black}
+TD.soft {background: #ffffff; color: black}
+TD.menu {background: #dddddd; color: black}
+TD.title {background: #ffffff; color: black}
+TD.thm {background: #999999; color: gray;font-weight: bold;}
+TR.main {background: red; color: black; width: 400}
+TR.diff {background: #006666; color: black; height:10}
+P.different {text-decoration: none; color :#3ff456; font-weight: bold;}

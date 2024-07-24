@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal zero sum zero-sums zero-sum Davenport Davenport's constant
+EGZ theorem Olson's conjecture">
+<title>Algorithms page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<blockquote>
+<a name="fra" class="phead">Fractional Pebbling</a>
+
+<blockquote>
+Many combinatorial optimization parameters have fractional counterparts.
+Graph parameters like chromatic number and matching number
+<a class="plink" href="algomain.html#ScUl">[ScUl]</a>
+are well known examples, as is the dimension of posets
+<a class="plink" href="algomain.html#BrSc">[BrSc]</a>,
+and the pebbling number is no exception.
+Let
+<a class="mit">pi</a>(<a class="mit">G,k</a>)
+be the minimum
+<a class="mit">t</a>
+such that, for every choice of
+<a class="pdeflink" href="pnummain.html#root">root</a>
+<a class="mit">r</a>
+and for every
+<a class="pdeflink" href="pnummain.html#configuration">configuration</a>
+of
+<a class="mit">t</a>
+pebbles on
+<a class="mit">G</a>,
+it is possible to move
+<a class="mit">k</a>
+pebbles to
+<a class="mit">r</a>.
+Then the
+<a class="pdef">fractional pebbling number</a>
+<a class="mit">pihat</a>(<a class="mit">G</a>)
+= liminf<sub><a class="mit">k-->infinity</sub>pi</a>(<a class="mit">G,k</a>)/<a class="mit">k</a>.
+(Because <a class="mit">pi</a>(<a class="mit">G,sk</a>)
+<a class="mit"><= s<sub><sup>*</sup></sub>pi</a>(<a class="mit">G,k</a>) for all 
+<a class="mit">s > 0</a>, we can replace liminf by lim in the definition.)
+For example,
+<a class="mit">pihat</a>(<a class="mit">K<sub>n</sub></a>)
+= lim<sub><a class="mit">k-->infinity</sub></a>(<a class="mit">n</a>+2<a class="mit">k</a>-2)/<a class="mit">k</a> = 2. 
+Also, using
+<a class="alink" href="authmain.html#FanChu">Chung's</a>
+<a class="tlink" href="pnummain.html#tree">Pebbling Tree Theorem</a>
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>,
+it is easy to compute
+<a class="mit">pihat</a>(<a class="mit">T</a>)
+= 2<sup>diam(<a class="mit">T</a>)</sup>
+for every tree
+<a class="mit">T</a>.
+Based on this and other evidence,
+<a class="alink" href="authmain.html#GleHur">Hurlbert</a>
+made the following conjecture.
+
+<blockquote>
+<a class="tnam">Fractional Pebbling Conjecture.</a> &#160
+<a class="tres">For every graph G we have that pihat(G) = 2<sup>diam(G)</sup>.</a>
+</blockquote>
+
+Typically, the parameter in question can be formulated in terms of an integer 
+linear program, and the relaxation of the program gives rise to the fractional 
+version of the parameter.
+In the case of graph pebbling, while it is routine to verify in polynomial time
+that a particular configuration reaches a particular root, no simple matrix 
+condition as yet exists to capture whether every configuration of a fixed size
+<a class="mit">t</a>
+is solvable for a particular root.
+Thus minimizing
+<a class="mit">t</a>
+as an integer program remains elusive, and so it is difficult
+to say at present whether or not a parameter exists that is dual to
+<a class="mit">pi</a>.
+<a class="alink" href="authmain.html#AroLou">Lourdusamy</a>
+and
+<a class="alink" href="authmain.html#SSom">Somasundaram</a>
+<a class="plink" href="biblmain.html#LouSom_PCU">[LoSo]</a>
+found a proof that verifies 
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>
+for the case
+<a class="mit">C<sub></a>5</sub> x <a class="mit">C<sub></a>5</sub>.
+Their proof uses linear programming and lends credence to the above ideas 
+while suggesting that further explorations into the connections between 
+linear programming duality and pebbling numbers may be fruitful and 
+worthwhile indeed.
+</blockquote>
+
+<a name="com" class="phead">Complexity</a>
+
+<blockquote>
+Because it is easy to verify a pebbling solution, the question of deciding
+whether a given configuration
+<a class="mit">C</a>
+reaches a given root
+<a class="mit">r</a>
+is in
+<font face="Gill Sans">NP</font>.
+In fact it has been shown
+<a class="plink" href="biblmain.html#HurKie_CGP">[HuKi]</a>
+that this question is at least as hard as 
+<font face="Gill Sans">NP-complete</font>
+(see also
+<a class="plink" href="biblmain.html#MilCla_CGP">[MiCl</a>,
+<a class="plink" href="biblmain.html#Wats_CPC">Wat]</a>).
+</p>
+
+<blockquote>
+<a name="CLB" class="tnam">Complexity Lower Bound.</a> &#160
+<a class="tres">For every 4-regular hypergraph H, there is a graph G,
+a configuration C, and a root r, so that deciding if C reaches
+r in G is at least as hard as deciding if H has a perfect matching.</a>
+</blockquote>
+
+The following complexity upper bound is found in
+<a class="plink" href="biblmain.html#MilCla_CGP">[MiCl]</a>.
+
+<blockquote>
+<a class="tnam">Complexity Upper Bound.</a> &#160
+<a class="tres"> Deciding whether pi(G) <= k is a</a>
+<font color="#bb4400" face="Gill Sans">Pi<sub>2</sub><sup>P</sup>-complete</font>
+<a class="tres">problem.</a>
+</blockquote>
+
+This means that it is complete for the class of languages computable
+in polynomial time by <font face="Gill Sans">co-NP</font>
+machines equipped with an oracle for an
+<font face="Gill Sans">NP-complete</font> language.
+They also proved that deciding whether
+<a class="mit">pi<sup>*</sup></a>(<a class="mit">G</a>) <= <a class="mit">k</a> is
+<font face="Gill Sans">NP-complete</font>,
+while the same result is proved in
+<a class="plink" href="biblmain.html#Wats_CPC">[Wat]</a>
+for deciding whether
+<a class="mit">gamma</a>(<a class="mit">G</a>) <= <a class="mit">k</a>.
+</blockquote>
+
+<a name="app" class="phead">Approximations</a>
+
+<blockquote>
+Instead of computing
+<a class="mit">pi</a>(<a class="mit">G</a>)
+exactly, one could try to approximate it. 
+In other words the following question is of interest.
+
+<blockquote>
+<a class="tnam">Pebbling Approximation Question.</a> &#160
+<a class="tres">Does there exist a (constant/linear/polynomial) function F(n)
+and an algorithm which, given a graph G on n vertices, can find a
+number in polynomial time pibar(G) such that |pi(G)-pibar(G)| <= F(n)?</a>
+</blockquote>
+
+Just like in the case of other "hard" problems one can  design a "good" 
+approximation algorithm for special cases of graphs. 
+In particular, is it possible to design an approximation algorithm for the 
+case when
+<a class="mit">G</a>
+is a dense graph?
+Perhaps an easier and more natural question is to ask for an algorithm which, 
+given a configuration and a root, will pebble to the root efficiently.
+
+<blockquote>
+<a class="tnam">Pebbling Solution Question.</a> &#160
+<a class="tres">Does there exist an and an algorithm which,
+given a graph G, a root r, and an r-solvable configuration C,
+can pebble to r in time polynomial in n?</a>
+</blockquote>
+
+Of course, the
+<a class="tlink" href="algomain.html#CLB">Complexity Lower Bound</a>
+shows that this is in general impossible unless
+<font face="Gill Sans">P = NP</font>,
+although the question for appropriately restricted 
+classes of graphs, such as cubes, remains interesting.
+</blockquote>
+
+<a name="gre" class="phead">Greedy Algorithms</a>
+
+<blockquote>
+A solution is greedy (semi-greedy) if every step in the solution is
+<a class="pdeflink" href="gconmain.html#greedy">greedy</a>.
+A graph
+<a class="mit">G</a>
+is greedy if every configuration of size
+<a class="mit">pi</a>(<a class="mit">G</a>)
+has a greedy soultion.
+Trees, cubes, and products of paths are greedy
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>.
+The 5-cycle
+<a class="mit">abcde</a>
+is not yet greedy, as witnessed by the configuration
+<a class="mit">C</a>(<a class="mit">c,d</a>) = (3,2),
+with root
+<a class="mit">a</a>.
+Worse yet, let
+<a class="pdeflink" href="hgraph.jpg"><i>H</i></a>
+be the graph formed from the 6-cycle
+<a class="mit">abcdef</a>
+by adjoining new vertices
+<a class="mit">g</a>
+to
+<a class="mit">a</a>
+and
+<a class="mit">c</a>,
+and
+<a class="mit">h</a>
+to
+<a class="mit">a</a>
+and
+<a class="mit">e</a>.
+It is not difficult to show that
+<a class="mit">f</a>(<a class="mit">H</a>) = 9.
+Then the configuration
+<a class="mit">C</a>(<a class="mit">a,b,f,g,h</a>) =
+(1,3,3,1,1) is not semi-greedily
+<a class="mit">d</a>-solvable, so
+<a class="mit">H</a>
+is not semi-greedy.
+<p>
+Consider the
+<a class="pdeflink" href="pnummain.html#book">book</a>
+<a class="pdeflink" href="ggraph.jpg"><i>B</i><sub>3,3</sub></a> = <a class="mit">P</a><sub>3</sub> x <a class="mit">S</a><sub>4</sub>
+(<a class="mit">S</a><sub>4</sub> is the star <a class="mit">K</a><sub>1,3</sub>).
+Both
+<a class="mit">P</a><sub>3</sub>
+and
+<a class="mit">K</a><sub>1,3</sub>
+are greedy because they are trees.
+However,
+<a class="mit">B</a><sub>3,3</sub>
+is not even semi-greedy.
+Indeed, think of 
+<a class="mit">B</a><sub>3,3</sub>
+as the pages of a book, let
+<a class="mit">r</a>
+be the corner vertex of one of the pages,
+<a class="mit">x</a>
+the farthest corner vertex of a second page,
+<a class="mit">u</a>,
+<a class="mit">v</a>,
+and
+<a class="mit">w</a>
+the three vertices of the third page, and let
+<a class="mit">C</a>(<a class="mit">u,v,w,x</a>) =
+(1,1,1,15).
+From the
+<a class="pdeflink" href="pnummain.html#pra">Practice</a>
+section we know that 
+<a class="mit">pi</a>(<a class="mit">B</a><sub>3,3</sub>) = 18, so 
+<a class="mit">C</a>
+is solvable.
+However, 
+<a class="mit">C</a>
+has no greedy solution.
+This shows that even semi-greediness is not always preserved by 
+<a class="pdeflink" href="gconmain.html#CaPr">cartesian product</a>.
+This is especially disappointing since it shoots down a promising
+method of attack on
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>.
+Knowing that a graph is greedy would be of great aid in solving some pebbling
+configuration on the graph via computer.
+Thus it is worth attempting to characterize greedy graphs, or at least
+building up an encycolpedia of greedy graphs.
+</p>
+
+<a name="treesol">
+<p>
+We say a graph
+<a class="mit">G</a>
+is
+<a class="pdef">tree-solvable</a>
+if every configuration of size at least
+<a class="mit">pi</a>(<a class="mit">G</a>)
+has a solution in which the edges traversed by pebbling steps
+form an acyclic subgraph.
+The graph
+<a class="mit">H</a> defined above is not tree-solvable.
+Indeed, the configuration
+<a class="mit">C</a>(<a class="mit">b,c,d,g,h</a>) =
+(1,5,1,1,1) has no tree-solution for the root
+<a class="mit">f</a>.
+The configuration on
+<a class="mit">B</a><sub>3,3</sub>
+above is not tree-solvable either, which shows that
+tree-solvability is also not always preserved by
+<a class="pdeflink" href="gconmain.html#CaPr">cartesian product</a>.
+Another simple example is the
+<a class="pdeflink" href="cube.jpg">cube</a>
+<a class="mit">Q</a><sup>3</sup>:
+place 5 pebbles at distance 3
+from the root 
+<a class="mit">r</a>,
+and 1 pebble at each of the three vertices at distance 2
+from
+<a class="mit">r</a>.
+Thus, not even greedy graphs are guaranteed to be tree-solvable.
+</p>
+
+<p>
+Interestingly, the methods used in random pebbling suggest that almost all
+configurations above the
+<a class="pdeflink" href="rpebmain.html#thre">pebbling threshold</a>
+have greedy tree-solutions.
+Thus, it is reasonable to use a greedy algorithm to pare off most
+configurations, leaving possibly few configurations that require more
+sophisticated algorithms for solving.
+</p>
+
+</blockquote>
+
+<a name="ref">
+<a class="phead">References</a>
+
+<blockquote>
+<a name="ScUl">
+<!-- <a class="rnum">[ScUl]</a> -->
+  <a class="rauth">E. Scheinerman and D. Ullman</a>
+  <a class="rtitle">Fractional Graph Theory: A rational approach to the theory of graphs</a>
+  Wiley, New York
+  <a class="ryear">(1997)</a>
+</blockquote>
+
+<blockquote>
+<a name="BrSc">
+<!-- <a class="rnum">[ErRe]</a> -->
+  <a class="rauth">G. Beightwell and E. Scheinerman</a>
+  <a class="rtitle">Fractional dimension of partial orders</a>
+  <a class="rjour">Order</a>
+  <a class="rvol">9</a>
+  <a class="ryear">(1992),</a>
+  <a class="rpage">139--158</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+
+</body>
+
+</html>

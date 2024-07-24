@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>History page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<a name="zer">
+<p>
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+Zero-Sums
+</b>
+</font>
+
+<blockquote>
+The origins of graph pebbling reside in combinatorial number theory and
+group theory.  A sequence of elements of a finite group G is called a <b>zero-sum sequence</b> if it sums to the identity of G.  A simple pigeonhole argument (on the sequence of partial sums) proves the following statement.
+</p>
+<p><b>Pigeonhole Fact</b> &#160 Any sequence of |G| elements of a finite group G contains a zero-sum subsequence.
+</p>
+In fact, a subsequence of consecutive terms can be guaranteed by the 
+pigeonhole argument.  Furthermore, one can instead stipulate that the zero-sum subsequence has at most N terms, where N=N(G) is the exponent of G (i.e. the maximum order of an element of G), and this is best possible.
+<p>
+
+</blockquote>
+</blockquote>
+
+<a name="egz">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+EGZ Theorem
+</b>
+</font>
+
+<blockquote>
+Initiated in 1956 by <a class="basic" href="authmain.html#PauErd">Erdos</a> [1], the study of zero-sum sequences has a long history with many important applications in number theory and group theory.  In 1961 <a class="basic" href="authmain.html#PauErd">Erdos</a> et al. [2] proved the following theorem, which we call the EGZ (Erdos-Ginzburg-Ziv) Theorem.</p>
+<p> 
+<b>EGZ Theorem</b> &#160 Every sequence of 2|G|-1 elements of a cyclic group G contains a zero-sum subsequence of length exactly |G|.
+</p> 
+<p>
+In 1969 van Emde Boas and Kruyswijk [3] proved that any sequence of N(1+log(|G|/N)) elements of a finite abelian group contains a zero-sum sequence.  In 1994 Alford et al. [4] used this result and modified <a class="basic" href="authmain.html#PauErd">Erdos's</a> arguments to prove that there are infinitely many Carmichael numbers.</p>
+</blockquote>
+</blockquote>
+
+<a name="dav">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+Davenport's Constant
+</b>
+</font>
+
+<blockquote>
+Much of the recent study has involved finding <b>Davenport's constant</b> D(G), defined to be the smallest D such that every sequence of D elements contains a zero-sum subsequence [5].  There are a wealth of results on this problem {[6],[7],[8],[9],[10],[11]} and its variations {[12],[13]}.
+
+</blockquote>
+</blockquote>
+
+<a name="bir">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+
+Pebbling Birth
+</b>
+</font>
+
+<blockquote>
+<p>In 1989 <a class="basic" href="authmain.html#DanKle">Kleitman</a> and <a class="basic" href="authmain.html#PauLem">Lemke</a> [14], and independently <a class="basic" href="authmain.html#FanChu">Chung</a> [15], proved the following theorem (originally stated number-theoretically), strengthening the <b>Pigeonhole Fact</b>.  Let Z<sub>n</sub> denote the cyclic group of order n, and let |g| denote the order of an element g in the group to which it belongs.</p>
+<p>
+<b>Theorem 1</b> &#160 For every sequence (g_k)_{k=1}^n of n elements from Z<sub>n</sub>, there is a zero-sum subsequence (g_k)_{k \in K} such that /sum_{k \in K}1/|g_k| <= 1.</p>
+<p>
+For a sequence S the sum $\sum_{g\in S}1/|g|$ is known as the <i>cross number</i> of S and is an important invariant in factorization theory.  Guaranteeing cross number at most 1 strengthens the extension of the <b>Pigeonhole Fact</b> that |K|<=N(G), and shows that equality holds if and only if every |g<sub>k</sub>|=N.  The concept of pebbling in graphs arose from an attempt by <a class="basic" href="authmain.html#JefLag">Lagarias</a> and <a class="basic" href="authmain.html#MikSak">Saks</a> to give an alternative (and more natural and structural) proof than that of <a class="basic" href="authmain.html#DanKle">Kleitman</a> and <a class="basic" href="authmain.html#PauLem">Lemke</a>; it was <a class="basic" href="authmain.html#FanChu">Chung</a> who carried out their idea.  See also [16] for another extension of this result.</p>
+<p>
+<a class="basic" href="authmain.html#DanKle">Kleitman</a> and <a class="basic" href="authmain.html#PauLem">Lemke</a> then conjectured that <b>Theorem 1</b> holds for all finite groups.  For a subgroup H of G, call a sequence of elements of G an H-<i>sum sequence</i> if its elements sum to an element of H.  In [17],[18] is proved the following theorem (the methods of [17] use graph pebbling).</p>
+<p>
+<b>Theorem 2</b> &#160 Let H be a subgroup of a finite abelian group G with |G|/|H|=n.  For every sequence $(g_k)_{k=1}^n$ of n elements from G there is an H-sum subsequence $(g_k)_{k\in K}$ such that $\sum_{k\in K}1/|g_k|\le 1/|\sum_{k\in K}\ g_k|$.</p>
+<p>
+The case H={e} here gives <b>Theorem 1</b> for finite abelian groups, strengthening the van Emde Boas and Kruyswijk result [3].  <a class="basic" href="authmain.html#DanKle">Kleitman</a> and <a class="basic" href="authmain.html#PauLem">Lemke</a> also conjectured that <b>Theorem 2</b> holds for all finite groups, and verified their conjecture for all dihedral groups (see [14]).  For other nonabelian groups, it has been shown recently to hold for the nonabelian solvable group of order 21 (see [17]).</p>
+
+</blockquote>
+</blockquote>
+
+<a name="ols">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+Olson's Conjecture
+</b>
+</font>
+
+<blockquote>
+It would be interesting to see whether graph pebbling methods can shed light on the Davenport constant for finite abelian groups.  In this regard, one of the most pressing questions is as follows.  Write G=\prod_{i=1}^r Z<sub>n<sub>i</sub></sub>, where 1 < n<sub>1</sub>|n<sub>2</sub>|...|n<sub>r</sub>.  Then r=r(G) is the <i>rank</i> of G.  It is natural to guess that D(G)=\sum_{i=1}^r n<sub>i</sub>-r+1=1+\sum_{i=1}^r (n<sub>i</sub>-1) from pigeonhole intuition.  This was conjectured By <b>Olson</b> in [5] and is true by <b>Theorem 1</b> for rank 1 groups.  Moreover, it was proven in [5] for rank 2 groups and <i>p</i>-groups as well.  However, it was proven in [3],[10] that the conjecture is false for some groups each rank at least 4.  What remains open is the instance of rank 3.
+
+</blockquote>
+</blockquote>
+
+<a name="app">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+Applications
+</b>
+</font>
+
+<blockquote>
+There are applications in factorization theory [19] and graph theory [20].
+</blockquote>
+</blockquote>
+
+<a name="ref">
+<blockquote>
+<font size="+1" color ="#009900">
+<b>
+References
+</b>
+</font>
+
+<blockquote>                                                                 
+  <b>                                                                        
+    [AGP]
+  </b>
+  <font size="+1" color ="#009900">
+    <b>
+      W. R. Alford, A. Granville and C. Pomerance
+    </b>
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      There are infinitely many Carmichael numbers
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Annals Math. Ser. 2 <b>139</b>, No. 3 (1994), 703-722
+  </i>                                                                       
+</blockquote>  
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    [Car]
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      Y. Caro                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      Zero-sum problems--a survey
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Discrete Math <b>152</b> (1996), 93-113                                
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    19.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      S. Chapman                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+On the Davenport constant, the cross number, and theor application in factorization theory
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Zero-dimensional commutative rings, Lecture notes in Pure Appl. Math <b>171</b> Marcel Dekker, New York (1997), 119-128                                
+  </i>                                                                       
+</blockquote>   
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    [EmKr]
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      P. van Emde Boas and D. Kruyswijk                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      A combinatorial problem on finite Abelian groups III
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Report ZW-1969-007, Math. Centre, Amsterdam
+  </i>
+</blockquote>  
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    1.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      P. Erdos                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      On pseudoprimes and Carmichael numbers
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+     Publ. Math. Debrecen <b>4</b> (1956), 201-206
+  </i>                                                                       
+</blockquote>  
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    2.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      P. Erdos, A. Ginzburg and A. Ziv                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      A theorem in additive number theory
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Bull. Res. Council Israel <b>10F</b> (1961), 41-43
+  </i>                                                                       
+</blockquote>  
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    7.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      W. Gao                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      On Davenport's constant of finite Abelian groups with rank three
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Discrete Math. <b>222</b> (2000), 111-124                                
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    8.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      W. Gao and A. Geroldinger                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      Zero-sum problems and coverings by proper cosets
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Euro. J. Combin. <b>24</b> (2003), 531-549                                
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    12.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      W. Gao and X. Jin                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      Weighted sums in finite cyclic groups
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Discrete Math. <b>283</b> (2004), 243-247                                
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    9.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      W. Gao and R. Thangadurai                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      On the structure of sequences with forbidden zero-sum subsequences
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Colloq. Math. <b>98</b> (2003), 213-222                                
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    18.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      A. Geroldinger                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      On a conjecture of Kleitman and Lemke
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    J. Number Theory <b>44</b> (1993), 60-65                                
+  </i>                                                                       
+</blockquote>   
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    10.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      A Geroldinger and R. Schneider                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      On Davenport's Constant
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    J. Combin. Theory Ser. A <b>61</b> (1992), 147-152
+  </i>                                                                       
+</blockquote> 
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    13.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      M. Nathanson                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+      Additive Number Theory: Inverse Problems and the Geometry of Sumsets (Graduate Texts in Mathematics; 165), Springer-Verlag, New York (1996), 48-51           </i>                                                            
+</blockquote>   
+
+<blockquote>                                                                 
+  <b>                                                                        
+    5.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      J. Olson                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      A combinatorial problem on finite Abelian groups I
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    J. Number Theory <b>1</b> (1969), 8-10                                
+  </i>                                                                       
+</blockquote>  
+
+<p>          
+<blockquote>                                                                 
+  <b>                                                                        
+    11.                                                                      
+  </b>                                                                       
+  <font size="+1" color ="#009900">
+    <b>                                                                      
+      Z. Sun                                 
+    </b>                                                                     
+  </font>                                                                    
+  <font color="bb4400">                                                      
+    <b>                                                                      
+      Unification of zero-sum problems, subset sums and covers of Z
+    </b>
+  </font>                                                                    
+  <i>                                                                        
+    Elec. Res. Announce. Amer. Math. Soc. <b>9</b> (2003), 51-60
+  </i>                                                                       
+</blockquote> 
+
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

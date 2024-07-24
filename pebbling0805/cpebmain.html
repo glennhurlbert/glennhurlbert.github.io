@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal thresholds threshold threshhold threshholds clique cliques
+path paths sequences sequence density degree">
+<title>Randon Graphs page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<blockquote>
+
+<a name="def" class="phead">Definitions</a>
+
+<blockquote>
+<a name="pebnum">
+In terms of possible applications it may be relevant to consider having to
+move a pebble to every vertex simultaneously, rather than to just one root.
+More generally, given a weight function
+<a class="mit">w</a>
+on the vertices of a graph
+<a class="mit">G</a>,
+We define the
+<a class="pdef">weighted cover pebbling number</a>
+<a class="mit">gamma<sub>w</sub></a>(<a class="mit">G</a>)
+to be the minimum number of pebbles needed to place, after a sequence of pebbling steps, 
+<a class="mit">w</a>(<a class="mit">v</a>)
+pebbles on vertex
+<a class="mit">v</a>, for all
+<a class="mit">v</a>,
+regardless of the initial configuration.
+The
+<a class="pdef">cover pebbling number</a>
+<a class="mit">gamma</a>(<a class="mit">G</a>)
+regards the case
+<a class="mit">w</a>(<a class="mit">v</a>)=1
+for all
+<a class="mit">v</a>.
+We say that
+<a class="mit">w</a>
+is
+<a class="pdef">positive</a>
+if
+<a class="mit">w</a>(<a class="mit">v</a>) > 0
+for every vertex
+<a class="mit">v</a>.
+</blockquote>
+
+<a name="res" class="phead">Results</a>
+
+<blockquote>
+<p>
+In
+<a class="plink" href="biblmain.html#CCFHPST_CPN">[CCFHPST]</a>,
+for positive weight functions the weighted cover pebbling 
+number for cliques and trees is found, and it is shown that the
+<a class="pdeflink" href="cpebmain.html#cov">cover pebbling ratio</a>
+between this parameter and the pebbling number can be arbtrarily large, even within 
+the class of trees.
+</p>
+<a class="psub">Cliques</a>
+<blockquote>
+Given
+<a class="mit">w</a>
+define
+|<a class="mit">w</a>| = sum<sub>v</sub> <a class="mit">w</a>(<a class="mit">v</a>) and
+min <a class="mit">w</a> = min<sub><a class="mit">v</sub> w</a>(<a class="mit">v</a>).
+
+<blockquote>
+<a class="tres">For every positive weight function w we have gamma<sub>w</sub>(K<sub>n</sub>) = 2|w|-</a><a class="tfunc">min</a><a class="tres"> w.</a>
+</blockquote>
+
+</blockquote>
+
+<a name="trees" class="psub">Trees</a>
+
+<blockquote>
+Given a graph
+<a class="mit">G</a>
+define
+<a class="mit">s<sub>w</sub></a>(<a class="mit">G</a>) = max<a class="mit"><sub>v</sub></a> sum<a class="mit"><sub>u</sub> w</a>(<a class="mit">u</a>)2<sup>dist(<a class="mit">u,v</a>)</sup>,
+where
+dist(<a class="mit">u,v</a>)
+denotes the distance between
+<a class="mit">u</a>
+and
+<a class="mit">v</a>.
+
+<blockquote>
+<a name="Th53" class="tnam"><!-- Cover Pebbling Tree Theorem.</a> &#160 -->
+<a class="tres">For every positive weight function w we have gamma<sub>w</sub>(T) = s<sub>w</sub>(T) for every tree T.<a>
+</blockquote>
+
+</blockquote>
+
+<a class="psub">Cubes</a>
+
+<blockquote>
+<a class="alink" href="authmain.html#GleHur">Hurlbert's</a>
+Stacking Conjecture (see
+<a class="plink" href="cpebmain.html#sta">Stacking Theorem</a>),
+that
+<a class="mit">gamma<sub>w</sub></a>(<a class="mit">G</a>) = 
+<a class="mit">s<sub>w</sub></a>(<a class="mit">G<?a>) for every graph
+<a class="mit">G</a>,
+is verified for each of the above graphs, and also for cubes, below
+<a class="plink" href="biblmain.html#HurMun_CPH">[HuMu]</a>.
+In the case of <i>d</i>-dimensional cubes the resulting formula is quite nice.
+
+<blockquote>
+<!-- <a class="tnam">Cover Cube Theorem.</a>&#160 -->
+<a class="tres">gamma(Q<sup>d</sup>) = 3<sup>d</sup>.</a>
+</blockquote>
+
+</blockquote>
+Cycles and certain graph products were considered in
+<a class="plink" href="biblmain.html#TomWye_CPC">[ToWy]</a>, and
+wheels and complete multipartite graphs were considered in
+<a class="plink" href="biblmain.html#WatYer_CPN">[WaYe]</a>.
+</blockquote>
+
+<a name="sta" class="phead">Stacking Theorem</a>
+
+<blockquote>
+<p>
+<a name="simple">
+It would be interesting to find the weighted pebbling numbers of other graph 
+classes and also random graphs.
+The main technique in proving the
+<a class="tlink" href="cpebmain.html#trees">Cover Pebbling Tree Theorem</a>
+involves showing that the largest <i>w</i>-unsolvable configuration is
+<a class="pdef">simple</a>;
+that is, concentrated ("stacked") on a single vertex.
+The same cannot be said in general for weight functions that are not positive.
+An important question to investigate along these lines is whether, for 
+arbitrary graphs and positive weight functions, the largest <i>w</i>-unsolvable 
+configuration is always simple.
+A positive answer is found in the following theorem,
+proved independently in
+<a class="plink" href="biblmain.html#Sjos_CPT">[Sjo,</a>
+<a class="plink" href="biblmain.html#VuoWyc_CWC">VuWy]</a>.
+</p>
+
+<blockquote>
+<a name="stack" class="tnam">Stacking Theorem.</a> &#160
+<a class="tres">For every graph G and positive weight function w we have gamma<sub>w</sub>(G) = s<sub>w</sub>(G).<a>
+</blockquote>
+</blockquote>
+
+
+<a name="cov" class="phead">Cover Pebbling Ratio</a>
+
+<blockquote>
+<a name="star">
+We define the
+<a class="pdef">cover pebbling ratio</a>
+of
+<a class="mit">G</a>
+to be
+<a class="mit">rho</a>(<a class="mit">G</a>) =
+<a class="mit">gamma</a>(<a class="mit">G</a>)/<a class="mit">pi</a>(<a class="mit">G</a>).
+For a class
+<b>F</b>
+of graphs we define
+<a class="mit">rho</a>(<a class="mit"><b>F</b></a>) =
+sup<sub><a class="mit">G in</a> <b>F</b></sub>
+<a class="mit">rho</a>(<a class="mit">G</a>)
+if it exists, and
+<a class="mit">rho</a>(<a class="mit"><b>F</b></a>) =
+<a class="mit">infinity</a>
+otherwise.
+Thus, for the families
+<b>K</b>
+of
+<a class="pdeflink" href="complete.jpg">complete</a>
+graphs, 
+<b>S</b>
+of
+<a class="pdeflink" href="star.jpg" title="a single vertex adjacent to each of n independent vertices">stars</a>,
+and
+<b>P</b>
+of
+<a class="pdeflink" href="path.jpg">paths</a>, we have
+<a class="mit">rho</a>(<a class="mit"><b>K</b></a>) =
+<a class="mit">rho</a>(<a class="mit"><b>S</b></a>) =
+<a class="mit">rho</a>(<a class="mit"><b>P</b></a>) = 2.
+ 
+
+<p>
+<a name="fuse">
+The
+<a class="pdeflink" href="fuse.jpg">fuse</a>
+<a class="mit">F<sub>l</sub></a>(<a class="mit">n</a>)
+is the graph on
+<a class="mit">n</a>
+vertices composed of a path (or wick) on
+<a class="mit">l</a>
+vertices with
+<a class="mit">n-l</a>
+independent vertices (sparks) incident to one of its endpoints.
+(These are also called brooms, with handle and bristles, in
+<a class="plink" href="cpebmain.html#EFS">[EFS]</a>.)
+As a special case of the
+<a class="tlink" href="cpebmain.html#trees">Cover Pebbling Tree Theorem</a>
+we know that
+the cover pebbling number of fuses is
+<a class="mit">gamma</a>(<a class="mit">F<sub>l</sub></a>(<a class="mit">n</a>)) =
+(<a class="mit">n-l+</a>1)2<sup><aclass="mit">l</a></sup>-1.  
+Likewise, as a special case of the
+<a class="tlink" href="pnummain.html#tree">Pebbling Tree Theorem</a>
+we also know that the pebbling number of fuses is 
+<a class="mit">pi</a>(<a class="mit">F<sub>l</sub></a>(<a class="mit">n</a>)) =
+2<sup><a class="mit">l</sup>+n-l</a>-1.  
+As a result, we obtain the cover pebbling ratio for fuses.
+In particular, for
+<a class="mit">n</a> = 2<sup><a class="mit">l</a></sup>+l, we have 
+<a class="mit">rho</a>(<a class="mit">F<sub>l</sub></a>(<a class="mit">n</a>)) >
+(<a class="mit">n</a>-log <aclass="mit">n</a>)/2.
+
+This implies that the cover pebbling ratio for the class of trees is unbounded
+
+<blockquote>
+<a class="tnam">Cover Pebbling Ratio Tree Theorem.</a> &#160
+<a class="tres">Let <b>T</b> be the family of all trees.  Then rho(<b>T</b>) = infinity.</a>
+</blockquote>
+
+It would be of interest to find other classes of graphs (like cliques
+and stars and paths) which have bounded cover pebbling ratio.
+</p>
+</blockquote>
+
+<a name="weighted">
+<a name="wcp" class="phead">Weighted Pebbling Number</a>
+
+<blockquote>
+Finally, we define the
+<a class="pdef">weighted pebbling number</a>
+<a class="mit">pi<sub><b>w</b></sub></a>(<a class="mit">G</a>)
+to be the minimum number
+<a class="mit">t</a>
+so that, for every weight function
+<a class="mit">w</a>
+with
+<a class="mit">|w| = </a><b>w</b>, 
+every configuration of
+<a class="mit">t</a>
+pebbles is <i>w</i>-solvable.
+Note that the target weight function w is fixed in the definition of 
+weighted cover pebbling number, while for weighted pebbling number
+every target weight function w of size |w| = 
+<b>w</b>
+must be solvable.
+If one is concerned only with positive
+<a class="mit">w</a>,
+then such an evaluation on any tree
+<a class="mit">T</a>
+is trivial.
+One would compute 
+max<a class="mit"><sub>w</sub></a> max<a class="mit"><sub>v</sub></a> sum<a class="mit"><sub>u</sub></a> 2<sup><a class="mit">d</a>(<a class="mit">u,v</a>)</sup></a> =
+max<a class="mit"><sub>v</sub></a> max<a class="mit"><sub>w</sub></a> sum<a class="mit"><sub>u</sub></a> 2<sup><a class="mit">d</a>(<a class="mit">u,v</a>)</sup></a> =
+max<a class="mit"><sub>v</sub></a> |<a class="mit">w</a>|2<sup>max<sub><a class="mit">u</sub>d</a>(<a class="mit">u,v</a>)</sup> =
+<b>w</b><a class="mit"></a>2<sup>diam(<a class="mit">T</a>)</sup>.
+However, nonpositive
+<a class="mit">w</a>
+must be considered, and thus finding weighted cover pebbling numbers for such
+<a class="mit">w</a>
+is critical.
+</blockquote>
+
+<a name="ref" class="phead">References</a>
+
+<blockquote>
+<a name="EFS">
+<!-- <a class="rnum">[ErRe]</a> -->
+  <a class="rauth">P. Erdos, R.J. Faudree and R.H. Schelp</a>
+  <a class="rtitle">Ramsey numbers for brooms</a>
+  <a class="rjour">Congr. Numer.</a>
+  <a class="rvol">35</a>
+  <a class="ryear">(1982),</a>
+  <a class="rpage">283--293</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

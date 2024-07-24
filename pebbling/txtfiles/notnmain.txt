@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling
+theory fractional pebble peble graham grahams graham's conjecture 2-pebbling two-pebbling
+optimal">
+<title>Pebbling Notation page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<blockquote>
+<TABLE BORDER=0>
+
+<a name="top">
+
+<a name="A">
+
+<a name="B">
+<TR>
+<TD>
+$B_{p,q}$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class=pdeflink href="pnummain.html#book">book</a>
+<a class="pdef">having
+$p$
+pages,
+$q$
+vertices per page, and
+$q$
+vertices on the binding</a>
+</TD>
+</TR>
+
+
+<a name="C">
+
+<TR>
+<TD>
+$G_1 \times G_2$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class=pdeflink href="gconmain.html#CaPr">cartesian product</sub></a>
+<a class="pdef">of graphs
+$G_1$
+and
+$G_2$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$\kappa(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="clasmain.html#con">connectivity</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$\gamma(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="cpn" class="pdeflink" href="cpebmain.html#pebnum">cover pebbling number</a>
+<a class="pdef">the cover pebbling number of graph
+$G$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$\rho(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="cpebmain.html#cov">cover pebbling ratio</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$Q^d$
+</TD>
+<TD>
+<a class="pdef">the $d$-dimensional</a>
+<a class="pdeflink" href="pnummain.html#cube">cube</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$C_n$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="cycle" class="pdeflink" href="pnummain.html#cycle">cycle</a>
+<a class="pdef">on 
+$n$
+vertices</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+${\rm diam}(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="pnummain.html#diameter">diameter</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+${\rm dom}(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="pnummain.html#dominating">domination number</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="E">
+
+<a name="F">
+<TR>
+<TD>
+$F_{l,m}$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="cpebmain.html#fuse">fuse</a>
+<a class="pdef">composed of the path on
+$l$
+vertices with 
+$m$
+vertices incident to one of its endpoints</a>
+</TD>
+</TR>
+
+<a name="G">
+<TR>
+<TD>
+${\rm girth}(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="clasmain.html#gir">girth</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="I">
+
+<a name="J">
+
+<a name="K">
+<TR>
+<TD>
+$K_{a,b}$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="pnummain.html#star">complete bipartite graph</a>
+<a class="pdef">with partite sets of size
+$a$
+and
+$b$</a>
+</TD>
+</TR>
+
+<a name="L">
+
+<a name="M">
+
+<a name="N">
+
+<a name="O">
+<TR>
+<TD>
+$\pi^*(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="opebmain.html#optimal">optimal pebbling number</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="P">
+<TR>
+<TD>
+$P_n$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="path" class="pdeflink" href="pnummain.html#path">path</a>
+<a class="pdef">on
+$n$
+vertices</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$\pi(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="pebbnum" class="pdeflink" href="pnummain.html#pebnum">pebbling number</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="Q">
+
+<a name="R">
+
+<TR>
+<TD>
+$S(C)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="support" class="pdeflink" href="gconmain.html#support">support</a>
+<a class="pdef">of a configuration
+$C$
+on a graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="S">
+
+<TR>
+<TD>
+$S_n$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a name="star" class="pdeflink" href="pnummain.html#star"><i>star</a>
+<a class="pdef">on
+$n$
+vertices</a>
+</TD>
+</TR>
+
+
+<TR>
+<TD>
+$T$
+</TD>
+<TD>
+<a class="pdef">a</a>
+<a name="tree" class="pdeflink" href="pnummain.html#tree">tree</a>
+</TD>
+</TR>
+
+<a name="U">
+
+<a name="V">
+
+<a name="W">
+<TR>
+<TD>
+$\gamma_w(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="cpebmain.html#pebnum">weighted cover pebbling number</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<TR>
+<TD>
+$\pi_{\mathbf{w}}(G)$
+</TD>
+<TD>
+<a class="pdef">the</a>
+<a class="pdeflink" href="cpebmain.html#weighted">weighted pebbling number</a>
+<a class="pdef">of graph
+$G$</a>
+</TD>
+</TR>
+
+<a name="X">
+
+<a name="Y">
+
+</TABLE>
+</blockquote>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

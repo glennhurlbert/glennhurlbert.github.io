@@ -1,0 +1,24 @@
+A.menu:link {text-decoration: none; color :#660000; font-weight: bold; font-size: small} 
+A.menu:visited {text-decoration: none; color :660000; font-weight: bold; font-size: small} 
+A.menu:hover {text-decoration: none; color: #000099; letter-spacing: 0; font-size: small} 
+
+A.htitle {text-decoration: none; color: #bb0000; font-size: x-large; font-weight: bold; font-family: Times}
+
+A.phead {text-decoration: none; color: #009900; font-size: medium; font-weight: bold;}
+
+A.pheadl:link {text-decoration: none; color: #009900; font-size: medium; font-weight: bold;}
+A.pheadl:visited {text-decoration: none; color: #009900; font-size: medium; font-weight: bold;}
+A.pheadl:hover {text-decoration: none; color: #ff5500; font-size: medium; font-weight: bold;}
+
+A.normal {font-size: small}
+A.normalb {text-decoration: none; font-size: small; font-weight: bold; color: #0055aa}
+A.normald {font-size: small; font-weight: bold; color: #aaaa55}
+A.normalg {font-size: small; font-weight: bold; color: #007799}
+A.normalp {font-size: small; color: #550088}
+
+A.normalbl:link {text-decoration: none; font-size: small; font-weight: bold; color: #0055aa}
+A.normalbl:visited {text-decoration: none; font-size: small; font-weight: bold; color: #0055aa}
+A.normalbl:hover {text-decoration: none; font-size: small; letter-spacing: 0; color: #550055}
+
+BODY {font-family: Verdana, sans-serif; font-size: medium}
+

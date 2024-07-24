@@ -1,0 +1,14 @@
+
+page	name		contains
+----	----		--------
+
+main 	pebb.html	header, menu, numbers (eventually home instead of num)
+
+header	pebbhead.php	title & counter
+
+menu	pebbmenu.html	z
+
+numbers	pnum.html	z
+
+
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal thresholds threshold threshhold threshholds clique cliques
+path paths sequences sequence density degree">
+<title>Random Graphs Page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="not">
+<blockquote>
+<a class="phead">Notation</a>
+
+<blockquote>
+The notion that graphs with very few edges tend to have large pebbling
+number and graphs with very many edges tend to have small pebbling
+number can be made precise as follows.
+Let
+$\mathbf{G}_{n,p}$
+be the random graph model in which each of the
+${n \choose 2}$
+possible edges of a random graph having
+$n$
+vertices appears independently with probability
+$p$.
+For functions
+$f$
+and
+$g$
+on the natural numbers we write that
+$f \ll g$
+(or
+$g \gg f$)
+when
+$f/g \rightarrow 0$
+as
+$n \rightarrow \infty$.
+Let
+$o(G)=\{f | f \ll g \}$
+and define
+$O(g)$
+(resp.,
+$\Omega(G)$)
+to be the set of functions
+$f$
+for which there are constants
+$c,N$
+such that
+$f(n) \leq cg(n)$
+(resp.,
+$f(n) \geq cg(n)$)
+whenever
+$n > N$.
+Finally, let
+$\Theta(g) = O(g) \cap \Omega(g)$.
+</p>
+
+</blockquote>
+</blockquote>
+
+
+<a name="thresh">
+<a name="thr">
+<blockquote>
+<a class="phead">Thresholds</a>
+
+<blockquote>
+Let
+$\mathbf{P}$
+be a property of graphs and consider the probability
+${\rm Pr}[\mathbf{P}]={\rm Pr}_p[\mathbf{P}]$
+that the random graph
+$\mathbf{G}_{n,p}$
+has
+$\mathbf{P}$.
+For large
+$p$
+it may be that
+${\rm Pr}[\mathbf{P}] \rightarrow 1$
+as 
+$n \rightarrow \infty$,
+and for small
+$p$
+it may be that
+${\rm Pr}[\mathbf{P}] \rightarrow 0$
+as 
+$n \rightarrow \infty$.
+More precisely, define the
+<a class="pdef">threshold</a>
+of
+$\mathbf{P}$,
+$t(\mathbf{P})$,
+to be the set of functions
+$t$
+for which
+$p \gg t$
+implies that
+${\rm Pr}[\mathbf{P}] \rightarrow 0$
+as 
+$n \rightarrow \infty$.
+
+</blockquote>
+</blockquote>
+
+<a name="cla">
+<blockquote>
+<a class="phead">Class 0 Threshold</a>
+
+<blockquote>
+It is not clear that such thresholds exist for arbitrary
+$\mathbf{P}$.
+However, we observe that Class 0 is a monotone property (adding edges
+to a Class 0 graph maintains the property), and a theorem of Bollobas
+and Thomason
+<a class="plink" href="rgramain.html#BoTh">[BoTh]</a>
+states that
+$t(\mathbf{P})$
+is nonempty for every 
+monotone
+$\mathbf{P}$.
+It is well known
+<a class="plink" href="rgramain.html#ErRe">[ErRe]</a>
+that
+$t({\rm connected}) = \Theta(\log n/n)$, 
+and since connectedness is required for Class 0, we see that 
+$t({\rm Class}$ $0) \subset \Omega(\log n/n)$.
+In
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>
+it is noted that
+$t({\rm Class}$ $0) \subset O(1)$.
+In
+<a class="plink" href="biblmain.html#CHKT_NGP">[CHKT]</a>
+the
+<a class="tlink" href="clasmain.html#DCT">Diameter-Connectivity Theorem</a>
+was used to prove the following result.
+
+<blockquote>
+<a class="tnam">Class 0 Threshold Theorem.</a> &#160
+<a class="tmat">For all $d > 0$, $t({\rm Class}$ $0) \subset ((n\log n)^{1/d}/n)$.
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="ref">
+<blockquote>
+<a class="phead">References</a>
+
+<blockquote>
+<a name="BoTh">
+<!-- <a class="rnum">[BoTh]</a> -->
+  <a class="rauth">B. Bollobas and A. Thomason</a>
+  <a class="rtitle">Threshold Functions</a>
+  <a class="rjour">Combinatorica</a>
+  <a class="rvol">7</a>
+  <a class="ryear">(1987),</a>
+  <a class="rpage">35--38</a>
+</blockquote>
+
+<blockquote>
+<a name="ErRe">
+<!-- <a class="rnum">[ErRe]</a> -->
+  <a class="rauth">P. Erdos and A. Renyi</a>
+  <a class="rtitle">On Random Graphs I</a>
+  <a class="rjour">Publ. Math. Debrecen</a>
+  <a class="rvol">6</a>
+  <a class="ryear">(1959),</a>
+  <a class="rpage">290--297</a>
+</blockquote>
+
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

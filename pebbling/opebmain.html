@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal thresholds threshold threshhold threshholds clique cliques
+path paths sequences sequence density degree">
+<title>Optimal Pebbling Page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<blockquote>
+<a name="optimal">
+<a name="opn">
+<a class="phead">Optimal Pebbling Number</a>
+
+<blockquote>
+Instead of looking for the size of the largest unsolvable configuration 
+in a graph, which is essentially the task in finding the pebbling number 
+of the graph (minus one), one could look for the size of the smallest 
+solvable configuration, which is the task in finding what is called the 
+<a class="pdef">optimal pebbling number</a>,
+$\pi^*(G)$.
+This model may be useful for a company finding the best distribution of
+their resources, for example.
+</blockquote>
+
+<a name="pac" class="phead">Paths and Cycles</a>
+
+<blockquote>
+The following general upper bound for graphs on n vertices was proved in
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>.
+
+<blockquote>
+<a class="tnam">Optimal Pebbling Upper Bound.</a>&#160
+<a class="tmat">$\pi^*(G_n) \leq \lceil 2n/3 \rceil$.</a>
+</blockquote>
+
+The upper bound has been shown to be tight for paths
+<a class="plink" href="biblmain.html#PaSnVo_OPG">[PSV]</a>
+and for cycles
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>.
+
+Caterpillars, cycles and other graphs have been considered in
+<a class="plink" href="biblmain.html#FriWye_OPP">[FrWy</a>,
+<a class="plink" href="biblmain.html#LinLin_OPN">FuSh2</a>,
+<a class="plink" href="biblmain.html#FuShiu_OPN">FuSh1]</a>.
+</blockquote>
+
+<a name="cap" class="phead">Cubes and Products</a>
+
+<blockquote>
+It is surprising that, while
+$\pi(Q^d)$
+is known exactly (see the
+<a class="tlink" href="pnummain.html#cube">Cube Theorem</a>),
+only the following bounds are known at present
+<a class="plink" href="biblmain.html#Moew_OPH">[Moe]</a>.
+
+<blockquote>
+<a class="tnam">Optimal Pebbling Cube Theorem.</a>&#160
+<a class="tmat">$(4/3)^d\le \pi^*(Q^d)=(4/3)^{d+O(\log d)}$.</a>
+</blockquote>
+
+The following interesting analog of
+<a class="tlink" href="gconmain#GCon">Graham's Conjecture</a>
+was proven in
+<a class="plink" href="biblmain.html#LinLin_OPN">[FuSh2</a>,
+<a class="plink" href="biblmain.html#FuShiu_OPN">FuSh1]</a>.
+
+<blockquote>
+<a class="tnam">Optimal Pebbling Product Theorem.</a> &#160
+<a class="tmat">For all graphs $G$ and $H$ we have $\pi^*(G \times H) \leq \pi^*(G)\pi^*(H)$.</a>
+</blockquote>
+
+</blockquote>
+
+<a name="min" class="phead">Min. Degree</a>
+
+<blockquote>
+Two results place the optimal pebbling numbers of graphs with
+minimum degree $\delta(G)=k$ near $cn/(k+1)$, roughly with 
+$2.4\sim\le c\le 4$.
+The following result of
+<a class="alink" href="authmain.html#AndCzy">Czygrinow</a>
+appears in
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>.
+
+<blockquote>
+<a class="tnam">Upper Bound.</a> &#160
+<a class="tmat">If $G$ is a connected graph with $n$ vertices and $\delta(G)=k$, 
+then $\pi^*(G) \leq 4\left(\frac{n}{k+1}\right)$.</a>
+</blockquote>
+
+The upper bound is not known to be sharp.
+Two lower bounds are given in
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>.
+The first is that, for all $n>k\ge 2$, there is a graph $G$ with $\delta(G)=k$ and
+$\pi^*(G)>2\left(\frac{n}{k+1}\right)-2$.
+The second is as follows, which is stronger for large $n$ and $k$.
+
+<blockquote>
+<a class="tnam">Lower Bound.</a> &#160
+<a class="tmat">For all $n \geq (k+3)\ge 6$, there is a graph $G$
+with $\delta(G)=k$ and $\pi^*(G) \geq
+ \left(2.4-\frac{24}{5k+15}-o(1)\right)\left(\frac{n}{k+1}\right)$.</a>
+</blockquote>
+
+</blockquote>
+
+<a name="gir" class="phead">Girth</a>
+
+<blockquote>
+If
+<a class="pdeflink" href="clasmain#gir">girth</a>
+is also considered then one can say more.  Let
+$c_k(t) = 1 + k\sum_{i=0}^{t-1}(k-i)^i$
+and
+$c'(t)=	(2^{2t}-2^{t+1})t/(t-1)$.
+The following theorem of
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>
+displays an upper bound in terms of girth.
+
+<blockquote>
+<a class="tnam">Optimal Pebbling Girth Upper Bound.</a> &#160
+<a class="tmat">Let $k \geq 3$, $t \geq 2$, and $(k,t) \neq (3,2)$.  
+Then every $n$-vertex graph $G$ with $\delta(G)=k$ and 
+${\rm girth}(G) \geq 2t+1$ satisfies 
+$\pi^*(G) \leq 2^{2t}n/(c_k(t)+c'(t))$.</a>
+</blockquote>
+
+A slightly weaker version of the bound is 
+$\pi^*(G)\le 4^tn\Big/\left((k-1)^t+4^t\right)$, while
+corollaries of it include $\pi^*(G)/n\le 3/8$ as $t\rightarrow\infty$
+for $k=5$, and $\pi^*(G)/n\rightarrow 0$ as $t\rightarrow\infty$ for $k\ge 6$.
+
+</blockquote>
+
+<a name="lad" class="phead">Ladders</a>
+
+<blockquote>
+<p>
+The optimal pebbling numbers of linear
+$(P_m \times K_2)$,
+circular
+$(C_m \times K_2)$,
+and Mobius (circular with a twist) ladders are also determined in
+<a class="plink" href="biblmain.html#BCCMW_POP">[BCCMW]</a>:
+$\pi^*=m$
+unless
+$m \in \{2,5\}$,
+with
+$m$
+as a lower bound always.
+</p>
+
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Hurlbert's Pebbling Page</title>
+</head>
+
+<frameset cols="75%, 25%" frameborder="no" framespacing="0">
+
+  <frame name="title" scrolling="no" noresize src="pebbtitle.html" marginwidth="0" marginheight="0">
+
+  <frame name="counter" scrolling="no" noresize src="counter.php" marginwidth="0" marginheight="0">
+
+</frameset>
+
+</html>
+

@@ -1,0 +1,88 @@
+A.menu:link {text-decoration: none; color :#660000; font-weight: bold; font-family: Times; font-size: medium} 
+A.menu:vlink {text-decoration: none; color :000000; font-weight: bold; font-family: Times; font-size: medium} 
+A.menu:visited {text-decoration: none;color :660000; font-weight: bold; font-family: Times; font-size: medium} 
+A.menu:hover {color: #000099; letter-spacing: 0; text-decoration:underline font-family: Times; font-size: medium} 
+
+A.basic:link {text-decoration: none; color :#0000dd; font-weight: bold;} 
+A.basic:vlink {text-decoration: none; color :000000; font-weight: bold;} 
+A.basic:visited {text-decoration: none;color :0000dd; font-weight: bold;} 
+A.basic:hover {color: #aa00aa; letter-spacing: 0; text-decoration:underline}
+
+A.head:link {text-decoration: none; color :#009900; font-size: small}
+A.head:vlink {text-decoration: none; color :000000; font-size: small}
+A.head:visited {text-decoration: none;color :009900; font-size: small}
+A.head:hover {color: #000099; letter-spacing: 0; text-decoration:underline}
+
+A.phead {text-decoration: none; color: #009900; font-size: medium; font-weight: bold;}
+A.psub {text-decoration: none; color: #bb4400; font-weight: bold;}
+A.pcap {text-decoration: none; color: black; font-style: italic;}
+A.pdef {text-decoration: none; color: #aa0055}
+A.pdefhov {text-decoration: none; color: #aa0055}
+
+A.pdeflink:link {text-decoration: underline; color : #aa0055}
+A.pdeflink:vlink {text-decoration: underline; color :#aa0055}
+A.pdeflink:visited {text-decoration: underline; color : #aa0055}
+A.pdeflink:hover {color: #dd0088; letter-spacing: 0; text-decoration:underline}
+
+A.alink:link {text-decoration: none; color : #880088}
+A.alink:vlink {text-decoration: none; color :#000000}
+A.alink:visited {text-decoration: none; color : #880088}
+A.alink:hover {color: #cc00cc; letter-spacing: 0; text-decoration:underline}
+
+A.plink:link {text-decoration: none; color : #005588}
+A.plink:vlink {text-decoration: none; color :#000000}
+A.plink:visited {text-decoration: none; color : #005588}
+A.plink:hover {color: #0055ff; letter-spacing: 0; text-decoration:underline}
+
+A.pdflink:link {text-decoration: underline; color : #ffee88}
+A.pdflink:vlink {text-decoration: underline; color :#ffee88}
+A.pdflink:visited {text-decoration: underline; color : #ffee88}
+A.pdflink:hover {color: #ffffaa; letter-spacing: 0; text-decoration:underline}
+
+A.tlink:link {text-decoration: underline; color :black}
+A.tlink:vlink {text-decoration: underline; color :#000000}
+A.tlink:visited {text-decoration: underline; color :black}
+A.tlink:hover {color: black; letter-spacing: 0; text-decoration:underline}
+
+A.gdef:link {text-decoration: underline; color : black}
+A.gdef:vlink {text-decoration: underline; color :#000000}
+A.gdef:visited {text-decoration: underline; color : black}
+A.gdef:hover {color: #555555; letter-spacing: 0; text-decoration:underline}
+
+
+A.tmat {text-decoration: none; color: black; font-size: +18; font-style: italic}
+A.tnam {text-decoration: none; color: #bb4400; font-size: medium; font-weight: bold;}
+A.tres {text-decoration: none; color: #bb4400; font-weight: none; font-style: italic;}
+
+A.htitle {text-decoration: none; color: #dd0000; font-size: x-large; font-weight: bold; font-family: Times}
+A.hhead:link {text-decoration: none; color :#009900; font-size: small}
+A.hhead:vlink {text-decoration: none; color :000000; font-size: small}
+A.hhead:visited {text-decoration: none;color :#009900; font-size: small}
+A.hhead:hover {color: #000099; letter-spacing: 0; text-decoration:underline; font-size: small}
+
+A.malph {text-decoration: none; color :#009900}
+
+A.rnum {text-decoration: none; color: #009900; font-size: medium;}
+A.rauth {text-decoration: none; color: #880088; font-size: medium;}
+A.rtitle {text-decoration: none; color: #005588}
+A.rjour {text-decoration: none; color: black; font-style: italic;}
+A.rvol {text-decoration: none; color: black; font-weight: bold;}
+A.ryear {text-decoration: none; color: black}
+rpage {text-decoration: none; color: black; font-style: italic;}
+
+A.mit {text-decoration: none; font-style: italic}
+
+A.tfunc {color: #bb4400}
+A.pfunc {text-decoration: none}
+
+A.email {text-decoration: none; font-style: italic; color: #008888;}
+
+A.host {text-decoration: none; font-style: italic; font-size: small; color: #ffff00;}
+A.hostbig {text-decoration: none; font-style: italic; font-size: medium; color: #ffff00; font-weight: bold;}
+p.head {position: fixed; top: 5px; left: 5px;}
+p.ptitle {position: fixed; top: 15px; left: 250px;}
+A.atitle {font-style: italic; font-size: 250%; color: #ffffff; font-weight: bold;}
+p.foot {position: fixed; bottom: -5px; left: 5px;}
+p.count {position: fixed; top: -10px; right: 5px;}
+
+BODY {font-family: Verdana, sans-serif}

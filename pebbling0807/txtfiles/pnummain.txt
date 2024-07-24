@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>Graph Pebbling Numbers Page</title> 
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling
+theory fractional pebble peble graham grahams graham's conjecture 2-pebbling
+two-pebbling optimal solvability cycle cycles tree trees cube cubes Petersen
+petersen path paths clique cliques class 0">
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="peb"></a>
+<blockquote>
+<a class="phead">Pebbling Move</a>
+
+<blockquote>
+If it is possible, one can move two pebbles from a given vertex to one of its neighbors.
+However, only one pebble reaches the neighbor since the other is paid as a toll along the edge.
+<p>
+
+<center>
+<table border="0">
+<tr>
+<th>
+<a class="pcap">before</a>
+<th><th><th><th>
+<a class="pcap">during</a>
+<th><th><th><th>
+<a class="pcap">after</a>
+<tr>
+<th>
+<a href="PMove1.jpg">
+<img width="150" border="1" src="PMove1.jpg"></a>
+<th><th><th><th>
+<a href="PMove2.jpg">
+<img width="150" border="1" src="PMove2.jpg"></a>
+<th><th><th><th>
+<a href="PMove3.jpg">
+<img width="150" border="1" src="PMove3.jpg"></a>
+</table>
+</center>
+
+</blockquote>
+</blockquote>
+
+<a name="con"></a>
+<blockquote>
+<a class="phead">Connie & Peter</a>
+
+<blockquote>
+<i>Peter the Pebbler</i> and <i>Connie the Configurer</i>
+play the following game on a graph 
+$G$.
+<p>
+
+Peter buys 
+$t$
+very expensive pebbles and gives them to Connie.
+Of course, Peter doesn't want to spend too much money if he can avoid it.
+<p>
+
+<a name="root"></a>
+Connie distributes a 
+<a name="configuration"></a>
+<a class="pdefhov" title="a function that indicates the number of pebbles per vertex">
+configuration</a>
+$C$
+of pebbles onto the vertices of
+$G$
+and chooses a 
+<a title="the pebbling target" class="pdef">root</a>
+vertex 
+$r$
+Peter will win the game if he can place a pebble on 
+$r$
+after a sequence of pebbling moves; otherwise, Connie wins the game.
+<p>
+
+</blockquote>
+</blockquote>
+
+<a name="sol"></a>
+<a name="solvable"></a>
+<blockquote>
+<a class="phead">Solvability</a>
+
+<blockquote>
+<a name="rsol">
+In the case that Peter wins we say that 
+$C$
+is 
+<a title="or r-reachable" class="pdefhov">$r$-solvable</a>
+(otherwise 
+<a title="Peter can't pebble to r" class="pdefhov">$r$-unsolvable</a>).
+If 
+$C$
+is
+$r$-solvable for every 
+$r$
+then 
+$C$
+is called
+<a title="Peter can pebble to any root" class="pdefhov">solvable</a>.
+<p>
+
+<center>
+<table border="0">
+<tr>
+<th>
+<a class="pcap">solvable</a>
+<th><th><th><th><th><th><th><th>
+<a class="pcap">unsolvable</a>
+<tr>
+<th>
+<a class="basic" href="Solv.jpg">
+<img height="130" border="1" src="Solv.jpg"></a>
+<th><th><th><th><th><th><th><th>
+<a class="basic" href="Unsolv.jpg">
+<img height="130" border="1" src="Unsolv.jpg"></a>
+</table>
+</center>
+
+</blockquote>
+</blockquote>
+
+<a name="pig"></a>
+<blockquote>
+<a class="phead">Pebbling Number</a>
+
+<blockquote>
+<a name="pebnum"></a>
+The 
+<a class="pdef">pebbling number</a>
+of 
+$G$
+is denoted
+$\pi(G)$
+and equals the fewest number of pebbles Peter must buy in order 
+to guarantee victory.
+<p>
+That is, if Peter buys 
+$\pi(G)$
+pebbles then every possible configuration of Connie's is solvable, 
+while if Peter buys
+$\pi(G)-1$
+pebbles then Connie can find a configuration that is
+$r$-unsolvable for some 
+$r$.
+<p>
+
+</blockquote>
+</blockquote>
+
+<a name="fac"></a>
+<blockquote>
+<a class="phead">First Facts</a>
+
+<blockquote>
+<a class="psub">Breadth Lower Bound.</a>&nbsp&nbsp
+$\pi(G) \geq N(G),$
+where
+$N(G)$
+denotes the number of vertices of
+$G$.
+<blockquote>
+Otherwise, Connie will place at most one pebble on every vertex except the root.
+
+<p>
+<a name="class0"></a>
+Graphs whose pebbling number equals
+$N(G)$
+are said to be of
+<a class="pdeflink" href="clasmain.html">Class 0</a>.
+</blockquote>
+</blockquote>
+
+<a name="cutbound">
+<blockquote>
+<a class="psub">Cut Lower Bound.</a>&nbsp&nbsp
+$\pi(G) > N(G)$,
+when
+$G$
+contains a 
+<a class="pdefhov" title="a vertex whose deletion disconnects the graph">
+cut vertex
+</a>
+$x$.
+<blockquote>
+Otherwise, let 
+$A$
+and
+$B$
+be two 
+<a class="pdefhov" title="maximal connected sets of vertices">
+components
+</a>
+of
+$G-x$,
+with
+$v \in A$
+and
+$r \in B$.
+Then Connie will place $3$ pebbles on 
+<a class="mit">v</a>
+and $1$ pebble on every other vertex except
+$x$
+and
+$r$.
+
+<p>
+<a name="2con">
+Thus
+<a class="pdeflink" href="clas.html">Class 0</a>
+graphs are 
+<a class="pdefhov" title="cannot be disconnected by removing any single vertex">
+$2$-connected</a>.
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="diameter">
+<a class="psub">Depth Lower Bound.</a>&nbsp&nbsp
+$\pi(G) \geq 2^{{\rm diam}(G)}$,
+where
+${\rm diam}(G)$
+denotes the
+<a title="the maximum distance between two vertices of G" class="pdefhov">diameter</a>
+of
+$G$.
+<blockquote>
+Otherwise, Connie will place all the pebbles on a vertex at distance
+${\rm diam}(G)$
+from the root.
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="PUB">
+<a class="psub">Pigeonhole Upper Bound.</a>&nbsp&nbsp
+$\pi(G) \leq (N(G)-1)(2^{{\rm diam}(G)}-1) + 1$.
+<blockquote>
+Otherwise, Connie cannot avoid placing at least
+$2^{{\rm diam}(G)}$
+pebbles on some vertex, from which any root can be solved.
+</blockquote>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="res">
+<blockquote>
+<a class="phead">First Results</a>
+
+<blockquote>
+<a class="psub">Cliques.</a>&nbsp&nbsp
+$\pi(K_n)=n$,
+where
+$K_n$
+denotes the
+<a name="complete" title="every pair of vertices is adjacent" href="complete.jpg" class="pdeflink">complete</a>
+graph on
+$n$
+vertices.
+<blockquote>
+This follows from the breadth and pigeonhole facts above.
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a class="psub">Paths.</a>&nbsp&nbsp
+$\pi(P_n)=2^{n-1}$,
+where
+$P_n$
+denotes the
+<a name="path" href="path.jpg" title="a sequence of vertices, each adjacent to its successor" class="pdeflink">path</a>
+on
+$n$
+vertices.
+<blockquote>
+This follows from the depth fact above and induction.
+</blockquote>
+</blockquote>
+
+<a name="petersen">
+<blockquote>
+<a class="psub">Petersen.</a>&nbsp&nbsp
+$\pi(P)=10$,
+where
+$P$
+denotes the
+<a title="the graph in the solvable example above" href="peter.jpg" class="pdeflink">Petersen graph</a>.
+<blockquote>
+Give it a try!
+</blockquote>
+</blockquote>
+
+</blockquote>
+
+<a name="rea">
+<blockquote>
+<a class="phead">Real Results</a>
+
+<blockquote>
+<a name="cycle">
+<a class="psub">Cycles</a>
+<blockquote>
+Let
+$C_n$
+denote the
+<a href="cycle.jpg" title="the path P<sub>n</sub> with the extra edge v<sub>n</sub>v<sub>1</sub>." class="pdeflink">cycle</a>
+on
+$n$
+vertices.  Then
+<a class="alink" href="authmain.html#LioPac">Pachter</a>,
+<a class="alink" href="authmain.html#HunSne">Snevily</a>,
+and <a class="alink" href="authmain.html#BilVox">Voxman </a>
+proved the following theorem in
+<a class="plink" href="biblmain.html#PaSnVo_OPG">[PSV]</a>.
+<blockquote>
+<a class="tmat">For $k \geq 1, \pi(C_{2k})=2^k$ and $\pi(C_{2k+1})=2\lfloor{2^{k+1}/3}\rfloor+1.$</a>
+</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="tree" class="psub">Trees</a>
+<blockquote>
+
+<a name="mpp">
+First we define a
+<a class="pdef">maximum path partition</a>
+$Q$
+of a
+<a title="a connected graph with no cycles" class="pdefhov">tree</a>
+$T$.
+Consider a partition
+$Q=(Q_1,\ldots,Q_m)$
+of the edges of
+$T$
+into paths
+$Q_1,\ldots,Q_m$,
+written so that
+$q_i \geq q_{i+1}$
+where
+$q_i=|Q_i|$.
+Any choice of root vertex
+$r \in T$
+induces an orientation
+of the edges of
+$T$
+and thus also on each path
+$Q_i$.
+
+<p>
+<a name="wrd">
+The orientation on
+$Q_i$
+determines a root
+$r_i$
+of
+$Q_i$
+which may or may not be an endpoint of
+$Q_i$.
+If
+$r_i$.
+is an endpoint of
+$Q_i$
+then we say that
+$Q_i$
+is
+<a class="pdef">well $r$-directed</a>.
+We call
+$Q$
+an
+<a class="pdef">$r$-path partition</a>
+of
+$T$
+if each path
+$Q_i$
+is well $r$-directed,
+and a
+<a class="pdef">path partition</a>
+if it is an $r$-path partition for some
+$r$.
+</p>
+
+<p>
+<a name="maj">
+The path partition
+$Q$
+<a class="pdef">majorizes</a>
+another, 
+$Q'$,
+if its sequence of path lengths majorizes that of the other,
+that is, if 
+$q_j > q_j'$,
+where 
+$j=\min\{i : q_i \neq q_i'\}$.
+A path (resp. $r$-path) partition of
+$T$
+is
+<a class="pdef">maximum</a>
+(resp.
+<a class="pdef">$r$-maximum</a>)
+if no other path (resp. $r$-path) partition majorizes it.
+</p>
+
+<p> 
+Let
+$(q_1, \ldots, q_m)$
+be the nonincreasing
+sequence of path lengths of a maximum partition
+$Q=(Q_1,\ldots,Q_m)$
+of a tree
+$T$.
+Then 
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+proved the following theorem in
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>.
+<blockquote>
+<a class="tmat">For $Q$ as above, we have $\displaystyle{\pi(T)=\Big(\sum_{i=1}^m 2^{q_i}\Big) - m+1.}$</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a name="cube" class="psub">Cubes</a>
+<blockquote>
+Let
+$Q^d$
+be the 
+$d$-dimensional
+<a title="its vertices are all binary d-tuples and its edges join those that differ in exactly one coordinate." class="pdeflink" href="cube.jpg">cube</a>.
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+invented the
+<a class="tlink" href="gconmain.html#2PP">$2$-Pebbling Property</a>
+in order to prove the following theorem in
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>.
+<blockquote>
+<a class="tmat">$\pi(Q^d)=2^d.$</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<blockquote>
+<a class="psub">Sharper Upper Bounds</a>
+<blockquote>
+<a name="dominating">
+A set
+$S$
+of vertices is a
+<a class="pdef">dominating set</a>
+if every vertex not in
+$S$
+is adjacent to some vertex in
+$S$.
+The
+<a title="the size of the smallest dominating set in G" class="pdefhov">domination number</a>
+of a graph
+$G$
+is denoted
+${\rm dom}(G)$.
+<a class="alink" href="authmain.html#MelCha">Chan</a> and
+<a class="alink" href="authmain.html#AnaGod">Godbole</a>
+<a class="plink" href="biblmain.html#ChaGod_IPB">[ChGo]</a>
+made the following improvements on the
+<a class="tlink" href="pnummain.html#PUB">Pigeonhole Upper Bound</a>
+(here we write 
+$d={\rm diam}(G)$.
+
+<blockquote>
+<a class="psub">$1.$</a> <a class="tmat">$\pi(G) \leq (n-d)(2^d-1)+1.$</a><br></br>
+<a class="psub">$2.$</a> <a class="tmat">$\pi(G) \leq \{n+\lfloor n-1/d \rfloor -1 \}2^{d-1}-n+2.$</a><br></br>
+<a class="psub">$3.$</a> <a class="tmat">$\pi(G) \leq \{n+2{\rm dom}(G)\}2^{d-1}-{\rm dom}(G)+1.$</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="pra">
+
+<blockquote>
+<a class="phead">Practice</a>
+
+<blockquote>
+<a name="lemke" class="psub">Lemke Graph</a>
+
+<blockquote>
+Define the
+<a class="alink" href="authmain.html#PauLem">Lemke</a>
+graph
+$L$
+by the picture below.
+Prove that 
+$\pi(L)=8$.
+
+<center>
+<table border="0">
+<tr>
+<th>
+<a class="basic" href="lemke.jpg">
+<img height="120" border="1" src="lemke.jpg"></a>
+</table>
+</center>
+
+</blockquote>
+
+<a name="star" class="psub">Complete Bipartite Graphs</a>
+
+<blockquote>
+Define the
+<a class="pdeflink" href="cbg.jpg">complete bipartite graph</a>
+$K_{a,b}$,
+having vertices
+$\{u_1,\ldots,u_a\} \cup \{v_1,\ldots,v_b\}$
+and edges
+$u_iv_j$
+for every
+$i$
+and
+$j$.
+For example, the
+<a class="pdef">star</a>
+on
+$n$
+vertices is
+$S_n=K_{1,n-1}$.
+Prove that
+$\pi(K_{2,b})=b+2$.
+</blockquote>
+
+<a name="book" class="psub">Books</a>
+
+<blockquote>
+Define the
+<a class="pdeflink" href="ggraph.jpg">book</a>
+$B_{p,q}=S_{p+1}\times P_q$
+(see <a class="tlink" href="gconmain.html#CaPr">cartesian product</a>),
+having
+$p$
+pages,
+$q$
+vertices
+per page,
+$q$
+vertices on the binding.
+Prove that
+$\pi(B_{3,3})=18$.
+</blockquote>
+
+<a name="bipartite" class="psub">Subset Levels</a>
+
+<blockquote>
+For 
+$0 < k < d$,
+let 
+$S_k(d)$
+be the collection of all 
+$k$-subsets of
+$\{1,2,\ldots,d\}$.
+$0 < i < j < d$,
+define the
+<a class="pdeflink" href="Q412.jpg">cube levels graph</a>
+$Q^d_{i,j}$
+to be the
+<a class="pdef">bipartite graph</a>
+with vertex parts
+$S_i(d)$
+and
+$S_j(d)$
+having edges
+$EF$
+when
+$E \subset F$.
+Prove that
+$\pi(Q^4_{1,2})=16$.
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br></br> <br></br> <br></br> <br></br> 
+<br></br> <br></br> <br></br> <br></br> 
+<br></br> <br></br> <br></br> <br></br> 
+<br></br> <br></br> <br></br> <br></br> 
+<br></br> <br></br> <br></br> <br></br> 
+<br></br> <br></br> <br></br> <br></br> 
+
+</body>
+
+</html>

@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal zero sum zero-sums zero-sum Davenport Davenport's constant
+EGZ theorem Olson's conjecture">
+<title>History page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="zer">
+<p>
+<blockquote>
+<a class="phead">Zero-Sums</a>
+
+<blockquote>
+The origins of graph pebbling reside in combinatorial number theory and
+group theory.
+A sequence of elements of a finite group
+$G$
+is called a
+<a class="pdef">zero-sum sequence</a> if it sums to the identity of
+$G$.
+A simple pigeonhole argument (on the sequence of partial sums) proves the following statement.
+</p>
+<blockquote>
+<a name="PF">
+<p>
+<a class="tnam">Pigeonhole Fact.</a> &#160
+<a class="tmat">Any sequence of $|G|$ elements of a finite group $G$ contains a nonempty zero-sum subsequence.</a>
+</p>
+</blockquote>
+In fact, a subsequence of consecutive terms can be guaranteed by the 
+pigeonhole argument.  Furthermore, one can instead stipulate that
+the zero-sum subsequence has at most
+$N$
+terms, where
+$N=N(G)$
+is the exponent of
+$G$
+(i.e. the maximum order of an element of
+$G$)
+and this is best possible.
+<p>
+
+</blockquote>
+</blockquote>
+
+<a name="egz">
+<blockquote>
+<a class="phead">EGZ Theorem</a>
+
+<blockquote>
+Initiated in 1956 by
+<a class="alink" href="authmain.html#PauErd">Erdos</a>
+<a class="plink" href="histmain.html#Erd1">[Erd1]</a>,
+the study of zero-sum sequences has a long history with many important applications
+in number theory and group theory.
+In 1961
+<a class="alink" href="authmain.html#PauErd">Erdos</a>, Ginzburg, and Ziv
+<a class="plink" href="histmain.html#EGZ">[EGZ]</a>
+proved the following theorem.
+<p> 
+<blockquote>
+<a class="tnam">EGZ Theorem.</a> &#160
+<a class="tmat">Every sequence of $2|G|-1$ elements of a cyclic group $G$ contains a nonempty zero-sum subsequence of length exactly |G|.</a>
+</blockquote>
+</p> 
+<p>
+In 1969 van Emde Boas and Kruyswijk
+<a class="plink" href="histmain.html#EmKr">[EmKr]</a>
+proved that any sequence of
+$N(1+\log(|G|/N))$
+elements of a finite abelian group
+contains a nonempty zero-sum sequence.
+In 1994 Alford et al.
+<a class="plink" href="histmain.html#AGP">[AGP]</a>
+used this result and modified
+<a class="alink" href="authmain.html#PauErd">Erdos's</a>
+arguments to prove that there are infinitely many Carmichael numbers.</p>
+</blockquote>
+</blockquote>
+
+<a name="dav">
+<blockquote>
+<a class="phead">Davenport's Constant</a>
+
+<blockquote>
+Much of the recent study has involved finding
+<a class="pdef">Davenport's constant</a>
+$D(G)$,
+defined to be the smallest
+$D$
+such that every sequence of
+$D$
+elements contains a nonempty zero-sum subsequence
+<a class="plink" href="histmain.html#Ols">[Ols]</a>.
+There are a wealth of results on this problem 
+<a class="plink" href="histmain.html#Car">[Car</a>,
+<a class="plink" href="histmain.html#Gao">Gao</a>,
+<a class="plink" href="histmain.html#GaGe">GaGe</a>,
+<a class="plink" href="histmain.html#GaTh">GaTh</a>,
+<a class="plink" href="histmain.html#GeSc">GeSc</a>,
+<a class="plink" href="histmain.html#Sun">Sun]</a>
+and its variations
+<a class="plink" href="histmain.html#GaJi">[GaJi</a>,
+<a class="plink" href="histmain.html#Nat">Nat]</a>.
+
+</blockquote>
+</blockquote>
+
+<a name="bir">
+<blockquote>
+<a class="phead">Pebbling Birth</a>
+
+<blockquote>
+<p>In 1989
+<a class="alink" href="authmain.html#DanKle">Kleitman</a>
+and
+<a class="alink" href="authmain.html#PauLem">Lemke</a>
+<a class="plink" href="biblmain.html#LemKle_ATI">[LeKl]</a>,
+and independently
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+<a class="plink" href="biblmain.html#Chun_PH">[Chu]</a>,
+proved the following theorem (originally stated number-theoretically),
+strengthening the
+<a class="tlink" href=histmain.html#PF>Pigeonhole Fact</a>.
+Let
+$\mathbb{Z}_n$
+denote the cyclic group of order
+$n$,
+and let
+$|g|$
+denote the order of an element
+$g$
+in the group to which it belongs.</p>
+<p>
+<blockquote>
+<a name="KLCTh">
+<a class="tnam">KLC Theorem.</a> &#160
+<a class="tmat">For every sequence $(g_k)_{k=1,\ldots,n}$ of $n$ elements from $\mathbb{Z}_n$,
+there is a zero-sum subsequence $(g_k)_{k \in K}$ such that $\displaystyle{\sum_{k \in K} \frac{1}{|g_k|} \leq 1.}$</a>
+</blockquote>
+</p>
+<p>
+<a name="cross">
+For a sequence
+$S$
+the sum
+$\sum_{g \in S} 1/|g|$
+is known as the
+<a class="pdef">cross number</a> of
+$S$
+and is an important invariant in factorization theory.
+Guaranteeing cross number at most $1$ strengthens the extension of the
+<a class="tlink" href=histmain.html#PF>Pigeonhole Fact</a>
+that
+$|K| \leq N(G)$,
+and shows that equality holds if and only if every
+$|g_k|=N$.
+The concept of pebbling in graphs arose from an attempt by
+<a class="alink" href="authmain.html#JefLag">Lagarias</a>
+and
+<a class="alink" href="authmain.html#MikSak">Saks</a>
+to give an alternative (and more natural and structural) proof than that of
+<a class="alink" href="authmain.html#DanKle">Kleitman</a>
+and
+<a class="alink" href="authmain.html#PauLem">Lemke</a>;
+it was
+<a class="alink" href="authmain.html#FanChu">Chung</a>
+who carried out their idea.  See also
+<a class="plink" href="biblmain.html#Denl_RLK">[Den]</a>
+for another extension of this result.</p>
+<p>
+<a  name="hsum" class="alink" href="authmain.html#DanKle">Kleitman</a>
+and
+<a class="alink" href="authmain.html#PauLem">Lemke</a>
+then conjectured that the
+<a class="tlink" href="histmain.html#KLCTh">KLC Theorem</a>
+holds for all finite groups.
+For a subgroup
+$H$
+of
+$G$
+call a sequence of elements of
+$G$
+an
+<a class="pdef">$H$-sum sequence</a> if its elements sum to an element of
+$H$.
+In
+<a class="plink" href="biblmain.html#EllHur_AGP">[ElHu</a>,
+<a class="plink" href="histmain.html#Ger">Ger]</a>
+is proved the following theorem (the methods of
+<a class="plink" href="biblmain.html#EllHur_AGP">[ElHu]</a>
+use graph pebbling).</p>
+<p>
+<blockquote>
+<a name="GEHTh">
+<a class="tnam">GEH Theorem.</a> &#160
+<a class="tmat">Let $H$ be a subgroup of a finite abelian group $G$
+with $|G|/|H| = n$.  For every sequence $(g_k)_{k=1,\ldots,n}$ of $n$ elements from $G$
+there is an $H$-sum subsequence $(g_k)_{k \in K}$ such that
+$\displaystyle{\sum_{k \in K} \frac{1}{|g_k|} \leq \frac{1}{|\sum_{k \in K}g_k|}}.$</a>
+</blockquote>
+</p>
+<p>
+The case
+$H=\{e\}$
+here gives the
+<a class="tlink" href="histmain.html#KLCTh">KLC Theorem</a>
+for finite abelian groups,
+strengthening the van Emde Boas and Kruyswijk result
+<a class="plink" href="histmain.html#EmKr">[EmKr]</a>.
+<a class="alink" href="authmain.html#DanKle">Kleitman</a>
+and
+<a class="alink" href="authmain.html#PauLem">Lemke</a>
+also conjectured that the
+<a class="tlink" href="histmain.html#GEHTh">GEH Theorem</a>
+holds for all finite groups,
+and verified their conjecture for all dihedral groups (see
+<a class="plink" href="biblmain.html#LemKle_ATI">[LeKl]</a>).
+For other nonabelian groups, it has been shown recently to hold
+for the nonabelian solvable group of order $21$ (see
+<a class="plink" href="biblmain.html#EllHur_AGP">[ElHu]</a>).
+</p>
+
+</blockquote>
+</blockquote>
+
+<a name="ols">
+<blockquote>
+<a class="phead">Olson's Conjecture</a>
+
+<blockquote>
+It would be interesting to see whether graph pebbling methods can shed light on the
+Davenport constant for finite abelian groups.
+In this regard, one of the most pressing questions is as follows.
+Write
+$G=\prod_{i=1}^r \mathbb{Z}_{n_i}$,
+where
+$1 < n_1 | n_2 | \cdots | n_r$.
+Then
+$r=r(G)$
+is the <i>rank</i> of
+$G$.
+It is natural to guess that
+$D(G)=\sum_{i=1}^r n_i-r+1 = 1+\sum_{i=1}^r(n_i-1)$.
+from pigeonhole intuition.
+This was conjectured By Olson in
+<a class="plink" href="histmain.html#Ols">[Ols]</a>
+and is true by the
+<a class="tlink" href="histmain.html#KLCTh">KLC Theorem</a>
+for rank $1$ groups.  Moreover, it was proven in
+<a class="plink" href="histmain.html#Ols">[Ols]</a>
+for rank $2$ groups and $p$-groups as well.
+However, it was proven in
+<a class="plink" href="histmain.html#EmKr">[EmKr</a>,
+<a class="plink" href="histmain.html#GeSc">GeSc]</a>
+that the conjecture is false for some groups each rank at least $4$.
+What remains open is the instance of rank $3$.
+</blockquote>
+</blockquote>
+
+<a name="app">
+<blockquote>
+<a class="phead">Applications</a>
+
+<blockquote>
+There are applications in factorization theory
+<a class="plink" href="histmain.html#Cha">[Cha]</a>
+and graph theory
+<a class="plink" href="histmain.html#AFK">[AFK]</a>.
+</blockquote>
+</blockquote>
+
+<a name="ref">
+<blockquote>
+<a class="phead">References</a>
+
+<p>
+<a name="AFK">
+<blockquote>
+<!--  <a class="rnum">[AFK]</a> -->
+  <a class="rauth">N. Alon, S. Friedland, and G. Kalai</a>
+  <a class="rtitle">Regular subgraphs of almost regular graphs</a>
+  <a class="rjour">J. Combin. Theory Ser. B </a>
+  <a class="rvol">37</a>
+  <a class="ryear">(1984),</a>
+  <a class="rpage">79--91</a>
+</blockquote> 
+
+<p>
+<a name="AGP">
+<blockquote>                                                                 
+<!--   <a class="rnum">[AGP]</a> -->
+  <a class="rauth">W. R. Alford, A. Granville and C. Pomerance</a>
+  <a class="rtitle">There are infinitely many Carmichael numbers</a>
+  <a class="rjour">Annals Math. Ser. 2</a>
+  <a class="rvol">139</a>
+  <a class="ryear">(1994),</a>
+  <a class="rpage">no. 3, 703--722</a>
+</blockquote>  
+
+<p>          
+<a name="Car">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Car]</a> -->
+  <a class="rauth">Y. Caro</a>
+  <a class="rtitle">Zero-sum problems--a survey</a>
+  <a class="rjour">Discrete Math</a>
+  <a class="rvol">152</a>
+  <a class="ryear">(1996),</a>
+  <a class="rpage">93--113</a>
+</blockquote> 
+
+<p>          
+<a name="Cha">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Cha]</a> -->
+  <a class="rauth">S. Chapman</a>
+  <a class="rtitle">On the Davenport constant, the cross number, and theor application in factorization theory</a>
+  <a class="rjour">Zero-dimensional commutative rings, Lecture notes in Pure Appl. Math</a>
+  <a class="rvol">171</a>
+  <a class="ryear">(1997),
+  <a class="rpage">119--128</a>
+</blockquote>   
+
+<p>          
+<a name="EmKr">
+<blockquote>                                                                 
+<!--    <a class="rnum">[EmKr]</a> -->
+  <a class="rauth">P. van Emde Boas and D. Kruyswijk</a>
+  <a class="rtitle">A combinatorial problem on finite Abelian groups III</a>
+  <a class="rjour">Report ZW-1969-007, Math. Centre, Amsterdam</a>
+</blockquote>  
+
+<p>          
+<a name="Erd1">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Erd1]</a> -->
+  <a class="rauth">P. Erdos</a>
+  <a class="rtitle">On pseudoprimes and Carmichael numbers</a>
+  <a class="rjour">Publ. Math. Debrecen</a>
+  <a class="rvol">4
+  <a class="ryear">(1956),</a>
+  <a class="rpage">201--206</a>
+</blockquote>  
+
+<p>          
+<a name="EGZ">
+<blockquote>                                                                 
+<!--    <a class="rnum">[EGZ]</a> -->
+  <a class="rauth">P. Erdos, A. Ginzburg and A. Ziv</a>
+  <a class="rtitle">A theorem in additive number theory
+  <a class="rjour">Bull. Res. Council Israel</a>
+  <a class="rvol">10F</a>
+  <a class="ryear">(1961),</a>
+  <a class="rpage">41--43</a>
+</blockquote>  
+
+<p>          
+<a name="Gao">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Gao]</a> -->
+  <a class="rauth">W. Gao</a>
+  <a class="rtitle">On Davenport's constant of finite Abelian groups with rank three</a>
+  <a class="rjour">Discrete Math.</a>
+  <a class="rvol">222</a>
+  <a class="ryear">(2000),</a>
+  <a class="rpage">111--124</a>
+</blockquote> 
+
+<p>          
+<a name="GaGe">
+<blockquote>                                                                 
+<!--    <a class="rnum">[GaGe]</a> -->
+  <a class="rauth">W. Gao and A. Geroldinger</a>
+  <a class="rtitle">Zero-sum problems and coverings by proper cosets</a>
+  <a class="rjour">Euro. J. Combin.</a>
+  <a class="rvol">24</a>
+  <a class="ryear">(2003),</a>
+  <a class="rpage">531--549</a>
+</blockquote> 
+
+<p>          
+<a name="GaJi">
+<blockquote>                                                                 
+<!--    <a class="rnum">[GaJi]</a> -->
+  <a class="rauth">W. Gao and X. Jin</a>
+  <a class="rtitle">Weighted sums in finite cyclic groups</a>
+  <a class="rjour">Discrete Math.</a>
+  <a class="rvol">283</a>
+  <a class="ryear">(2004),</a>
+  <a class="rpage">243--247</a>
+</blockquote> 
+
+<p>          
+<a name="GaTh">
+<blockquote>         
+<!--    <a class="rnum">[GaTh]</a> -->
+  <a class="rauth">W. Gao and R. Thangadurai</a>
+  <a class="rtitle">On the structure of sequences with forbidden zero-sum subsequences</a>
+  <a class="rjour">Colloq. Math.</a>
+  <a class="rvol">98</a>
+  <a class="ryear">(2003),</a>
+  <a class="rpage">213--222</a>
+</blockquote> 
+
+<p>          
+<a name="Ger">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Ger]</a> -->
+  <a class="rauth">A. Geroldinger</a>
+  <a class="rtitle">On a conjecture of Kleitman and Lemke</a>
+  <a class="rjour">J. Number Theory</a>
+  <a class="rvol">44</a>
+  <a class="ryear">(1993),</a>
+  <a class="rpage">60--65</a>
+</blockquote>   
+
+<p>          
+<a name="GeSc">
+<blockquote>                                                                 
+<!--    <a class="rnum">[GeSc]</a> -->
+  <a class="rauth">A Geroldinger and R. Schneider</a>
+  <a class="rtitle">On Davenport's Constant</a>
+  <a class="rjour">J. Combin. Theory Ser. A</a>
+  <a class="rvol">61</a>
+  <a class="ryear">(1992),</a>
+  <a class="rpage">147--152</a>
+</blockquote> 
+
+<p>          
+<a name="Nat">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Nat]</a> -->
+  <a class="rauth">M. Nathanson</a>
+  <a class="rtitle">Additive Number Theory: Inverse Problems and the Geometry of Sumsets</a>
+  <a class="rjour">(Graduate Texts in Mathematics; 165), Springer-Verlag, New York</a>
+  <a class="ryear">(1996),</a>
+  <a class="rpage">48--51</a>
+</blockquote>   
+
+<p>
+<a name="Ols">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Ols]</a> -->
+  <a class="rauth">J. Olson</a>
+  <a class="rtitle">A combinatorial problem on finite Abelian groups I</a>
+  <a class="rjour">J. Number Theory</a>
+  <a class="rvol">1</a>
+  <a class="ryear">(1969),</a>
+  <a class="rpage">8--10
+</blockquote>  
+
+<p>          
+<a name="Sun">
+<blockquote>                                                                 
+<!--    <a class="rnum">[Sun]</a> -->
+  <a class="rauth">Z. Sun</a>
+  <a class="rtitle">Unification of zero-sum problems, subset sums and covers of Z</a>
+  <a class="rjour">Elec. Res. Announce. Amer. Math. Soc.</a>
+  <a class="rvol">9</a>
+  <a class="ryear">(2003),
+  <a class="rpage">51--60</a>
+</blockquote> 
+
+</blockquote>
+
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br>
+
+</body>
+
+</html>

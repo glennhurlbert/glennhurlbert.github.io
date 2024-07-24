@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<NOSCRIPT>
+    <DIV STYLE="color:#CC0000; text-align:center">
+      <B>Warning: <A HREF="http://www.math.union.edu/locate/jsMath">jsMath</A>
+      requires JavaScript to process the mathematics on this page.<BR>
+      If your browser supports JavaScript, be sure it is enabled.</B>
+    </DIV>
+    <HR>
+    </NOSCRIPT>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal thresholds threshold threshhold threshholds clique cliques
+path paths sequences sequence density degree">
+<title>Random Pebbling Page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+<SCRIPT SRC="../jsMath/easy/load.js"></SCRIPT>
+</head>
+
+<body background="backs/PinkPaper.jpg"
+onLoad="jsMath.ConvertTeX(); jsMath.Process()">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="gseq">
+<blockquote>
+<a class="phead">Graph Sequences</a>
+
+<blockquote>
+For this section we will fix notation as follows.
+The vertex set for any graph on
+$N$
+vertices will be taken to be
+$\{v_i | i \in [N]\}$,
+where
+$[N]=\{0,\ldots,N-1\}$.
+That way, any configuration 
+$C : V(G_n) \rightarrow N = \{0,1,2,\ldots \}$
+is independent of
+$G_n$.
+(Here we make the distinction that
+$n$
+is the index of the graph
+$G_n$
+in a sequence
+$\mathbf{G}=(G_1,\ldots,G_n,\ldots)$,
+whereas
+$N=N(G_n)$
+denotes its number of vertices.)
+Let
+${\cal K}=(K_1,\ldots,K_n,\ldots)$,
+denote the sequence of complete graphs,
+${\cal P}=(P_1,\ldots,P_n,\ldots)$,
+the sequence of paths, and
+${\cal Q}=(Q^1,\ldots,Q^n,\ldots)$,
+the sequence of
+$n$-dimensional cubes.
+Let
+$C_n : [N] \rightarrow \mathbb{N}$
+denote a configuration on
+$N=N(G_n)$
+vertices.
+</blockquote>
+</blockquote>
+
+<a name="thre">
+<blockquote>
+<a class="phead">Thresholds</a>
+
+<blockquote>
+Let
+$h : \mathbb{N} \rightarrow \mathbb{N}$
+and for fixed
+$N$
+consider the probability space
+$X_N$
+of all configurations
+$C_n$
+of size
+$h=h(N)$.
+We denote by
+$P_N^+$
+the probability that
+$C_n$
+is
+$G_n$-solvable
+and let
+$t : \mathbb{N} \rightarrow \mathbb{N}$.
+We say that
+$t$
+is a
+<a class="pdef">pebbling threshold</a>
+for
+${\cal G}$
+and write
+$\tau({\cal G}) = \Theta(t)$
+if
+$P_N^+ \rightarrow 0$.
+whenever
+$h(N) \ll t(N)$
+and
+$P_N^+ \rightarrow 1$
+whenever  
+$h(N) \gg t(N)$.
+The existence of such thresholds was established in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>.
+
+<blockquote>
+<a class="tnam">Pebbling Threshold Existence Theorem.</a>&#160
+<a class="tmat">Every graph sequence ${\cal G}$ has a pebbling threshold $\tau({\cal G})$.</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="clpa">
+<blockquote>
+<a class="phead">Cliques and Paths</a>
+
+<blockquote>
+The first threshold result is found in
+<a class="plink" href="biblmain.html#Clar_PG">[Cla]</a>.
+The result is merely an unlabeled version of the so-called 
+"Birthday problem", in which one finds the probability that $2$ of
+$t$
+people share the same birthday, assuming
+$N$
+days in a year.
+<blockquote>
+<a class="tnam">Clique Threshold.</a>&#160
+<a class="tmat">$\tau({\cal K})=\Theta(\sqrt{N})$.</a>
+</blockquote>
+The same threshold applies to the sequence of
+<a class="pdeflink" href="star.jpg">stars</a>
+${\cal S}=(K_{1,1},\ldots,K_{1,n},\ldots)$.
+
+<p>
+It was discovered in
+<a class="plink" href="biblmain.html#CEHK_PTF">[CEHK]</a>
+that every graph sequence
+${\cal G}$
+satisfies
+$\tau({\cal K}) < \sim \tau({\cal G}) < \sim \tau({\cal P})$,
+where
+$A < \sim B$
+is meant to signify that
+$a \in O(b)$
+for every
+$a \in A, b \in B$.
+The authors also discovered that
+$\tau({\cal G}) \subset O(N)$.
+when
+${\cal G}$
+is a sequence of graphs of bounded diameter, that
+$\tau({\cal Q}) \subset O(N)$
+and that 
+$\tau({\cal P}) \subset \Omega(N)$.
+Surprisingly, the threshold for the sequence of paths has not been
+determined.
+The lower bound of
+$\Omega(n)$
+found in
+<a class="plink" href="biblmain.html#CEHK_PTF">[CEHK]</a>
+was improved in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>
+to 
+$\tau({\cal P}) \subset \Omega(N2^{c \sqrt{\log N}})$
+for every
+$c < 1/ \sqrt{2}$,
+while the upper bound of
+$\tau({\cal P}) \subset \Omega(N2^{2 \sqrt{\log N}})$
+found in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>
+was improved in 
+<a class="plink" href="biblmain.html#GJSW_UBP">[GJSW]</a>
+to
+$\tau({\cal P}) \subset \Omega(N2^{c \sqrt{\log N}})$
+for every
+$c > 1$.
+Finally the lower bound was tightened in
+<a class="plink" href="biblmain.html#CzyHur_PTP">[CzHu2]</a>
+to nearly match the upper bound.
+<blockquote>
+<a class="tnam">Path Threshold Bounds.</a>&#160
+<a class="tmat">For any constant $c > 1$, we have $\tau({\cal P}) \subset \Omega(N2^{M/c}) \cap O(N2^{cM})$, where $M=\sqrt{\log N}$.</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="dens">
+<blockquote>
+<a class="phead">Density</a>
+
+<blockquote>
+It is natural to think that any given function could be the threshold
+for some graph sequence.
+<blockquote>
+<a class="tnam">Threshold Density Conjecture.</a>&#160
+<a class="tmat">Let $t_1,t_2$ be any functions satisfying $\tau({\cal K}) < \sim t_1 \ll \tau({\cal P})$.
+Then there is some graph sequence ${\cal G}$ such that $t_1 < \sim \tau({\cal G}) < \sim t_2$.</a>
+</blockquote>
+This conjecture was proven in
+<a class="plink" href="biblmain.html#CzyHur_PTP">[CzHu2]</a>
+in the case that
+$\tau({\cal P})$
+is replaced by
+$\Theta(N)$.
+In fact, the family of
+<a class="pdeflink" href="cpebmain.html#fuse">fuses</a>
+covers this whole range.
+What behavior lives above
+$\Theta(N)$
+remains unknown.
+</blockquote>
+</blockquote>
+
+<a name="prod">
+<blockquote>
+<a class="phead">Products</a>
+
+<blockquote>
+It is interesting to consider a pebbling threshold version of
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>.
+Given graph sequences
+${\cal F}$
+and
+${\cal G}$,
+define the sequence 
+${\cal H}={\cal F} \times {\cal G} = (F_1 \times G_1, \ldots, F_n \times G_n, \ldots)$.
+Suppose that
+$f(R) \in \tau({\cal F})$.
+$g(S) \in \tau({\cal G})$,
+and
+$h(T) \in \tau({\cal H})$,
+where
+$R=N(F_n)$,
+$S=N(G_n)$,
+and
+$T=N(H_n)=RS$.
+
+<blockquote>
+<a name="ques8" class="tnam">Threshold Product Question.</a>&#160
+<a class="tmat">Is it true that, for ${\cal F}$, ${\cal G}$, and ${\cal H}$ as defined above, we have $h(T) \in O(f(R)g(S))$?</a>
+</blockquote>
+
+In particular, one can define the sequence of graphs
+${\cal G}^k$
+in the obvious way.  In
+<a class="plink" href="biblmain.html#CzyHur_GPG">[CzHu3]</a>
+one finds tight enough bounds on
+$\tau({\cal P}^k)$
+to show that the answer to this question is yes for
+${\cal F}={\cal P}^i$
+and
+${\cal G}={\cal P}^j$.
+
+<blockquote>
+<a name="gtb" class="tnam">Grid Threshold Bounds.</a>&#160
+<a class="tmat">Let $N=n^d$ be the number of vertices of ${\cal P}_n^d$ and let $M=(\log N)^{1/(d+1)}$.
+Then $\tau({\cal P}^d) \subset \Omega(N2^{cM}) \cap O(N2^{c'M})$ for all $c < 2^{-d/(d+1)}$ and $c' > d+1$.</a>
+</blockquote>
+
+<p>
+Another important instance is
+${\cal H} = {\cal K}^2$.
+<a class="alink">Boyle</a>
+<a class="plink" href="biblmain.html#Boyl_TRD">[Boyl]</a>
+proved that
+$\tau({\cal K}^2) \in O(N^{3/4})$.
+This was improved in
+<a class="plink" href="biblmain.html#BekHur_PTS">[BeHu]</a>,
+answering the 
+<a class="tlink" href="rpebmain.html#ques8">Threshold Product Question</a> 
+affirmatively for squares of complete graphs.
+</p>
+
+<blockquote>
+<a class="tnam">Square Clique Threshold.</a>&#160
+<a class="tmat">For ${\cal K}^2=(K_1^2, \ldots, K_n^2, \ldots)$ we have $\tau({\cal K}^2)=\Theta(N^{1/2})$.</a>
+</blockquote>
+
+This result is interesting because, by squaring, the graphs become fairly
+sparse, and yet their structure maintains the low pebbling threshold.
+The proof of the result tied the behavior of pebbling in
+${\cal K}_n^2$
+to the existence of large components in various models of random complete
+bipartite graphs.
+
+<p>
+Another interesting related sequence to consider is
+${\cal P}_l = (P_l^1, \ldots, P_l^n, \ldots).$
+When
+$l=2$
+we have
+${\cal P}_2={\cal Q}$,
+and the best result to date is the following theorem of
+<a class="plink" href="biblmain.html#CzyWag_PTH">[CzWa]</a>,
+(obtained independently by
+<a class="alink" href="authmain.html#NogAlo">Alon</a>).
+
+<blockquote>
+<a name="ctb" class="tnam">Cube Threshold Bounds.</a>&#160
+<a class="tmat">For the sequence of cubes we have $\tau({\cal Q}) \in \Omega(N^{1 - \varepsilon}) \cap O(N/(\log \log N)^{1 - \varepsilon})$
+for all $\varepsilon > 0$.</a>
+</blockquote>
+
+Let
+$l=l(n)$
+and
+$d=d(n)$
+and denote by
+${\cal P}_l^d$
+the graph sequence
+$(P_l^d)_{n > 0}$
+where
+$P_l^d=(P_l)^d$.
+Most likely, fixed
+$l$
+yields similar behavior to the
+<a class="tlink" href="rpebmain.html#ctb">Cube Threshold Bounds</a>.
+
+<blockquote>
+<a class="tnam">Grid Threshold Conjecture.</a>&#160
+<a class="tmat">For fixed $l$ we have $\tau({\cal P}_l^n) \in o(N)$.</a>
+</blockquote>
+
+In contrast, the
+<a class="tlink" href="rpebmain.html#gtb">Grid Threshold Bounds</a>
+show that
+$\tau({\cal P}^d) \in \Omega(N)$
+for fixed
+$d$.
+Thus it is reasonable to believe that there should be some
+relationship between the two functions
+$l=l(n)$
+and
+$d=d(n)$,
+both of which tend to infinity, for which the sequence
+${\cal P}_l^d$
+has threshold on the order of
+$N$.
+
+</blockquote>
+</blockquote>
+
+<a name="mdeg">
+<blockquote>
+<a class="phead">Min. Degree</a>
+
+<blockquote>
+Finally one might consider the behavior of graphs of high minimum degree.
+Define
+${\cal G}(n,\delta)$
+to be the set of all connected graphs on
+$n$
+vertices having minimum degree at least
+$\delta = \delta(n)$.
+Let
+${\cal G}_{\delta}=(G_1,\ldots,G_n,\ldots)$
+denote any sequence of graphs with each
+$G_n \in {\cal G}(n,\delta)$.
+In
+<a class="plink" href="biblmain.html#CzyHur_PDG">[CzHu1]</a>
+is proven the following.
+
+<blockquote>
+<a class="tnam">Min. Degree Thresholds.</a>&#160
+<a class="tmat">For every function $N^{1/2} \ll \delta = \delta(N) \leq N-1$, $\tau({\cal G}_{\delta}) \subset O(N^{3/2}/\delta)$.
+In particular, if in addition $\delta \in \Omega(N)$ then $\tau({\cal G}_{\delta})=\Theta(N^{1/2})$.</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

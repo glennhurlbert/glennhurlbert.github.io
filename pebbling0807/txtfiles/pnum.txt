@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Pebbling Numbers</title>
+</head>
+
+<frameset rows="15%, 85%" frameborder="no" framespacing="0">
+
+   <frame name="header" target="below" src="pnumhead.html" marginwidth="10" marginheight="0" scrolling="auto">
+   <frame name="below" src="pnummain.html" marginwidth="10" marginheight="16" scrolling="auto" noresize>
+
+<noframes>
+  <body>
+  <p>This page uses frames, but your browser doesn't support them.</p>
+  </body>
+</noframes>
+
+</frameset>
+
+</html>
+

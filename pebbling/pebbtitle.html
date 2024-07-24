@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <!-- Navigational metadata for large websites (an accessibility feature): -->
+    <!-- FIXME and add this -->
+    <link rel="stylesheet" type="text/css" href="http://mingus.la.asu.edu/~hurlbert/simple.css" />
+    <script type="text/javascript">
+      
+      isold = function() {
+       browser_version= parseFloat(navigator.appVersion);
+       browser_type = navigator.appName;
+       browser_code = navigator.appCodeName;
+       agent = navigator.userAgent;
+       if (browser_type == "Microsoft Internet Explorer" && (browser_version < 5)
+       && agent.match("Opera 7.1")) {
+       return true;
+       }
+       if (browser_type == "Netscape" && (browser_version < 5) && (browser_version > 4.6)) {
+       return true;
+       }
+       return false;
+      }
+      if(isold()) {
+       document.write("<link REL='stylesheet' HREF='http://mingus.la.asu.edu/~pebbling/old-browsers.css' TYPE='text/css'>");
+      }
+      
+    </script>
+<!-- Page Title -->
+        <title>
+      Graph Pebbling Title
+    </title>
+  </head>
+  <body>
+    <!-- javascript to assist with menus -->
+    <!-- <script type="text/javascript">
+     sfHover = function() {
+     var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+     for (var i=0; i<sfEls.length; i++) {
+     sfEls[i].onmouseover=function() {
+     this.className+=" sfhover";
+     }
+     sfEls[i].onmouseout=function() {
+     this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+     }
+     }
+    }
+    if (window.attachEvent) window.attachEvent("onload", sfHover);
+    </script> -->
+    <!-- For non-visual user agents: -->
+    <div id="top">
+      <a href="#main -copyy" class="doNotDisplay">Skip to main content.</a>
+    </div>
+    <table style="border-collapse: collapse; border-style: none; margin: 0; padding: 0; border: 0;" width="100%" cellpadding="0" cellspacing="0" summary="This table is only used for layout.  The left column is navigation, and the right column is the main content">
+      <tr>
+        <td>
+          <!-- Side Menu -->
+          <body background="backs/YellowFabric.jpg">
+            <font size="+1">
+              <p align="left">
+                 <a class="menu" href="home.html">Home</a><br>
+                 <a class="menu" href="hist.html">History</a><br>
+                 <a class="menu" href="pnum.html">Pebbling&nbsp;Numbers</a><br>
+                 <a class="menu" href="clas.html">Class&nbsp;0</a><br>
+                 <a class="menu" href="gcon.html">Graham's&nbsp;Conj</a><br>
+                 <a class="menu" href="cpeb.html">Cover&nbsp;Pebbling</a><br>
+                 <a class="menu" href="opeb.html">Optimal&nbsp;Pebbling</a><br>
+                 <a class="menu" href="rgra.html">Random&nbsp;Graphs</a><br>
+                 <a class="menu" href="rpeb.html">Random&nbsp;Pebbling</a><br>
+                 <a class="menu" href="algo.html">Algorithms</a><br>
+                 <a class="menu" href="othr.html">Other&nbsp;Variations</a><br>
+                 <a class="menu" href="open.html">Open&nbsp;Problems</a><br>
+                 <a class="menu" href="notn.html">Notation</a><br>
+                 <a class="menu" href="glos.html">Glossary</a><br>
+                 <a class="menu" href="bibl.html">Bibliography</a><br>
+                 <a class="menu" href="auth.html">Authors</a><br>
+                 <a class="menu" href="aplt.html">Applet</a><br>
+                 <a class="menu" href="cont.html">Contact</a><br>
+                
+              </font>
+            </body>
+          </td>
+          <td id="main-copyy">
+            <!-- Content -->
+            <!-- START:UserSpecificContent -->
+            <body background="backs/Pebbles4.jpg">
+              <p class="head">
+                 <a class="host">
+                Maintained by
+                </a> <a class="host" href="http://mingus.la.asu.edu/~hurlbert" target="_blank">
+                 Glenn Hurlbert
+                </a>
+                and
+                <a class="host" href="http://mathpost.asu.edu/~benjamin" target="_blank">
+                 Ben Hester
+                </a>
+              </p>
+              <p align="middle" valign="middle">
+                 <a class="atitle">
+                the <nbsp>
+                   graph <nbsp>
+                     pebbling <nbsp>
+                       page
+                      </a>
+                    </p>
+                    <p align="right">
+                       <a class="host">
+                      You are visitor<br>
+                      <font size="+0">
+                        <b><?
+   $fd= fopen("counter.txt","r+");
+         $bla=fscanf($fd,"%d\n", $var);
+         $var=$var+1;
+         echo $var;
+         fseek($fd,0);
+         fwrite($fd,"$var");
+         fclose($fd)
+         ?>
+                        </b>
+                      </font>
+                      <br>
+                      
+                      since Jan 1, 2006.
+                      </a>
+                    </p>
+                  </body>
+<!-- END:UserSpecificContent -->
+                                  </td>
+              </tr>
+            </table>
+          </body>
+        </html>

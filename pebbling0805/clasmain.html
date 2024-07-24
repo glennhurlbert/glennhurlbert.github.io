@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling
+theory fractional pebble peble graham grahams graham's conjecture 2-pebbling two-pebbling
+optimal diameter connectivity Kneser girth bipartite degree">
+<title>Class 0 page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="def">
+<blockquote>
+<a class="phead">Definition</a>
+<blockquote>
+Graphs whose
+<a class="pdeflink" href="pnummain.html#pebnum">pebbling number</a>
+is equal to their number of vertices are said to be of Class 0.
+</blockquote>
+</blockquote>
+
+<a name="sma">
+<p>
+<blockquote>
+<a class="phead">Small Diameter</a>
+
+<blockquote>
+Because of the lower bound of
+<a class="mit">n</a>(</a class="mit">G</a>)
+on the pebbling number
+<a class="mit">pi</a>(<a class="mit">G</a>),
+it is natural to try to classify Class 0 graphs, or at least give conditions 
+which either guarantee or prohibit Class 0.
+This is of course extremely difficult, although some preliminary results
+have proved quite interesting.
+As argued in
+<a class="tlink" href="pnummain.html#cutbound">Cut Lower Bound</a>,
+graphs of
+<a class="pdeflink" href="clasmain.html#con">
+connectivity</a>
+1 are not Class 0.
+In
+<a class="plink" href="biblmain.html#PaSnVo_OPG">[PSV]</a>
+we find the following theorem.
+<blockquote>
+<a class="tnam">Diameter 2 Theorem.</a>&#160
+<a class="tres">If</a><a class="tfunc"> diam</a><a class="tres">(G) = 2 then pi(G) = n(G) or n(G)+1.</a>
+</blockquote>
+Class 0 graphs of diameter 2 are classified in
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>.
+A particularly crucial graph in the characterization is the graph
+<a class="mit">G</a>,
+built from the bipartite graph
+<a class="mit">C<sub>6</sub></a>
+by connecting all the vertices 
+of one of the parts of the bipartition to each other.
+<a class="mit">G</a>
+has
+<a class="pdeflink" href="clasmain.html#con">
+connectivity</a>
+2 and
+<a class="pdeflink" href="pnummain.html#diameter">
+diameter</a>
+2 but
+<a class="mit">pi</a>(<a class="mit">G</a>) > 6 = <a class="mit">n</a>(<a class="mit">G</a>),
+as witnessed by 
+the configuration
+<a class="mit">C</a>(<a class="mit">a,b</a>) = (3,3),
+where 
+<a class="mit">a</a>,
+<a class="mit">b</a>
+and the root
+<a class="mit">r</a>
+are independent.
+</blockquote>
+<blockquote>
+An upper bound for diameter 3 graphs was recently obtained in
+<a class="plink" href="biblmain.html#Bukh_MPN">[Buk]</a>.
+<blockquote>
+<a class="tnam">Diameter 3 Theorem.</a>&#160
+<a class="tres">If diam(G) = 3 then pi(G) <= 3n/2, which is best possible.</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="con">
+<blockquote>
+<a class="phead">Connectivity</a>
+
+<blockquote>
+The
+<a class="pdef">connectivity</a>
+of a graph equals the minimum number of vertices whose
+removal disconnects it.
+Denote the connectivity of a graph
+<a class="mit">G</a>
+by
+<a class="mit">kappa</a>(<a class="mit">G</a>).
+The following corollary appears in
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>.
+<blockquote>
+<a name="Th6">
+<a class="tnam">D2C3 Theorem.</a>&#160
+<a class="tres">If diam(G) = 2, and kappa(G) >= 3 then G is of Class 0.</a>
+</blockquote>
+From this it follows that almost all graphs (in the probabilistic sense)
+are of Class 0, since almost every graph is 3-connected with diameter 2.
+The following result, conjectured in
+<a class="plink" href="biblmain.html#ClHoHu_PDT">[CHH]</a>,
+was proved in
+<a class="plink" href="biblmain.html#CHKT_NGP">[CHKT]</a>.
+This result was used to prove a number of other theorems, including
+the
+<a class="tlink" href="gconmain.html#MDPT">Min. Degree Product Theorem</a>,
+the
+<a class="tlink" href="clasmain.html#GiTh">Girth Theorem</a>,
+and [Theorem not yet on the site].
+<blockquote>
+<a name="DCT">
+<a class="tnam">Diameter-Connectivity Theorem.</a>&#160
+<a class="tres">There is a function k(d) such that if G is a graph with</a><a class="tfunc"> diam</a><a class="tres">(G) = d and kappa(G) >= k(d) then G is of Class 0.  Moreover, 2<sup>d</sup>/d <= k(d) <= 2<sup>2d+3</sup>.</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="kne">
+<blockquote>
+<a class="phead">Kneser Graphs</a>
+
+<blockquote>
+A nice family of graphs in relation to the
+<a class="tlink" href="clasmain.html#DCT">Diameter-Connectivity Theorem</a>
+is the following.
+For
+<a class="mit">m >= </a>2<a class="mit">t</a>+1,
+the
+<a class="pdef">Kneser graph</a>,
+<a class="mit">K</a><a class="pfunc">(</a><a class="mit">m,t</a>),
+is the graph with
+vertices {[<a class="mit">m</a>] choose <a class="mit">t</a>}
+and edges {<a class="mit">A</a>,<a class="mit">B</a>}
+whenever
+<a class="mit">A</a> and
+<a class="mit">B</a> are disjoint.
+<br></br>
+The case
+<a class="mit">t =</a> 1
+yields the complete graph
+<a class="mit">K<sub>m</sub></a>
+and the case
+<a class="mit">m =</a> 5
+and
+<a class="mit">t =</a> 2
+yields the Petersen graph
+<a class="mit">P</a>,
+both of which are Class 0.
+When
+<a class="mit">t >= </a>2 and
+<a class="mit">m >= </a>3t</a>-1
+we have
+<a class="pfunc">diam(</a><a class="mit">K</a><a class="pfunc">(</a><a class="mit">m,t</a>)) = 2.
+Also, 
+<a class="mit">kappa</a><a class="pfunc">(</a><a class="mit">K</a><a class="pfunc">(</a><a class="mit">m,t</a>)) >= 3
+in this range, implying that 
+<a class="mit">K</a><a class="pfunc">(</a><a class="mit">m,t</a>)
+is Class 0 by the 
+<a class="tlink" href="clasmain.html#Th6">D2C3 Theorem</a>.
+<br></br>
+Furthermore, combining results of Chen and Lih
+<a class="plink" href=clasmain.html#ChLi>[ChLi]</a>
+(<a class="mit">K</a><a class="pfunc">(</a><a class="mit">m,t</a>)
+is connected, edge transitive, and regular)
+and Lovasz
+<a class="plink" href=clasmain.html#Lov>[Lov]</a>
+(such a graph has connectivity equal to its degree)
+with the
+<a class="tlink" href="clasmain.html#DCT">Diameter-Connectivity Theorem</a>,
+<a class="alink" href="authmain.html#GleHur">Hurlbert</a>
+<a class="plink" href="biblmain.html#Hurl_SGP">[Hurl2]</a>
+proved the following.
+<blockquote>
+<a class="tnam">Kneser Graph Theorem.</a>
+<a class="tres">For any constant c > 0, there is an integer t<sub>0</sub> such that,
+for t > t<sub>0</sub>, s >= c(t/</a><a class="tfunc">log</a><a class="tres"><sub>2</sub>t)<sup>1/2</sup>
+and m = 2t+s, we have K(m,t) is Class 0.</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="gir">
+<blockquote>
+<a class="phead">Girth</a>
+
+<blockquote>
+The
+<a class="pdef">girth</a>
+of a graph is the length of its shortest cycle.
+Regarding conditions which prohibit Class 0 membership, one can easily show
+that if 
+<a class="pfunc">girth(</a><a class="mit">G</a><a class="pfunc">)</a> > </a><a class="pfunc">2log</a><a class="mit">n</a>
+then
+<a class="mit">pi</a><a class="pfunc">(</a><a class="mit">G</a><a class="pfunc">)</a><a class="mit"> > n</a><a class="pfunc">(</a><a class="mit">G</a><a class="pfunc">)</a>.
+The following question was asked in
+<a class="plink" href="biblmain.html#Hurl_SGP">[Hurl2]</a>:
+Is there a constant
+<a class="mit">g</a>
+so that
+<a class="pfunc">girth</a>(</a><a class="mit">G</a><a class="pfunc">)</a><a class="mit"> > g</a>
+implies
+<a class="mit">pi</a><a class="pfunc">(</a><a class="mit">G</a><a class="pfunc">)</a><a class="mit"> > n</a><a class="pfunc">(</a><a class="mit">G</a><a class="pfunc">)</a>?
+This question was answered in the negative in
+<a class="plink" href="biblmain.html#CzyHur_GPG">[CzHu3]</a>
+by using the
+<a class="tlink" href="clasmain.html#DCT">Diameter-Connectivity Theorem</a>,
+along with a probabilistic (deletion) method analogous to
+<a class="alink" href="authmain.html#PauErd">Erdos's</a>
+construction
+<a class="plink" href=clasmain.html#Erd2>[Erd2]</a>
+of graphs of arbitrarily high girth and chromatic number.
+</blockquote>
+<blockquote>
+Let
+<a class="mit">g<sub>0</sub></a><a class="pfunc">(</a><a class="mit">n</a><a class="pfunc">)</a>
+denote the maximum number
+<a class="mit">g</a>
+such that there exists a Class 0 graph
+<a class="mit">G</a>
+on at most
+<a class="mit">n</a>
+vertices with finite
+<a class="pfunc">girth(</a><a class="mit">G</a><a class="pfunc">)</a><a class="mit"> >= g</a>.
+Then for all
+<a class="mit">n >=</a> 3
+we have the following theorem.
+<blockquote>
+<a name="GiTh" class="tnam">Girth Theorem.</a>&#160
+<a class="tfunc">floor[sqrt{</a><a class="tres">(</a><a class="tfunc">log</a><a class="tres">n)/2+1/4</a><a class="tfunc">}</a><a class="tres">-1/2</a><a class="tfunc">]</a><a class="tres"> <= g<sub>0</sub>(n) <= 1+2</a><a class="tfunc">log</a><a class="tres">n.</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="bip">
+<blockquote>
+<a class="phead">Bipartite Graphs</a>
+
+<blockquote>
+Denote by
+<a class="mit">B</a><a class="pfunc">(</a><a class="mit">m,k</a>)
+the family of all connected, bipartite graphs on 
+<a class="mit">n = </a><a class="pfunc">2</a><a class="mit">m</a>
+vertices with minimum degree at least
+<a class="mit">k</a>.
+The only graph in
+<a class="mit">B</a><a class="pfunc">(</a><a class="mit">m,</a>2)
+is
+<a class="mit">C<sub>2m</sub></a>,
+having pebbling
+number
+2<a class="mit"><sup>m</sup></a>.
+The only graph in
+<a class="mit">B</a><a class="pfunc">(</a><a class="mit">m,m</a>)
+is
+<a class="mit">K<sub>m,m</sub></a>,
+having pebbling number
+<a class="mit">n = </a><a class="pfunc">2</a><a class="mit">m</a>
+<a class="plink" href=biblmain.html#Clar_PG>[Cla]</a>.
+Also shown in
+<a class="plink" href=biblmain.html#Clar_PG>[Cla]</a>
+is that every graph in
+<a class="mit">B</a><a class="pfunc">(</a><a class="mit">m,m-</a>1)
+is of Class 0.  In
+<a class="plink" href="biblmain.html#Hurl_TPT">[Hur1]</a>
+we find that if
+<a class="mit">k >= </a>2</a class="mit">m/</a>3
+(and
+<a class="mit">m</a> >= 6) then every
+<a class="mit">G in B</a><a class="pfunc">(</a><a class="mit">m,k</a>)
+is of Class 0.
+Define
+<a class="mit">b</a>(<a class="mit">m</a>)
+to be the smallest
+<a class="mit">k</a>
+such that every graph in
+<a class="mit">B</a><a class="pfunc">(</a><a class="mit">m,k</a>)
+is of Class 0.
+<a class="alink" href="authmain.html#AndCzy">Czygrinow</a>
+and
+<a class="alink" href="authmain.html#GleHur">Hurlbert</a>.
+<a class="plink" href="biblmain.html#CzyHur_PDG">[CzHu2]</a>
+proved the following.
+<blockquote>
+<a name="CBMDT">
+<a class="tnam">Class 0 - Bipartite - Min Degree Theorem.</a>&#160
+<a class="tres">For all m >= 7 we have b(m) >= </a><a class="tfunc">floor[</a><a class="tres">m/2</a><a class="tfunc">]</a><a class="tres">+1.  For all m >= 336 we have b(m) = </a><a class="tfunc">floor[</a><a class="tres">m/2</a><a class="tfunc">]</a><a class="tres">+1.</a>
+</blockquote>
+</blockquote>
+<blockquote>
+One can consider the same question for all
+graphs instead of bipartite graphs. 
+In
+<a class="plink" href="biblmain.html#CzyHur_PDG">[CzHu2]</a>
+is proved an analogous result.
+Let
+<a class="mit">g</a>(<a class="mit">n</a>)
+be the minimum
+<a class="mit">k</a>
+such that every graph in
+<a class="mit">G</a><a class="pfunc">(</a><a class="mit">n,k</a>)
+is Class 0.
+<blockquote>
+<a class="tnam">Class 0 - Min Degree Theorem.</a>&#160
+<a class="tres">For all n >= 6 we have g(n) <= </a><a class="tfunc">floor[</a><a class="tres">n/2</a><a class="tfunc">]</a><a class="tres">.  For all n >= 9 we have g(n) = </a><a class="tfunc">floor[</a><a class="tres">n/2</a><a class="tfunc">].</a>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<a name="ref">
+<blockquote>
+<a class="phead">References</a>
+
+<a name="ChLi">
+<blockquote>
+<!-- <a class="rnum">[ChLi]</a> -->
+  <a class="rauth">B.L. Chen and K.W. Lih</a>
+  <a class="rtitle">Hamiltonian uniform subset graphs</a>
+  <a class="rjour">J. Combin. Theory Ser. B </a>
+  <a class="rvol">42</a>
+  <a class="ryear">(1987),</a>
+  <a class="rpage">257--263</a>
+</blockquote>
+
+<a name="Erd2">
+<blockquote>
+<!--   <a class="rnum">[Erd2]</a> -->
+  <a class="rauth">P. Erdos</a>
+  <a class="rtitle">Applications of probabilistic methods to graph theory</a>
+  <a class="rjour">A Seminar on Graph Theory, Holt, Rinehart and Winston, New York</a>
+  <a class="ryear">(1967)</a>
+  <a class="rpage">60--61</a>
+</blockquote
+
+<a name="Lov">
+<blockquote>
+<!--   <a class="rnum">[Lov]</a> -->
+  <a class="rauth">L. Lovasz</a>
+  <a class="rtitle">Combinatorial Problems and Exercises</a>
+  <a class="rjour">North Holland Pub.,  Amsterdam, New York, Oxford</a>
+  <a class="ryear">(1979)</a>
+</blockquote>
+
+</blockquote>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

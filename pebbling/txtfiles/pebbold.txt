@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Hurlbert's Pebbling Page</title>
+</head>
+<frameset rows="112,*" frameborder="no" framespacing="0">
+
+  <frameset cols="80%, 20%">
+
+    <frame name="title" scrolling="no" noresize src="pebbtitle.html" marginwidth="0" marginheight="0">
+
+    <frame name="counter" scrolling="no" noresize src="counter.php" marginwidth="0" marginheight="0">
+
+  </frameset>
+
+  <frameset cols="15%, 85%">
+
+    <frame name="contents" target="main" src="pebbmenu.html" marginwidth="10" marginheight="0" scrolling="auto">
+
+    <frame name="main" src="home.html" marginwidth="10" marginheight="16" scrolling="auto" noresize>
+
+  </frameset>
+
+  <noframes>
+  <body>
+  <p>This page uses frames, but your browser doesn't support them.</p>
+  </body>
+  </noframes>
+</frameset>
+
+</html>
+

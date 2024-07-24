@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="graph pebbling grap pebling graphpebbling 
+theory fractional pebble peble graham graham's conjecture 2-pebbling two-pebbling 
+optimal thresholds threshold threshhold threshholds clique cliques
+path paths sequences sequence density degree">
+<title>Random Pebbling page</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body background="backs/PinkPaper.jpg">
+
+<p align="right">
+<a href=pebb.html target="_top">
+<img border="1" src="hbut.jpg" width=100 height=50></a>
+</p>
+
+<a name="gseq">
+<blockquote>
+<a class="phead">Graph Sequences</a>
+
+<blockquote>
+For this section we will fix notation as follows.
+The vertex set for any graph on
+<a class="mit">N</a>
+vertices will be taken to be
+{<a class="mit">v<sub>i</sub> | i in </a>[<a class="mit">N</a>]},
+where
+[<a class="mit">N</a>] = {0, .., <a class="mit">N</a>-1}.
+That way, any configuration 
+<a class="mit">C : V</a>(<a class="mit">G<sub>n</sub></a>) --> <b>N</b>
+= {0, 1, 2, ..} is independent of
+<a class="mit">G<sub>n</sub></a>.
+(Here we make the distinction that
+<a class="mit">n</a>
+is the index of the graph
+<a class="mit">G<sub>n</sub></a>
+in a sequence
+<b>G</b> = (<a class="mit">G<sub>1</sub>, .., G<sub>n</sub>, ..</a>),
+whereas
+<a class="mit">N = N</a>(<a class="mit">G<sub>n</sub></a>)
+denotes its number of vertices.)
+Let
+<b>K</b> = (<a class="mit">K<sub>1</sub>, .., K<sub>n</sub>, ..</a>),
+denote the sequence of complete graphs,
+<b>P</b> = (<a class="mit">P<sub>1</sub>, .., P<sub>n</sub>, ..</a>),
+the sequence of paths, and
+<b>Q</b> = (<a class="mit">Q<sup>1</sup>, .., Q<sup>n</sup>, ..</a>),
+the sequence of
+<a class="mit">n</a></a>-dimensional cubes.
+Let
+<a class="mit">C<sub>n</sub> : </a>[<a class="mit">N</a>] --> <b>N</b>
+denote a configuration on
+<a class="mit">N = N</a>(<a class="mit">G<sub>n</sub></a>)
+vertices.
+</blockquote>
+</blockquote>
+
+<a name="thre">
+<blockquote>
+<a class="phead">Thresholds</a>
+
+<blockquote>
+Let
+<a class="mit">h</a> : <b>N</b> --> <b>N</b>
+and for fixed
+<a class="mit">N</a>
+consider the probability space
+<a class="mit">X<sub>N</sub></a>
+of all configurations
+<a class="mit">C<sub>n</sub></a>
+of size
+<a class="mit">h = h</a>(<a class="mit">N</a>). 
+We denote by
+<a class="mit">P<sub>N</sub><sup>+</sup></a>
+the probability that
+<a class="mit">C<sub>n</sub></a>
+is
+<a class="mit">G<sub>n</sub></a>-solvable
+and let
+<a class="mit">t : </a><b>N</b> --> <b>N</b>.
+We say that
+<a class="mit">t</a>
+is a
+<a class="pdef">pebbling threshold</a>
+for <b>G</b>, and write
+<a class="mit">tau</a>(<b>G</b>) = <a class="mit">Theta</a>(<a class="mit">t</a>),
+if
+<a class="mit">P<sub>N</sub><sup>+</sup> --> </a>0
+whenever
+<a class="mit">h</a>(<a class="mit">N</a>) << <a class="mit">t</a>(<a class="mit">N</a>)
+and
+<a class="mit">P<sub>N</sub><sup>+</sup> --> </a>1
+whenever  
+<a class="mit">h</a>(<a class="mit">N</a>) >> <a class="mit">t</a>(<a class="mit">N</a>).
+The existence of such thresholds was established in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>.
+
+<blockquote>
+<a class="tnam">Pebbling Threshold Existence Theorem.</a>&#160
+<a class="tres">Every graph sequence <b>G</b> has a pebbling threshold tau(<b>G</b>).</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="clpa">
+<blockquote>
+<a class="phead">Cliques and Paths</a>
+
+<blockquote>
+The first threshold result is found in
+<a class="plink" href="biblmain.html#Clar_PG">[Cla]</a>.
+The result is merely an unlabeled version of the so-called 
+"Birthday problem", in which one finds the probability that 2 of
+<a class="mit">t</a>
+people share the same birthday, assuming
+<a class="mit">N</a>
+days in a year.
+<blockquote>
+<a class="tnam">Clique Threshold.</a>&#160
+<a class="tres">tau(<b>K</b>) =
+Theta(</a><a class="tfunc">sqrt[</a><a class="tres">N</a><a class="tfunc">]
+</a><a class="tres">).</a>
+</blockquote>
+The same threshold applies to the sequence of
+<a class="pdeflink" href="star.jpg">stars</a>
+<b>S</b> = 
+(<a class="mit">K</a><sub>1,1</sub>, ..,
+<a class="mit">K</a><sub>1,<a class="mit">n</sub></a>, ..).
+
+<p>
+It was discovered in
+<a class="plink" href="biblmain.html#CEHK_PTF">[CEHK]</a>
+that every graph sequence
+<b>G</b> satisfies
+<a class="mit">tau</a>(<b>K</b>) <~ <a class="mit">tau</a>(<b>G</b>) <~ <a class="mit">tau</a>(<b>P</b>),
+where
+<a class="mit">A <~ B</a>
+is meant to signify that
+<a class="mit">a in O</a>(<a class="mit">b</a>) 
+for every
+<a class="mit">a in A, b in B</a>.
+The authors also discovered that
+<a class="mit">tau</a>(<b>G</b>) <a class="mit">subset O</a>(<a class="mit">N</a>)
+when
+<b>G</b>
+is a sequence of graphs of bounded diameter, that
+<a class="mit">tau</a>(<b>Q</b>) <a class="mit">subset O</a>(<a class="mit">N</a>),
+and that 
+<a class="mit">tau</a>(<b>P</b>) <a class="mit">subset Omega</a>(<a class="mit">N</a>).
+Surprisingly, the threshold for the sequence of paths has not been
+determined.
+The lower bound found in
+<a class="plink" href="biblmain.html#CEHK_PTF">[CEHK]</a>
+was improved in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>
+to 
+<a class="mit">tau</a>(<b>P</b>) <a class="mit">subset Omega</a>(<a class="mit">N</a>2<sup><a class="mit">c</a>sqrt[log<a class="mit">N</a>]</sup>).
+for every
+<a class="mit">c < 1/</a>sqrt[2],
+while the upper bound of
+<a class="mit">tau</a>(<b>P</b>) <a class="mit">subset Omega</a>(<a class="mit">N</a>2<sup><a class="mit">c</a>sqrt[log<a class="mit">N</a>]</sup>)
+found in
+<a class="plink" href="biblmain.html#BBCH_TFM">[BBCH]</a>
+was improved in 
+<a class="plink" href="biblmain.html#GJSW_UBP">[GJSW]</a>
+to
+<a class="mit">tau</a>(<b>P</b>) <a class="mit">subset 
+Omega</a>(<a class="mit">N</a>2<sup><a class="mit">c</a>
+sqrt[log<a class="mit">N</a>]</sup>)
+for every
+<a class="mit">c > </a>1.
+Finally the lower bound was tightened in
+<a class="plink" href="biblmain.html#CzyHur_PTP">[CzHu2]</a>
+to nearly match the upper bound.
+<blockquote>
+<a class="tnam">Path Threshold Bounds.</a>&#160
+<a class="tres">For any constant c > 1, we have tau(P) subset Omega(N2<sup>
+M/c</sup>) intersect O(N2<sup>cM</sup>), where M = </a><a class="tfunc">sqrt[log</a><a class="tres">N</a><a class="tfunc">].</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<a name="dens">
+<blockquote>
+<a class="phead">Density</a>
+
+<blockquote>
+It is natural to think that any given function could be the threshold
+for some graph sequence.
+<blockquote>
+<a class="tnam">Threshold Density Conjecture.</a>&#160
+<a class="tres">Let t<sub>1</sub>, t<sub>2</sub> be any functions
+satisfying tau(<b>K</b>) <~ t<sub>1</sub> << tau(<b>P</b>).  
+Then there is some graph sequence <b>G</b> such that t<sub>1</sub> 
+<~ tau(<b>G</b>) <~ t<sub>2</sub>.</a>
+</blockquote>
+This conjecture was proven in
+<a class="plink" href="biblmain.html#CzyHur_PTP">[CzHu2]</a>
+in the case that
+<a class="mit">tau</a>(<b>P</b>)
+is replaced by
+<a class="mit">Theta</a>(<a class="mit">N</a>).
+In fact, the family of
+<a class="pdeflink" href="cpebmain.html#fuse">fuses</a>
+covers this whole range.
+What behavior lives above
+<a class="mit">Theta</a>(<a class="mit">N</a>)
+remains unknown.
+</blockquote>
+</blockquote>
+
+<a name="prod">
+<blockquote>
+<a class="phead">Products</a>
+
+<blockquote>
+It is interesting to consider a pebbling threshold version of
+<a class="tlink" href="gconmain.html#GCon">Graham's Conjecture</a>.
+Given graph sequences
+<b>F</b> and <b>G</b>, define the sequence 
+<b>H</b> = <b>F</b> x <b>G</b> = (<a class="mit">F<sub>1</sub> x G<sub>1</sub>, ..,  F<sub>n</sub> x G<sub>n</sub>, ..</a>).
+Suppose that
+<a class="mit">f</a>(<a class="mit">R</a>)<a class="mit"> in tau</a>(<b>F</b>),
+<a class="mit">g</a>(<a class="mit">S</a>)<a class="mit"> in tau</a>(<b>G</b>),
+and
+<a class="mit">h</a>(<a class="mit">T</a>)<a class="mit"> in tau</a>(<b>H</b>),
+where
+<a class="mit">R = N</a>(<a class="mit">F<sub>n</sub></a>),
+<a class="mit">S = N</a>(<a class="mit">G<sub>n</sub></a>),
+and
+<a class="mit">T = N</a>(<a class="mit">H<sub>n</sub></a>) = <a class="mit">RS</a>.
+
+<blockquote>
+<a name="ques8" class="tnam">Threshold Product Question.</a>&#160
+<a class="tres">Is it true that, for <b>F</b>, <b>G</b>, and <b>H</b> as defined above, we have h(T) in O(f(R)g(S))?</a>
+</blockquote>
+
+In particular, one can define the sequence of graphs
+<b>G</b><sup><a class="mit">k</a></sup>
+in the obvious way.  In
+<a class="plink" href="biblmain.html#CzyHur_GPG">[CzHu3]</a>
+one finds tight enough bounds on
+<a class="mit">tau</a>(<b>P</b><sup><a class="mit">k</a></sup>)
+to show that the answer to this question is yes for
+<b>F</b> = <b>P</b><sup><a class="mit">i</a></sup>
+and
+<b>G</b> = <b>P</b><sup><a class="mit">j</a></sup>.  
+
+<blockquote>
+<a name="gtb" class="tnam">Grid Threshold Bounds.</a>&#160
+<a class="tres">
+Let N = n<sup>d</sup> be the number of vertices of
+<b>P</b><sub>n</sub><sup>d</sup> and let M = </a>
+<a class="tfunc">[log </a><a class="tres">N</a><a class="tfunc">]</a><a class="tres"><sup>1/(d+1)</sup>.
+Then tau(<b>P</b><sup>d</sup>) subset Omega(N2<sup>cM</sup>) intersect 
+O(N2<sup>c'M</sup>) for all c < 2<sup>-d/(d+1)</sup> and c' > d+1.</a>
+</blockquote>
+
+<p>
+Another important instance is
+<b>H</b> = <b>K</b><sup>2</sup>.
+<a class="alink">Boyle</a>
+<a class="plink" href="biblmain.html#Boyl_TRD">[Boyl]</a>
+proved that
+<a class="mit">tau</a>(<b>K</b><sup>2</sup>) <a class="mit">in O</a>(<a class="mit">N</a><sup>3/4</sup>).
+This was improved in
+<a class="plink" href="biblmain.html#BekHur_PTS">[BeHu]</a>,
+answering the 
+<a class="tlink" href="rpebmain.html#ques8">Threshold Product Question</a> 
+affirmatively for squares of complete graphs.
+</p>
+
+<blockquote>
+<a class="tnam">Square Clique Threshold.</a>&#160
+<a class="tres">For K<sup>2</sup> =
+</a><a class="tfunc">(</a><a class="tres">K<sub>1</sub><sup>2</sup>, ..,
+K<sub>n</sub><sup>2</sup>, ..</a><a class="tfunc">)</a>
+<a class="tres"> we have tau(K<sup>2</sup>) = Theta(N<sup>1/2</sup>).</a>
+</blockquote>
+
+This result is interesting because, by squaring, the graphs become fairly
+sparse, and yet their structure maintains the low pebbling threshold.
+The proof of the result tied the behavior of pebbling in
+<a class="mit">K<sub>n</sub></a><sup>2</sup>
+to the existence of large components in various models of random complete
+bipartite graphs.
+
+<p>
+Another interesting related sequence to consider is
+<b>P</b><a class="mit"><sub>l</sub> = </a>(<a class="mit">P<sub>l</sub><sup></a>1</sup>, ..,  <a class="mit">P<sub>l</sub><sup></a>n</sup>, ..).
+When
+<a class="mit">l = </a>2
+we have
+<b>P</b><sub>2</sub> = <b>Q</b>,
+and the best result to date is the following theorem of
+<a class="plink" href="biblmain.html#CzyWag_PTH">[CzWa]</a>,
+(obtained independently by
+<a class="alink" href="authmain.html#NogAlo">Alon</a>).
+
+<blockquote>
+<a name="ctb" class="tnam">Cube Threshold Bounds.</a>&#160
+<a class="tres">For the sequence of cubes we have tau(<b>Q</b>) in Omega(N<sup>1-epsilon</sup>) intersect 0(N/(</a><a class="tfunc">loglog</a><a class="tres">N)<sup>1-epsilon</sup>) for all epsilon > 0.</a>
+</blockquote>
+
+Let
+<a class="mit">l = l</a>(<a class="mit">n</a>)
+and
+<a class="mit">d = d</a>(<a class="mit">n</a>)
+and denote by
+<b>P</b><a class="mit"><sub>l</sub><sup>d</sup></a>
+the graph sequence
+(<a class="mit">P<sub>l</sub><sup>d</sup></a>)<sub><a class="mit">n></a>0</sub>,
+where
+<a class="mit">P<sub>l</sub><sup>d</sup></a> =
+(<a class="mit">P<sub>l</sub></a>)<sup>d</sup></a>.
+Most likely, fixed
+<a class="mit">l</a>
+yields similar behavior to the
+<a class="tlink" href="rpebmain.html#ctb">Cube Threshold Bounds</a>.
+
+<blockquote>
+<a class="tnam">Grid Threshold Conjecture.</a>&#160
+<a class="tres">For fixed l we have tau(<b>P</b><sub>l</sub><sup>n</sup>) in o(N).</a>
+</blockquote>
+
+In contrast, the
+<a class="tlink" href="rpebmain.html#gtb">Grid Threshold Bounds</a>
+show that
+<a class="mit">tau</a>(<b>P</b><sup><a class="mit">d</a></sup>)
+<a class="mit">in Omega</a>(<a class="mit">N</a>)
+for fixed
+<a class="mit">d</a>.
+Thus it is reasonable to believe that there should be some
+relationship between the two functions
+<a class="mit">l = l</a>(<a class="mit">n</a>)
+and
+<a class="mit">d = d</a>(<a class="mit">n</a>),
+both of which tend to infinity, for which the sequence
+<b>P</b><a class="mit"><sub>l</sub><sup>d</sup></a>
+has threshold on the order of
+<a class="mit">N</a>.
+
+</blockquote>
+</blockquote>
+
+<a name="mdeg">
+<blockquote>
+<a class="phead">Min. Degree</a>
+
+<blockquote>
+Finally one might consider the behavior of graphs of high minimum degree.
+Define
+<b>G</b>(<a class="mit">n,delta</a>)
+to be the set of all connected graphs on
+<a class="mit">n</a>
+vertices having minimum degree at least
+<a class="mit">delta = delta</a>(<a class="mit">n</a>).
+Let
+<b>G</b><sub><a class="mit">delta</a></sub> = (<a class="mit">G<sub>1</sub>, .., G<sub>n</sub>, ..</a>)
+denote any sequence of graphs with each
+<a class="mit">G<sub>n</sub> in </a><b>G</b>(<a class="mit">n,delta</a>).
+In
+<a class="plink" href="biblmain.html#CzyHur_PDG">[CzHu1]</a>
+is proven the following.
+
+<blockquote>
+<a class="tnam">Min. Degree Thresholds.</a>&#160
+<a class="tres">For every function N<sup>1/2</sup> << delta = delta(N) <= N-1, 
+tau(<b>G</b><sub>delta</sub>) subset 0(N<sup>3/2</sup>/delta).  
+In particular, if in addition delta in Omega(N) then 
+tau(<b>G</b><sub>delta</sub>) = Theta(N<sup>1/2</sup>).</a>
+</blockquote>
+
+</blockquote>
+</blockquote>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

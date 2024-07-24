@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pref="http://www.w3.org/2002/Math/preference"
+      pref:renderer="css">
+<head>
+<title>Untitled Document</title>
+</head>
+  <body>
+	 <math xmlns='http://www.w3.org/1998/Math/MathML'>
+
+	 <msup>
+	  <mn>2</mn>
+	  <mi>x</mi>
+	 </msup>
+
+	 <msup>
+	  <mn>2</mn>
+	  <mi>x</mi>
+	 </msup>
+
+	 <msup>
+	  <mn>2</mn>
+	  <mi>x</mi>
+	 </msup>
+
+	 <msup>
+	  <mn>2</mn>
+	  <mi>x</mi>
+	 </msup>
+
+	 </math>
+  </body>
+</html>
