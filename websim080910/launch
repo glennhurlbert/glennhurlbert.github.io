@@ -1,0 +1,45 @@
+<html><head><title>WebSim Launch</title>
+<script type="text/javascript">
+var c = 0;
+var chars = new Array('A','B','C','D','E','F','G','H','I','J','K','L','M',
+                    'N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+function launch() {
+   window.open('tableau.html?title=' + chars[c++]);
+}
+</script>
+    
+    <style type="text/css">
+body {
+  font-family: 'Trebuchet MS', Verdana, Helvetica,sans-serif, Arial;
+}
+#green {
+  color: #00aa00;
+  font-weight: bold;
+}
+
+#red {
+  color: #aa0000;
+  font-weight: bold;
+}
+
+    </style></head><body bgcolor="white">
+
+<img align="center" border="1" src="websimlogo.jpg" height=40 width=80>
+
+<p style="float: right;"><a href="#" onclick="javascript:launch();">Launch WebSim</a></p>
+<h3>Introduction</h3>
+
+<p><b>WebSim is</b> a program that uses the simplex method to solve small Linear Optimization Problems.
+It was developed by
+<a href="http://mingus.la.asu.edu/~hurlbert" target="_blank">Glenn Hurlbert</a>
+and Jake Hawkes at Arizona State University with the support
+of a grant from the National Science Foundation through their CCLI-EMD program.
+WebSim can also be used to solve systems of linear equalities as well as inequalities,
+with or without nonnegativity restrictions on its variables.
+Its main function is more pedagogical and exploratory than practical,
+illustrating various pivoting options and methods, especially when used in tandem
+with the inquiry-based textbook,
+<a href="http://mingus.la.asu.edu/~hurlbert/LinOpt.html" target="_blank">Linear Optimization</a>.</p>
+
+</body></html>
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert WebSim Row Buttons</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Buttons</a><p>
+
+<table>
+
+<tr>
+<td>
+<a class="normal">
+  The menus for all buttons and cell entries are activated by right clicking
+  on them.
+</a>
+<ul>
+  <a class="menu" href="websimbuttcel.html" target="websimmain">
+    Cells
+  </a>
+  <br>
+  <a class="menu" href="websimbuttrow.html" target="websimmain">
+    Rows
+  </a>
+  <br>
+  <a class="menu" href="websimbuttcol.html" target="websimmain">
+    Columns
+  </a>
+  <br>
+  <a class="menu" href="websimbutttab.html" target="websimmain">
+    Tableau
+  </a>
+</ul>
+<a class="normal">
+
+  <b>Rows</b> (left of tableau)
+  <ul>
+    <li>
+      <i>Highlight Row</i> - changes the background color of every cell
+      in the row for emphasis (toggles on/off); useful for classroom discussions.
+    </li>
+    <li>
+      <i>Delete Row</i> - deletes the row from the tableau; one can continue
+      to pivot in the tableau without errors.
+    </li>
+    <li>
+      <i>Add Row Before</i> - inserts an empty row into the tableau above 
+      the given row; this is usually done while constructing the original
+      tableau or modifying a copied tableau (if done after several pivots
+      then further pivots will most likely not be integral); also useful
+      when adding cutting planes for integer optimization problems, but 
+      you can add a column simulaneously with the cell button 
+      <i>Add Row and Column After</i> instead.
+    </li>
+    <li>
+      <i>Add Row After</i> - inserts an empty row into the tableau below 
+      the given row; this is usually done while constructing the original
+      tableau or modifying a copied tableau (if done after several pivots
+      then further pivots will most likely not be integral); also useful
+      when adding cutting planes for integer optimization problems, but 
+      you can add a column simulaneously with the cell button 
+      <i>Add Row and Column After</i> instead.
+    </li>
+    <li>
+      <i>Fill Row with 0s</i> - enters 0 in each cell of the row;
+      useful for sparse matrix construction.
+    </li>
+    <li>
+      <i>Fill Row with 1s</i> - enters 1 in each cell of the row;
+      useful for problems involving convexity and games.
+    </li>
+    <li>
+      <i>Mark as Equality</i> - marks the row as an equality by putting a 
+      red <b><font color="red">E</font></b> on the row button (toggles on/off);
+      the <b><font color="red">E</font></b> will remain red until a pivot is
+      performed in the row, at which point it will change to (and remain)
+      a green <b><font color="green">E</font></b>; useful for remembering
+      to pivot in a basic variable for an equality constraint.
+    </li>
+  </ul>
+
+</a>
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

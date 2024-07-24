@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>G. Hurlbert WebSim Usage</title>
+<link rel="stylesheet" href="simple.css" type="text/css">
+</head>
+
+<body bgcolor="#ccccff">
+
+<br>
+<a class="normald">Usage</a><p>
+
+<table>
+
+<tr>
+<td>
+<a class="normal">
+  To begin, click on the
+</a>
+<a class="menu" href="websim/sim.html" target="_blank">
+  Launch
+</a>
+<a class="normal">
+  link at left.  This will pop up a
+  new tab with a simple form, prompting you to choose whether the problem
+  consists of inequalities or equalities.  A third option, <i>Empty</i>,
+  allows you to simply paste an existing tableau that you might have
+  copied from Maple or a word processing program.
+  In this case you should enter the value of the basic coefficient,
+  which is set to 1 as the default otherwise.
+  <br><br>
+  After you have selected the type of constraints in your problem, a
+  few more prompts show up.  One of these allows you to choose whether
+  the problem is a linear optimization problem (LOP) or a system of
+  constraints.  The only difference between the two types of problems is
+  that a LOP will contain a <i>z-column</i> and an <i>objective row</i>,
+  whereas a system will not.  You are also prompted to enter the number
+  of variables and constraints in the problem, after which you should
+  click <b>Done</b>.
+  <br><br> 
+  At this point a table appears with the slack variable coefficients
+  filled in (and the z-column as well if the problem is a LOP).
+  The table of numbers in the middle represents a tableau which can be
+  edited or pivoted on at any time.  The tab and arrows keys move from
+  one cell to another to allow data entry and editing --- experiment
+  with them to see how they wrap around horizontally and vertically.  
+  <br><br> 
+  The 
+</a>
+<a class="menu" href="websimbutt.html" target="websimmain">
+  Buttons 
+</a>
+<a class="normal">
+  to the left and above the tableau are used for popping up menus.
+  In order to pop-up a menu, simply right-click any button or entry.
+  The button above and to the left is called the <i>tableau button</i>,
+  the buttons directly above the tableau are called <i>column buttons</i>,
+  and the buttons directly to the left of the tableau are called <i>row
+  buttons</i>.
+  <br><br> 
+  <b>Pivoting</b> can be accomplished simply by double-clicking on the entry 
+  on which you wish to pivot.  The resulting tableau will appear beneath 
+  the current tableau, and the page will automatically scroll to show only
+  the resulting tableau.  (Scrolling between tableau can be useful for
+  class discussions when discovering or witnessing patterns.  Also, one can
+  scroll up to a prior tableau and pivot on it successfully.)  Note that
+  integer arithmetic is used, so that one needs to divide by the <i>basic
+  coefficient</i> in order to calculate curent basic and objective values.
+  <br><br> 
+  It is also visually useful to draw lines between various rows, to separate
+  constraints from the objective row, for example (and also original
+  constraints from new valid inequalities from cutting planes), and between 
+  various columns, to separate problem variables, slack variables, and the
+  <i>b-column</i>.  This can be accomplished by clicking on the black
+  lines between the buttons.
+  <br><br> 
+  <b>Saving</b> a sequence of tableaux is accomplished by saving the page
+  in your browser.  Later, when you open that page in your browser you
+  will see the sequence but it is not an active page (you will not be
+  able to pivot or use any buttons).  
+</a>
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
