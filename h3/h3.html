@@ -1,0 +1,362 @@
+<html>
+<head>
+<title>419 HW3</title>
+</head>
+<body>
+
+<center>
+<b> <font size="+2"> MAT 419 LINEAR PROGRAMMING </font> <br><br>
+	<font size="+1"> Spring 2003 </font> <br><br>
+	HOMEWORK #3 </b>
+</center>
+
+<b>1. Problem #15.2.</b> 
+	<blockquote>
+	Suppose that winning means recieving a unit of currency
+	from the loser. 
+	(Each time the second player wins the first player must cry out,
+	<i>``You Sunk My Battleship!''</i>) <p>
+	Consider the primal strategy of choosing three mutually non-overlapping 
+	domino positions, and playing them each with probability 1/3.
+	For each choice of square the first player will win 2/3 of the time 
+	and lose 1/3 of the time, for an average winnings of 1/3 unit.
+	Therefore player 1 will win at least 1/3 per trial in a
+	primal-optimal strategy. <p>
+	Now consider the dual strategy of choosing all three squares of the
+	same color in the usual checkerboard coloring, and playing them each 
+	with probability 1/3.
+	For each position of a domino the second player will win 1/3 of the
+	time and lose 2/3 of the time, for an average loss of 1/3 unit.
+	Therefore player 1 will win at most 1/3 per trial in a
+	dual-optimal strategy. <p>
+	Hence the game is not fair -- its value is 1/3 unit.
+	In fact, every basic primal optimal solution has the form described,
+	so every optimal solution is some convex combination of the
+	3 basic optimal strategies.
+	Likewise, every basic dual optimal solution has the form described,
+	so every optimal solution is some convex combination of the
+	2 basic optimal strategies. <p>
+	In fact, the same holds for larger boards.
+	If the number of squares <i>s</i>on the board is even (<i>=2t</i>), 
+	then the mutually non-overlapping domino positions cover the board 
+	perfectly, the squares of one color account for half of all squares, 
+	every domino is hit by a unique square, and every square hits a unique 
+	domino, so the value of the game is <i>(t-1)/t - 1/t = (t-2)/t</i>.<p>
+	If the number of squares <i>s=2t+1</i> is odd, then the dominoes
+	miss exactly one square, and one of the colors includes t squares,
+	while the other colors includes t+1 squares.  
+	By choosing the smaller color we arrive at the same value of
+	<i>(t-2)/t</i>.
+	</blockquote>
+
+<b>2. Problem #15.3.</b> 
+	<blockquote>
+	The problem can be rephrased by replacing the number 1,000 by any
+	integer <i>n >= 3</i>.
+	In any case, supposing the amount won or loss in each case is a
+	single unit, the payoff matrix is anti-symmetric, which agrees with
+	the obvious symmetry, and hence fairness, of the game.
+	In addition, the first column dominates every column from the
+	fourth on, while the first row dominates every row from the fourth on,
+	so the payoff matrix reduces to the 3x3 case.
+	In that case, the game is equivalent to the well-known 
+	"rock-scissors-paper" game, and it is clear that each player should 
+	play the numbers 1 through three, with equal probability, as their 
+	optimal strategies (either by solving the associated linear program
+	or by noticing that each strategy guaranteeing the corresponding
+	player a nonnegative win).
+	</blockquote>
+
+<b>3. Problem #19.1.<i>i</i>.</b> 
+    <blockquote>
+    <b>(a) Part <i>i</i>.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Original Network</b><p>
+	<img src="2networka.GIF" height=240 width=320><p>
+	<th>
+	<b>Initial Tree</b><p>
+	<img src="2a0.GIF" height=240 width=320><p>
+	<tr>
+	<th>
+	<b>Optimal Tree</b><p>
+	<img src="2a1.GIF" height=240 width=320><p>
+	</Table>
+	</blockquote>
+<b>(b) Text #19.1.<i>ii</i>.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Original Network</b><p>
+	<img src="2networkb.GIF" height=240 width=320><p>
+	<th>
+	<b>Initial Tree</b><p>
+	<img src="2b0.GIF" height=240 width=320><p>
+	<tr>
+	<th>
+	<b>Unbounded Network</b><p>
+	<img src="2b1.GIF" height=240 width=320><p>
+	</Table>
+	</blockquote>
+<b>(c) Text #19.1.<i>iii</i>.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Original Network</b><p>
+	<img src="2networkc.GIF" height=240 width=320><p>
+	<th>
+	<b>Initial Tree</b><p>
+	<img src="2c0.GIF" height=240 width=320><p>
+	<tr>
+	<th>
+	<b>Second Tree</b><p>
+	<img src="2c1.GIF" height=240 width=320><p>
+	<th>
+	<b>Infeasible Network</b><p>
+	<img src="2c2.GIF" height=240 width=320><p>
+	</Table>
+	</blockquote>
+
+</body>
+
+</html>
+<html>
+<head>
+<title>419 HW3 #3</title>
+</head>
+<body>
+
+<center>
+<b> <font size="+2"> MAT 419 LINEAR PROGRAMMING </font> <br><br>
+	<font size="+1"> Spring 2000 </font> <br><br>
+	HOMEWORK #3 </b>
+</center>
+
+<b>PROBLEM 3.</b><br><br>
+
+<blockquote>
+<b>(a) Text #19.9.</b> 
+	<blockquote>
+
+First, suppose that T is not a tree.
+Then T contains a cycle C.
+Let v<sub>1</sub>, v<sub>2</sub>, ... v<sub>k</sub>
+be the nodes, in order, along C, let
+a<sub>1</sub>, a<sub>2</sub>, ... a<sub>k</sub>
+be the arcs, in order, along C (so that each
+a<sub>i</sub> joins a<sub>i</sub> to a<sub>i+1</sub>
+in one direction or the other), and let
+c<sub>1</sub>, c<sub>2</sub>, ... c<sub>k</sub>
+be the columns of B coresponding to these arcs.
+[All subscript arithmetic is done modulo k.]
+<p>
+
+We will prove that B is singular by showing that these columns
+are linearly dependent.
+Define coeficients t<sub>1</sub>, t<sub>2</sub>, ... t<sub>k</sub>
+by t<sub>i</sub>=+1 if the arc a<sub>i</sub> goes from
+v<sub>i</sub> to v<sub>i+1</sub>, and t<sub>i</sub>=-1 if the
+arc a<sub>i</sub> goes from v<sub>i+1</sub> to v<sub>i</sub>.
+We claim that the linear combination s = t<sub>1</sub>c<sub>1</sub> +
+t<sub>2</sub>c<sub>2</sub> + ... + t<sub>k</sub>c<sub>k</sub> = 0.
+<p>
+
+We will prove this by showing that every entry of s is zero.
+Indeed, consider s<sub>j</sub>, which corresponds to
+the node v<sub>j</sub>.
+The only nonzero contributions to v<sub>j</sub> come from
+t<sub>j-1</sub>c<sub>j-1</sub> and t<sub>j</sub>c<sub>j</sub>.
+Regardless of the direcion of the arc a<sub>j-1</sub>, the 
+definition of t<sub>j-1</sub> compensates so that the product
+t<sub>j-1</sub>c<sub>j-1</sub>=+1.
+Likewise, regardless of the direcion of the arc a<sub>j</sub>, the 
+definition of t<sub>j</sub> compensates so that the product
+t<sub>j</sub>c<sub>j</sub>=-1.
+Hence, s<sub>j</sub> = t<sub>j-1</sub>c<sub>j-1</sub> +
+t<sub>j</sub>c<sub>j</sub> = 0.
+<p>
+
+Second, suppose that T is a tree.
+We will show that B is nonsingular by proving that det(B) is nonzero.
+In fact, we will do this by permuting the rows and columns of B
+to create a matrix B' which is upper triangular and has no zeros
+on its diagonal.
+(Such permutations are elementary row and column operations which
+only multiply the determinant of B by +/-1.  Hence Hence, |det(B)|=|det(B')|>0.)
+<p>
+
+We proceed by induction on n>=2.
+If n=2 then B=I<sub>1</sub>, the 1x1 identity matrix,
+so the result is true.
+If n>2 then let v<sub>n</sub> be a leaf of T (a node which is
+incident with only one arc) which is not the node corresponding
+to the truncated row of B (which is possible since there are 
+always at least two leaves in any tree), and let a<sub>n</sub>
+be the unique arc incident with v<sub>n</sub>.
+Let B' be so that its last row corresponds to v<sub>n</sub>,
+and so that its last column coresponds to a<sub>n</sub>.
+Then the only nonzero entry of B' in the last row is in the
+last column.
+<p>
+
+Now let T* be the tree obtained from T by removing both
+v<sub>n</sub> and a<sub>n</sub>.
+Then T* has n-1 nodes and n-2 arcs (and still no cycle, which is
+why it is a tree), and so by the induction hypothesis the rows and
+columns of its truncated incidence matrix can be permuted so that
+it is upper triangular with no zeros on its diagonal.
+Denote this matrix by B*, and let B' be identical to B* on its
+first n-1 rows and columns.
+Then B' is upper triangular with no zeros on its diagonal, as claimed.
+<p>
+
+This completes the proof.
+	</blockquote>
+<b>(b) Text #19.10.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Lower Cost Network</b><p>
+	<img src="3blow.GIF" height=240 width=320><p>
+	<th>
+	<b>Higher Cost Network</b><p>
+	<img src="3bhigh.GIF" height=240 width=320><p>
+	</Table>
+	</blockquote>
+
+</body>
+
+</html>
+
+
+<html>
+<head>
+<title>419 HW3 #4</title>
+</head>
+<body>
+
+<center>
+<b> <font size="+2"> MAT 419 LINEAR PROGRAMMING </font> <br><br>
+	<font size="+1"> Spring 2000 </font> <br><br>
+	HOMEWORK #3 </b>
+</center>
+
+<b>PROBLEM 4.</b><br><br>
+
+<blockquote>
+<b>(a) Text #20.1.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Original Network</b><p>
+	<img src="4networka.GIF" height=240 width=320><p>
+	<th>
+	<b>Initial Tree</b><p>
+	<img src="4a0.GIF" height=240 width=320><p>
+	<tr>
+	<th>
+	<b>Second Tree</b><p>
+	<img src="4a1.GIF" height=240 width=320><p>
+	<th>
+	<b>Third Tree</b><p>
+	<img src="4a2.GIF" height=240 width=320><p>
+	<tr>
+	<th>
+	<b>Optimal Tree</b><p>
+	<img src="4a3.GIF" height=240 width=320><p>
+	</Table>
+	</blockquote>
+<b>(b) Text #20.3.</b> 
+	<blockquote>
+	<Table border>
+	<tr>
+	<th>
+	<b>Original Network</b><p>
+	<img src="4networkb.GIF" height=360 width=270><p>
+	<th>
+	<b>Initial Tree</b><p>
+	<img src="4b0.GIF" height=360 width=270><p>
+	<th>
+	<b>Optimal Tree</b><p>
+	<img src="4b22.GIF" height=360 width=270><p>
+	</Table><p>
+	(After 22 iterations!)<p>
+	Cost = (3+1+4+1+5)(3) + (1+1)(2) + (4+4+1+5+8+1)(1) = 72 .<p>
+	(Dual Cost = (3+1+4+1+5+9)(3) + (2+6-3-1-4)(2) + (8+1-1-5)(1) = 72.)
+	</blockquote>
+
+</body>
+
+</html>
+<html>
+<head>
+<title>419 HW3 #5</title>
+</head>
+<body>
+
+<center>
+<b> <font size="+2"> MAT 419 LINEAR PROGRAMMING </font> <br><br>
+	<font size="+1"> Spring 2000 </font> <br><br>
+	HOMEWORK #3 </b>
+</center>
+
+<b>PROBLEM 5.</b><br><br>
+
+<blockquote>
+<b>(a) Text #20.4.</b> 
+	<blockquote>
+	<pre>
+     3 3 0 3 1            0 1 0 0 0            1 0 0 0 0
+ 1   1 5 2 1 1        2   0 0 1 0 0        2   0 1 0 0 0
+--   2 0 3 5 0   =   --   0 0 0 1 0   +   --   0 0 0 1 0
+10   0 2 5 0 3       10   0 0 0 0 1       10   0 0 1 0 0
+     4 0 0 1 5            1 0 0 0 0            0 0 0 0 1
+
+
+                          1 0 0 0 0            0 0 0 1 0
+                      1   0 1 0 0 0        2   0 1 0 0 0
+                  +  --   0 0 1 0 0   +   --   1 0 0 0 0
+                     10   0 0 0 0 1       10   0 0 1 0 0
+                          0 0 0 1 0            0 0 0 0 1
+
+
+                          0 0 0 0 1            0 1 0 0 0
+                      1   0 0 0 1 0        1   1 0 0 0 0
+                  +  --   0 0 1 0 0   +   --   0 0 0 1 0
+                     10   0 1 0 0 0       10   0 0 1 0 0
+                          1 0 0 0 0            0 0 0 0 1
+
+
+                          0 0 0 1 0
+                      1   0 0 0 0 1
+                  +  --   0 0 1 0 0
+                     10   0 1 0 0 0
+                          1 0 0 0 0
+
+	</pre>
+	</blockquote>
+<b>(b) Text #20.5.</b> 
+	<blockquote>
+	<b>Bold Matching, Squared Cover</b><p>
+	<img src="5b.GIF" height=240 width=280><p>
+	</blockquote>
+<b>(c) Text #20.6.</b> 
+	<blockquote>
+	There is no system of distinct representatives for this family
+	of sets since |{S<sub>2</sub>,S<sub>3</sub>,S<sub>5</sub>,
+	S<sub>7</sub>,S<sub>8</sub>,S<sub>9</sub>}| = 6, while
+	the union of these sets equals {1,3,5,6,8}, which only has
+	size 5.
+	</blockquote>
+
+</body>
+
+</html>
+
+

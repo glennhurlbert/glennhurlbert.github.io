@@ -1,0 +1,276 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Feedback Form</title>
+<meta name="Microsoft Theme" content="network 011, default">
+<script language="JavaScript">
+		<!--
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+		
+		function YY_checkform() { //v4.66
+		//copyright (c)1998,2002 Yaromat.com
+		  var args = YY_checkform.arguments; var myDot=true; var myV=''; var myErr='';var addErr=false;var myReq;
+		  for (var i=1; i<args.length;i=i+4){
+		    if (args[i+1].charAt(0)=='#'){myReq=true; args[i+1]=args[i+1].substring(1);}else{myReq=false}
+		    var myObj = MM_findObj(args[i].replace(/\[\d+\]/ig,""));
+		    myV=myObj.value;
+		    if (myObj.type=='text'||myObj.type=='password'||myObj.type=='hidden'){
+		      if (myReq&&myObj.value.length==0){addErr=true}
+		      if ((myV.length>0)&&(args[i+2]==1)){ //fromto
+		        var myMa=args[i+1].split('_');if(isNaN(myV)||myV<myMa[0]/1||myV > myMa[1]/1){addErr=true}
+		      } else if ((myV.length>0)&&(args[i+2]==2)){
+		          var rx=new RegExp("^[\\w\.=-]+@[\\w\\.-]+\\.[a-z]{2,4}$");if(!rx.test(myV))addErr=true;
+		      } else if ((myV.length>0)&&(args[i+2]==3)){ // date
+		        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);
+		        if(myAt){
+		          var myD=(myAt[myMa[1]])?myAt[myMa[1]]:1; var myM=myAt[myMa[2]]-1; var myY=myAt[myMa[3]];
+		          var myDate=new Date(myY,myM,myD);
+		          if(myDate.getFullYear()!=myY||myDate.getDate()!=myD||myDate.getMonth()!=myM){addErr=true};
+		        }else{addErr=true}
+		      } else if ((myV.length>0)&&(args[i+2]==4)){ // time
+		        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);if(!myAt){addErr=true}
+		      } else if (myV.length>0&&args[i+2]==5){ // check this 2
+		            var myObj1 = MM_findObj(args[i+1].replace(/\[\d+\]/ig,""));
+		            if(myObj1.length)myObj1=myObj1[args[i+1].replace(/(.*\[)|(\].*)/ig,"")];
+		            if(!myObj1.checked){addErr=true}
+		      } else if (myV.length>0&&args[i+2]==6){ // the same
+		            var myObj1 = MM_findObj(args[i+1]);
+		            if(myV!=myObj1.value){addErr=true}
+		      }
+		    } else
+		    if (!myObj.type&&myObj.length>0&&myObj[0].type=='radio'){
+		          var myTest = args[i].match(/(.*)\[(\d+)\].*/i);
+		          var myObj1=(myObj.length>1)?myObj[myTest[2]]:myObj;
+		      if (args[i+2]==1&&myObj1&&myObj1.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+		      if (args[i+2]==2){
+		        var myDot=false;
+		        for(var j=0;j<myObj.length;j++){myDot=myDot||myObj[j].checked}
+		        if(!myDot){myErr+='* ' +args[i+3]+'\n'}
+		      }
+		    } else if (myObj.type=='checkbox'){
+		      if(args[i+2]==1&&myObj.checked==false){addErr=true}
+		      if(args[i+2]==2&&myObj.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+		    } else if (myObj.type=='select-one'||myObj.type=='select-multiple'){
+		      if(args[i+2]==1&&myObj.selectedIndex/1==0){addErr=true}
+		    }else if (myObj.type=='textarea'){
+		      if(myV.length<args[i+1]){addErr=true}
+		    }
+		    if (addErr){myErr+='* '+args[i+3]+'\n'; addErr=false}
+		  }
+		  if (myErr!=''){alert('The required information is incomplete or contains errors:\t\t\t\t\t\n\n'+myErr)}
+		  document.MM_returnValue = (myErr=='');
+		}
+		//-->
+  </script>
+<script type="text/JavaScript" language="JavaScript">
+		var chapter = new Array(
+		new Array("Feedback","Chapter","Section"),
+		new Array(true,"0|General","0|General"),
+		new Array(true,"1","1"),
+		new Array(true,"1","2"),
+		new Array(true,"1","3"),
+		new Array(true,"1","4"),
+		new Array(true,"1","5"),
+		new Array(true,"1","6"),
+		new Array(true,"2","1"),
+		new Array(true,"2","2"),
+		new Array(true,"2","3"),
+		new Array(true,"2","4"),
+		new Array(true,"2","5"),
+		new Array(true,"2","6"),
+		new Array(true,"2","7"),
+		new Array(true,"2","8"),
+		new Array(true,"2","9"),
+		new Array(true,"2","10"),
+		new Array(true,"3","1"),
+    	new Array(true,"3","2"),
+    	new Array(true,"3","3"),
+		new Array(true,"3","4"),
+		new Array(true,"3","5"),
+        new Array(true,"4","1"),
+		new Array(true,"4","2"),
+		new Array(true,"4","3"),
+		new Array(true,"4","4"),
+		new Array(true,"4","5"),
+		new Array(true,"5","1"),
+		new Array(true,"5","2"),
+		new Array(true,"5","3"),
+		new Array(true,"5","4"),
+		new Array(true,"5","5"),
+		new Array(true,"5","6"),
+		new Array(true,"5","7"),
+		new Array(true,"6","1"),
+		new Array(true,"6","2"),
+		new Array(true,"6","3"),
+		new Array(true,"6","4"),
+		new Array(true,"6","5"),
+		new Array(true,"6","6"),
+		new Array(true,"7","1"),
+		new Array(true,"7","2"),
+		new Array(true,"7","3"),
+		new Array(true,"7","4"),
+		new Array(true,"7","5"),
+		new Array(true,"8","1"),
+		new Array(true,"8","2"),
+		new Array(true,"8","3"),
+		new Array(true,"8","4"),
+		new Array(true,"8","5"),
+		new Array(true,"9","1"),
+		new Array(true,"9","2"),
+		new Array(true,"9","3"),
+		new Array(true,"9","4"),
+		new Array(true,"9","5"),
+        new Array(true,"10","1"),
+		new Array(true,"10","2"),
+		new Array(true,"10","3"),
+		new Array(true,"10","4"),
+		new Array(true,"10","5"),
+		new Array(true,"10","6"),
+		new Array(true,"11","1"),
+		new Array(true,"11","2"),
+		new Array(true,"11","3"),
+		new Array(true,"11","4"),
+		new Array(true,"11","5"),
+		new Array(true,"11","6"),
+		new Array(true,"11","7"),
+		new Array(true,"12","1"),
+		new Array(true,"12","2"),
+	    new Array(true,"12","3"),
+		new Array(true,"12","4"),
+        new Array(true,"12","5"),
+        new Array(true,"13","1"),
+        new Array(true,"13","2"),
+        new Array(true,"13","3"),
+        new Array(true,"13","4"),
+        new Array(true,"13","5")
+		);		
+		
+function update(e, dd)
+{
+	for (j=1; j < dd.length; j++)
+	{
+		dd[j][0] = true;
+	}
+
+	for (j=1; j < dd[0].length; j++)
+	{
+		for (i=1; i < dd.length; i++)
+		{
+			current = dd[i][j].split("|");
+			value = current[0];
+			choice = current[0];
+			if (current.length == 2) choice = current[1];
+			if (value != document[dd[0][0]][dd[0][j]][document[dd[0][0]][dd[0][j]].selectedIndex].value) dd[i][0] = false;
+		}
+		if (e == document[dd[0][0]][dd[0][j]])
+		{
+			dropdown(j+1,dd);
+			for (k=j+2; k < dd[0].length; k++)
+			{
+				document[dd[0][0]][dd[0][k]].length = 0;
+			}
+			break;
+		}
+	}
+}
+
+function dropdown(item,dd)
+{
+	var pre1 = "";
+	var j = 1;
+	document[dd[0][0]][dd[0][item]].options.length = 0;
+	document[dd[0][0]][dd[0][item]].options[0] = new Option('Select ' + dd[0][item], '');
+	document[dd[0][0]][dd[0][item]].options[0].selected = true;
+	for (i=1; i < dd.length; i++)
+	{
+		if (dd[i][0] || item == 1)
+		{
+			current = dd[i][item].split("|");
+			value = current[0];
+			choice = current[0];
+			if (current.length == 2) choice = current[1];
+			if (value != pre1)
+			{
+				var op = new Option(choice, value);
+				document[dd[0][0]][dd[0][item]].options[j] = op;
+				j++;
+				pre1 = value;
+			}
+		}
+	}
+}
+																			
+</script>
+		
+</head>
+
+<body onload="dropdown(1,chapter);" background="netbkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#0066CC" vlink="#999999" alink="#669999">
+
+<!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
+
+<FORM NAME="Feedback" METHOD="POST" action="http://cgi.asu.edu/cgi-bin/mail.cgi" enctype="HTML"><INPUT type="hidden" name="sendto" value="hurlbert@asu.edu, gi02@lehigh.edu, renate@asu.edu, vishnu@ashoka.asu.edu"><INPUT type="hidden" name="subject" value="Feedback"><INPUT type="hidden" name="location" value="http://math.asu.edu/"><p align="left">
+  <p>&nbsp;&nbsp;&nbsp;
+  <p align="center"><u><font face="Franklin Gothic Medium" size="5" color="#000080">
+Feedback Form</font></u></p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p align="left"><font face="Times New Roman" color="#000080">Your feedback on&nbsp; 
+the book &quot;Linear Optimization&quot; by
+<font color="#800080">G. Hurlbert</font> and</font><font face="Times New Roman" color="#800080"> G. Isaak</font><font face="Times New Roman" color="#000080"> is very much appreciated.</font></p>
+<p align="left"><font face="Times New Roman" color="#000080">Your comments and 
+suggestions&nbsp; will help us to improve the contents of the book&nbsp; so that it can 
+serve your needs better. You need not reveal your identity!</font></p>
+
+  <font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp; 1. What type of feedback 
+  would you like to 
+  give us ?</font></p>
+  </p>
+  <p align="left"><font color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </font><font face="Times New Roman" color="#000080">Type</font><font face="Times New Roman" color="#FF0000">*</font><font face="Times New Roman" color="#000080">
+  </font>
+  <!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select type="text" size="1" name="Type">
+  <option>  </option>
+  <option value="Comments">Comments</option>
+  <option value="Suggestions">Suggestions</option>
+  <option value="Content Errors">Content Errors</option>
+  <option value="Typos">Typos</option>
+  </select></p>
+  <p align="left"><font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp; 
+  2. Select the chapter and section</font></p>
+  <p align="left"><font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter</font><font face="Times New Roman" color="#FF0000">*</font><font face="Times New Roman" color="#000080"><!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select  onchange="update(this, chapter);" type="text" size="1" name="Chapter" tabindex="2">
+  <option></option>
+  <option></option>
+  <option></option>
+  <option></option>
+   </select> &nbsp;&nbsp;&nbsp;&nbsp;
+   Section</font><font face="Times New Roman" color="#FF0000">*</font><font face="Times New Roman" color="#000080"><!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select  type="text" size="1" name="Section">
+  <!--<option> </option>
+  <option value="1">I</option>
+  <option value="2">II</option>
+  <option value="3">III</option> //-->
+  </select>&nbsp; &nbsp;&nbsp; </font></p>
+  <p align="left"><font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp; 
+  3. Your Message</font><font face="Times New Roman" color="#FF0000">*</font></p>
+  <p align="left"><font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea  type="text" rows="9" name="Message" cols="51"></textarea></font></p>
+  <p align="left"><font face="Times New Roman" color="#000080">&nbsp;&nbsp;&nbsp;
+  </font><font face="Times New Roman" color="#FF0000">*</font><font face="Times New Roman" color="#000080"> 
+  This is a required field</font></p>
+  <p align="left"><input type="submit" value="Submit Form" name="submit" onClick="YY_checkform('Feedback','Type[0]','#q','0','Please specify Type of feedback','Chapter[0]','#q','1','Please specify Chapter no','Section[0]','#q','1','Please specify Section no','Message','#q','0','Please leave your message');return document.MM_returnValue">&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Clear Form" name="Reset"></p>
+</FORM>
+
+<!--mstheme--></font>
+
+</body>
+
+</html>

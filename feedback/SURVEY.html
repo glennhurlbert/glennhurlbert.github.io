@@ -1,0 +1,289 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Survey</title>
+<meta name="Microsoft Theme" content="network 011, default">
+<script language="JavaScript">
+		<!--
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+		
+		function YY_checkform() { //v4.66
+		//copyright (c)1998,2002 Yaromat.com
+		  var args = YY_checkform.arguments; var myDot=true; var myV=''; var myErr='';var addErr=false;var myReq;
+		  for (var i=1; i<args.length;i=i+4){
+		    if (args[i+1].charAt(0)=='#'){myReq=true; args[i+1]=args[i+1].substring(1);}else{myReq=false}
+		    var myObj = MM_findObj(args[i].replace(/\[\d+\]/ig,""));
+		    myV=myObj.value;
+		    if (myObj.type=='text'||myObj.type=='password'||myObj.type=='hidden'){
+		      if (myReq&&myObj.value.length==0){addErr=true}
+		      if ((myV.length>0)&&(args[i+2]==1)){ //fromto
+		        var myMa=args[i+1].split('_');if(isNaN(myV)||myV<myMa[0]/1||myV > myMa[1]/1){addErr=true}
+		      } else if ((myV.length>0)&&(args[i+2]==2)){
+		          var rx=new RegExp("^[\\w\.=-]+@[\\w\\.-]+\\.[a-z]{2,4}$");if(!rx.test(myV))addErr=true;
+		      } else if ((myV.length>0)&&(args[i+2]==3)){ // date
+		        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);
+		        if(myAt){
+		          var myD=(myAt[myMa[1]])?myAt[myMa[1]]:1; var myM=myAt[myMa[2]]-1; var myY=myAt[myMa[3]];
+		          var myDate=new Date(myY,myM,myD);
+		          if(myDate.getFullYear()!=myY||myDate.getDate()!=myD||myDate.getMonth()!=myM){addErr=true};
+		        }else{addErr=true}
+		      } else if ((myV.length>0)&&(args[i+2]==4)){ // time
+		        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);if(!myAt){addErr=true}
+		      } else if (myV.length>0&&args[i+2]==5){ // check this 2
+		            var myObj1 = MM_findObj(args[i+1].replace(/\[\d+\]/ig,""));
+		            if(myObj1.length)myObj1=myObj1[args[i+1].replace(/(.*\[)|(\].*)/ig,"")];
+		            if(!myObj1.checked){addErr=true}
+		      } else if (myV.length>0&&args[i+2]==6){ // the same
+		            var myObj1 = MM_findObj(args[i+1]);
+		            if(myV!=myObj1.value){addErr=true}
+		      }
+		    } else
+		    if (!myObj.type&&myObj.length>0&&myObj[0].type=='radio'){
+		          var myTest = args[i].match(/(.*)\[(\d+)\].*/i);
+		          var myObj1=(myObj.length>1)?myObj[myTest[2]]:myObj;
+		      if (args[i+2]==1&&myObj1&&myObj1.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+		      if (args[i+2]==2){
+		        var myDot=false;
+		        for(var j=0;j<myObj.length;j++){myDot=myDot||myObj[j].checked}
+		        if(!myDot){myErr+='* ' +args[i+3]+'\n'}
+		      }
+		    } else if (myObj.type=='checkbox'){
+		      if(args[i+2]==1&&myObj.checked==false){addErr=true}
+		      if(args[i+2]==2&&myObj.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+		    } else if (myObj.type=='select-one'||myObj.type=='select-multiple'){
+		      if(args[i+2]==1&&myObj.selectedIndex/1==0){addErr=true}
+		    }else if (myObj.type=='textarea'){
+		      if(myV.length<args[i+1]){addErr=true}
+		    }
+		    if (addErr){myErr+='* '+args[i+3]+'\n'; addErr=false}
+		  }
+		  if (myErr!=''){alert('The required information is incomplete or contains errors:\t\t\t\t\t\n\n'+myErr)}
+		  document.MM_returnValue = (myErr=='');
+		}
+		//-->
+  </script>
+<script type="text/JavaScript" language="JavaScript">
+		var chapter = new Array(
+		new Array("Feedback","Chapter","Section"),
+		new Array(true,"0|General","0|General"),
+		new Array(true,"1","1"),
+		new Array(true,"1","2"),
+		new Array(true,"1","3"),
+		new Array(true,"1","4"),
+		new Array(true,"1","5"),
+		new Array(true,"1","6"),
+		new Array(true,"2","1"),
+		new Array(true,"2","2"),
+		new Array(true,"2","3"),
+		new Array(true,"2","4"),
+		new Array(true,"2","5"),
+		new Array(true,"2","6"),
+		new Array(true,"2","7"),
+		new Array(true,"2","8"),
+		new Array(true,"2","9"),
+		new Array(true,"2","10"),
+		new Array(true,"3","1"),
+    	new Array(true,"3","2"),
+    	new Array(true,"3","3"),
+		new Array(true,"3","4"),
+		new Array(true,"3","5"),
+        new Array(true,"4","1"),
+		new Array(true,"4","2"),
+		new Array(true,"4","3"),
+		new Array(true,"4","4"),
+		new Array(true,"4","5"),
+		new Array(true,"5","1"),
+		new Array(true,"5","2"),
+		new Array(true,"5","3"),
+		new Array(true,"5","4"),
+		new Array(true,"5","5"),
+		new Array(true,"5","6"),
+		new Array(true,"5","7"),
+		new Array(true,"6","1"),
+		new Array(true,"6","2"),
+		new Array(true,"6","3"),
+		new Array(true,"6","4"),
+		new Array(true,"6","5"),
+		new Array(true,"6","6"),
+		new Array(true,"7","1"),
+		new Array(true,"7","2"),
+		new Array(true,"7","3"),
+		new Array(true,"7","4"),
+		new Array(true,"7","5"),
+		new Array(true,"8","1"),
+		new Array(true,"8","2"),
+		new Array(true,"8","3"),
+		new Array(true,"8","4"),
+		new Array(true,"8","5"),
+		new Array(true,"9","1"),
+		new Array(true,"9","2"),
+		new Array(true,"9","3"),
+		new Array(true,"9","4"),
+		new Array(true,"9","5"),
+        new Array(true,"10","1"),
+		new Array(true,"10","2"),
+		new Array(true,"10","3"),
+		new Array(true,"10","4"),
+		new Array(true,"10","5"),
+		new Array(true,"10","6"),
+		new Array(true,"11","1"),
+		new Array(true,"11","2"),
+		new Array(true,"11","3"),
+		new Array(true,"11","4"),
+		new Array(true,"11","5"),
+		new Array(true,"11","6"),
+		new Array(true,"11","7"),
+		new Array(true,"12","1"),
+		new Array(true,"12","2"),
+	    new Array(true,"12","3"),
+		new Array(true,"12","4"),
+        new Array(true,"12","5"),
+        new Array(true,"13","1"),
+        new Array(true,"13","2"),
+        new Array(true,"13","3"),
+        new Array(true,"13","4"),
+        new Array(true,"13","5")
+		);		
+		
+function update(e, dd)
+{
+	for (j=1; j < dd.length; j++)
+	{
+		dd[j][0] = true;
+	}
+
+	for (j=1; j < dd[0].length; j++)
+	{
+		for (i=1; i < dd.length; i++)
+		{
+			current = dd[i][j].split("|");
+			value = current[0];
+			choice = current[0];
+			if (current.length == 2) choice = current[1];
+			if (value != document[dd[0][0]][dd[0][j]][document[dd[0][0]][dd[0][j]].selectedIndex].value) dd[i][0] = false;
+		}
+		if (e == document[dd[0][0]][dd[0][j]])
+		{
+			dropdown(j+1,dd);
+			for (k=j+2; k < dd[0].length; k++)
+			{
+				document[dd[0][0]][dd[0][k]].length = 0;
+			}
+			break;
+		}
+	}
+}
+
+																			
+</script>
+		
+</head>
+
+<body background="netbkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#0066CC" vlink="#999999" alink="#669999">
+
+<!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
+
+<FORM NAME="SURVEY" METHOD="POST" action="http://cgi.asu.edu/cgi-bin/mail.cgi" enctype="HTML"><INPUT type="hidden" name="sendto" value="hurlbert@asu.edu, gi02@lehigh.edu"><INPUT type="hidden" name="subject" value="SURVEY"><INPUT type="hidden" name="location" value="http://math.asu.edu/"><p align="left">
+  <p align="center">&nbsp;&nbsp;&nbsp; <u><font face="Franklin Gothic Medium" size="5" color="#000080">
+  Survey Form</font></u><p align="left">&nbsp;&nbsp;&nbsp;&nbsp; </p>
+  <p class="MsoNormal">
+  <span style="font-family:
+&quot;Comic Sans MS&quot;;color:black">Thank you for providing your feedback 
+  during the semester.&nbsp; It was helpful in correcting mistakes and making other 
+  alterations.&nbsp; Please take a moment to complete this final questionnaire.&nbsp; 
+  Having read almost the entire textbook and being able to look back on the 
+  course as a whole, your perspective will be especially useful in improving the 
+  textbook for future students.</span></p>
+
+  <font face="Times New Roman" color="#000080">&nbsp; </font>
+  <font face="Garamond" size="4"><span style="font-family:
+Batang;color:black">1.&nbsp;&nbsp; </span><span style="font-family: Batang">
+  <font color="#000080">Which aspects of the textbook (</font><i><font color="#000080">workouts, 
+  self-generated exercises, proof</font></i></span><i><span style="color: #000080"><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family: Batang; color: #000080">outlines, 
+  computer experiments, etc.</span></i><span style="font-family: Batang; color: #000080">) 
+  were&nbsp; <b>most</b>&nbsp; effective in assisting or<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; promoting your learning and comprehension?</span></font></p>
+  </p>
+  <p></p>
+  <p align="left"><font color="#000080"><font face="Garamond">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </font></font><font face="Garamond" color="#000080">&nbsp;&nbsp;
+  <textarea rows="6" name="most_effective" cols="53"></textarea></font></p>
+  <p class="MsoNormal"><font face="Garamond" size="4">
+  <span style="font-family: Batang; color: #000080">2.&nbsp;&nbsp; Which aspects of the 
+  textbook (<i>workouts, self-generated exercises, proof<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; outlines, computer experiments, etc.</i>) were&nbsp; <b>least </b>&nbsp;effective 
+  in assisting or<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; promoting your learning and comprehension?</span></font></p>
+  <p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="least_effective" cols="53"></textarea></p>
+  <p align="left"><font face="Garamond" size="4" color="#000080">
+  <span style="font-family: Batang">3.&nbsp;&nbsp;&nbsp;Rate your opinion on the usefulness of 
+  workouts within proof outlines in<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; improving your ability to write more complex proofs.</span></font></p>
+  <p align="left"><span style="font-size: 12.0pt; font-family: Times New Roman">
+  <![if !supportLineBreakNewLine]>&nbsp;&nbsp; </span>
+  <font face="Garamond" size="4" color="#000080">&nbsp;</font><font face="Garamond"><font color="#000080" size="4"><input type="radio" value="Very" name="usefulness_of_workouts">Very&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </font><font color="#000080" size="4"><span style="font-size: 12.0pt">
+  <input type="radio" name="usefulness_of_workouts" value="Somewhat"></span>Somewhat&nbsp;<span style="font-size: 12.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><span style="font-family: Times New Roman; font-size: 12.0pt">
+  <span style="font-size: 12.0pt">
+  <input type="radio" name="usefulness_of_workouts" value="No_opinion"></span></span>No 
+  Opinion <span style="font-family: Times New Roman; ">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+  <span style="font-size: 12.0pt">
+  <input type="radio" name="usefulness_of_workouts" value="not_at_all"></span></font><span style="font-size: 12.0pt"><font size="4" color="#000080">Not 
+  at all</font></span></font><![endif]></p>
+  <p class="MsoPlainText"><font face="Garamond" color="#000080" size="4">
+  <span style="font-family: Batang">4.&nbsp;&nbsp; Which parts of the textbook are&nbsp; <b>
+  best </b>&nbsp;written?</span></font></p>
+  <p class="MsoPlainText">
+  <font face="Garamond" style="font-size: 14pt" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="best_written_parts" cols="53"></textarea></font></p>
+  <p class="MsoPlainText"><font face="Garamond" size="4" color="#000080">5<span style="font-family: Batang">.&nbsp;&nbsp; 
+  Which parts of the textbook are&nbsp; <b>worst </b>&nbsp;written?</span></font></p>
+  <p class="MsoPlainText">
+  <font face="Garamond" style="font-size: 14pt" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="parts_worst_written" cols="53"></textarea></font></p>
+  <p class="MsoNormal"><font face="Garamond" size="4">
+  <span style="font-family: Batang; color: #000080">6.&nbsp;&nbsp; Rate your overall 
+  opinion of the textbook format</span></font></p>
+  <p class="MsoNormal"><font face="Garamond" size="4" color="#000080">&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="textbook_format" value="Love">Love&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="textbook_format" value="Like">Like&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="textbook_format" value="No_opinion">No opinion&nbsp;&nbsp;
+  <input type="radio" name="textbook_format" value="Dislike"></font><font face="Garamond" size="4"><span style="font-family: Batang; color: #000080">Dislike&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="textbook_format" value="Hate">Hate</span></font></p>
+  <p class="MsoNormal"><font face="Garamond" size="4" color="#000080">7. Which 
+  topics are more interesting?</font></p>
+  <p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="Interesting_Topics" cols="53"></textarea></p>
+  <p class="MsoNormal"><font face="Garamond" size="4" color="#000080">8. Which 
+  topics are least interesting?</font></p>
+  <p class="MsoNormal"><font face="Garamond" size="4" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="Least_Interesting_Topics" cols="53"></textarea></font></p>
+  <p class="MsoPlainText"><font face="Garamond" size="4" color="#000080">
+  <span style="font-family: Batang">9.&nbsp;&nbsp; Please include any further comments or 
+  suggestions you deem relevant.</span></font></p>
+  <p class="MsoPlainText"><font face="Garamond" size="4" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea rows="6" name="Comments" cols="53"></textarea></font></p>
+  <p align="left"><font color="#000080">&nbsp;
+  </font></p>
+  <p align="left"><input type="submit" value="Submit Form" name="submit" return document.MM_returnValue">&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Clear Form" name="Reset"></p>
+</FORM>
+
+<!--mstheme--></font>
+
+</body>
+
+</html>

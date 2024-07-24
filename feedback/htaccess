@@ -1,0 +1,8 @@
+AuthUserFile /ud/matfac/hurlbert/public_html/feedback/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Login Now"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
