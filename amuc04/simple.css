@@ -1,0 +1,15 @@
+A.menu:link {text-decoration: none; color :#ffdd00; font-weight: bold;} 
+A.menu:vlink {text-decoration: none; color :008855; font-weight: bold;} 
+A.menu:visited {text-decoration: none;color :ffdd00; font-weight: bold;} 
+A.menu:hover {color: #000099; letter-spacing: 0; text-decoration:underline; background-color blue} 
+
+A.basic:link {text-decoration: none; color :#0000dd; font-weight: bold;} 
+A.basic:vlink {text-decoration: none; color :000000; font-weight: bold;} 
+A.basic:visited {text-decoration: none;color :0000dd; font-weight: bold;} 
+A.basic:hover {color: #aa00aa; letter-spacing: 0; text-decoration:underline; background-color blue} 
+
+A.head:link {text-decoration: none; color :#cc0000; font-weight: bold}
+A.head:vlink {text-decoration: none; color :cc0000; font-weight: bold}
+A.head:visited {text-decoration: none;color :cc0000; font-weight: bold}
+A.head:hover {color: #000099; letter-spacing: 0; text-decoration:underline; background-color blue} 
+
