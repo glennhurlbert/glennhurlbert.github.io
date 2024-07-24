@@ -1,0 +1,367 @@
+/**********************************
+ * TITLE: Math Screen Stylesheet  * 
+ * URI  : css/asumath-screen.css  *
+ * MODIF: 2006-Jan-04             *
+ **********************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 73%;  /* Enables font size scaling in MSIE */
+  margin: 0;
+  padding: 0;
+}
+
+html > body {
+  font-size: 9pt;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted rgb(168,140,83);
+  cursor: help;
+  margin: 0;
+  padding: 0;
+}
+
+.doNotDisplay {
+  display: none !important;
+}
+
+
+.smallCaps {
+  font-size: 117%;
+  font-variant: small-caps;
+}
+
+.dropcap {
+  float: left;
+  font-size: 340%;
+  font-family: Old English, Georgia,serif;
+  line-height: 0.9em;
+  margin-right: 0.05em;
+  margin-bottom:-0.25em;
+}
+
+.newsdate {
+  font-weight: bold;
+}
+
+
+.clasheader {
+	text-align: left;
+}
+
+.cleardiv {
+	clear: both;
+	line-height: 0;
+}
+
+
+/* ##### Header ##### */
+
+.headerTitle {
+  margin: 0;
+  padding: 0.25em 4mm 0.25em 4mm;
+}
+
+.headerTitle a {
+  text-decoration: none;
+  font-size: 110%;  /* For MSIE */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.headerTitle > a {
+  font-size: 138%;  /* For fully standards-compliant user agents */
+}
+
+.headerTitle span {
+  font-weight: normal;
+}
+
+/* wrapHeader goes around subHeader which in turn, contains the menubar
+   The role of wrapHeader is the float be centered.
+   subHeader has fixed width, and the menu items float left inside of it
+*/
+
+.wrapHeader {
+  padding: 0;
+  margin 0 auto;
+  width: 100%;
+  height: 1.8em;
+  font-size: 100%;
+}
+
+.subHeader {
+  font-size: 100%;
+  text-align: left;
+  margin: 0px auto;
+  /* padding: 0.2ex 0; */
+  width: 61em;
+}
+
+.subHeader a {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* ##### Right floating box ##### */
+
+.rightbox {
+  float: none;
+  width: 17em;
+  border: 1px rgb(216,210,195);
+  border-style: solid;
+  margin: 1em 0 0 1em;
+  padding: 0;
+}
+
+.rightbox .sideboxtitle {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0.8ex 1ex;
+}
+
+.rightbox .sideboxtext {
+  padding: 0.2em 0.75em;
+  margin: 1em 0 0 0;
+}
+  
+
+/* ##### Left Side Bar ##### */
+
+
+td.lleftSideBar {
+  width: 12.5em;
+  border: 0;
+
+}
+
+td.p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+td.lleftSideBar .sideBarTitle {
+  font-weight: bold;
+  margin: 0;
+  padding: 0.8ex 1ex;
+  border: 0;
+}
+
+td.lleftSideBar ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+td.lleftSideBar li {
+  margin: 1ex;
+  padding: 0 0 1.15ex 0.75ex;
+}
+
+td.lleftSideBar li li {
+  padding-bottom: 0.7ex;
+}
+
+td.lleftSideBar ul ul {
+  margin: 0.5em 0 0 1em;
+  padding: 0;
+}
+td.lleftSideBar ul ul li {
+  margin: 0;
+}
+
+td.lleftSideBar a {
+  text-decoration: none;
+}
+
+td.lleftSideBar a:hover {
+  text-decoration: none;
+}
+
+td.lleftSideBar .sideBarText {
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+td.lleftSideBar .sideBarText a {
+  text-decoration: underline;
+}
+
+td.lleftSideBar .sideBarText a:hover {
+  text-decoration: none;
+}
+
+td.lleftSideBar .thisPage {
+  font-weight: bold;
+}
+
+
+
+
+/* ##### Main Copy ##### */
+
+
+td#main-copyy {
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5ex 3em 1em 1em;
+  border-left: 1px solid rgb(216,210,195);
+  vertical-align: top;
+}
+
+td#main-copyy h1 {
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 185%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  border-top: 1px solid rgb(216,210,195);
+}
+
+td#main-copyy h1#first {
+  border-top: none;
+  padding-top: 0;
+  /* border-bottom: 2px solid rgb(216,210,195);
+  padding-bottom: 8px;
+  margin-bottom: 8px; */
+}
+
+td#main-copyy a {
+  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td#main-copyy ul.linkli {
+  list-style: none;
+  text-indent: -1.5em;
+}
+
+td#main-copyy ul.linkli a {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+/**** General Classes ***/
+
+p {
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0.5ex 0;
+}
+
+dd {
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+/* ##### Footer ##### */
+
+#footer {
+  font-size: 92%;
+  margin: 0;
+  ppppadding: 1em 4mm 1em 4mm;
+  clear: both;
+}
+
+#footer div {
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+#footer a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+
+/* ###### Menus ####### */
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: left;
+}
+
+
+#nav a {
+	display: auto;
+	padding: 0;
+	width: 10em;
+}
+
+#nav li {
+	display: inline;
+	width: auto;
+}
+
+#nav li a {
+	border-left: 1px solid white;
+	/* padding-bottom: 0.4em; */
+	text-align: center;
+	padding: 0.4em 0;
+}
+
+#nav li#firstmenu a {
+	border-left: 0;
+}
+
+#nav li ul {
+	position: absolute;
+	text-align: left;
+	width: auto;
+	margin: 0px;
+	display: none;
+}
+
+#nav li ul a {
+        background-color: rgb(40,40,40);
+	text-align: left;
+	padding: 0;
+	width: 0.1px;
+/* width: 10em; */
+}
+
+#nav li ul a:hover {
+        background-color: white;
+}
+
+#nav li li {
+	border: 1px solid  white;
+	border-width: 1px 0px 0px 0px;
+	padding: 0 0;
+	text-align: left;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+}
+
+.wrapHeader ul ul {
+  display: none;
+}
+
+.sidesearch {
+ display: none;
+}
